@@ -1,0 +1,55 @@
+{
+  "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+  "sources": [
+    {
+      "name": "weather",
+      "url": "https://weather.bgc-jena.mpg.de/mpi_roof.zip",
+      "sha256": "5f94cb42f5df4d7fc38784c260c841eb946d1a96b4109f7f6f1ce97c7f1bda3b",
+      "bytes": 1977276
+    },
+    {
+      "name": "air",
+      "url": "https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip",
+      "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4",
+      "bytes": 8192212
+    }
+  ],
+  "series": [
+    {
+      "name": "weather_temperature",
+      "path": "data/strengthening_v9/weather_temperature.npz",
+      "sha256": "10ef721a89f4622a7fec8f7b6576a488732f44117a956e8f80f1f3d3081163fe",
+      "n": 3600,
+      "missing": 1,
+      "first": "2026-01-01 01:00:00",
+      "last": "2026-05-31 00:00:00"
+    },
+    {
+      "name": "weather_pressure",
+      "path": "data/strengthening_v9/weather_pressure.npz",
+      "sha256": "a833e6f604a87cef78ceddf17d8f1470f7cd79eda7a974b727646f1a4a4d038d",
+      "n": 3600,
+      "missing": 1,
+      "first": "2026-01-01 01:00:00",
+      "last": "2026-05-31 00:00:00"
+    },
+    {
+      "name": "air_aotizhongxin",
+      "path": "data/strengthening_v9/air_aotizhongxin.npz",
+      "sha256": "880ccc5f47fa4c06f87b84aee5678cf33c122d06a75292aa0553895ac3adde3f",
+      "n": 3600,
+      "missing": 5,
+      "first": "2013-03-01 00:00:00",
+      "last": "2013-07-28 23:00:00"
+    },
+    {
+      "name": "air_dingling",
+      "path": "data/strengthening_v9/air_dingling.npz",
+      "sha256": "be72c54f8f7b802bd9dc690892d3ae452e45c9bb98da7194b8fe355764bde318",
+      "n": 3600,
+      "missing": 89,
+      "first": "2013-03-01 00:00:00",
+      "last": "2013-07-28 23:00:00"
+    }
+  ]
+}

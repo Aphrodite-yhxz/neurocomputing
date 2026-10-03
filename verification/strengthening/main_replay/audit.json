@@ -1,0 +1,9 @@
+{
+  "all_checks_passed": true,
+  "pairs": 124,
+  "computed_configurations": 2232,
+  "selected_references": 248,
+  "mean_paired_gain": 9.979980111694497,
+  "max_score_difference": 4.547473508864641e-13,
+  "scope": "Prediction arrays and validation tuning recomputed; neural inference not regenerated"
+}

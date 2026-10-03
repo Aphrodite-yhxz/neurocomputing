@@ -1,0 +1,5 @@
+Window controls shrink state gaps before exact zero-rate selection.
+Selected near-rolling scores do not establish equivalence of feedback states.
+Feedback can improve local coverage despite small average-score benefits.
+Native-band PV gains survive support and asymmetric-residual controls.
+Common-history AcMCP checks and every pair's temporal results are supplied.

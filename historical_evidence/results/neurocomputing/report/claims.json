@@ -1,0 +1,136 @@
+{
+  "primary": {
+    "panel": "main_a0.1",
+    "horizon": 1,
+    "method": "cqr/aci",
+    "gain": 13.57138751659488,
+    "coverage": 0.8998066924842121,
+    "coverage_gap": 0.0005205775235860119,
+    "local_error": 0.014458689238693966,
+    "singleton_rate": 0.0001313947619022742,
+    "n_pairs": 124,
+    "n_series": 31,
+    "wins": 114,
+    "ci_low": 9.076205462391139,
+    "ci_high": 18.453152316111787
+  },
+  "without_pv": {
+    "gain": 6.0306070079860685,
+    "ci": [
+      4.252937210751779,
+      7.881313568106399
+    ]
+  },
+  "observed_only": {
+    "gain": 15.161408020311471,
+    "ci": [
+      9.835483690277954,
+      20.861437145349917
+    ]
+  },
+  "leave_family_out": {
+    "Alabama PV": 6.0306070079860685,
+    "Constructed seasons": 13.915842608797602,
+    "Constructed switches": 13.658034960985308,
+    "ERCOT": 14.985850840953379,
+    "ETT": 14.699402757799241,
+    "Synthetic": 14.510992310791893,
+    "UCI load": 16.601199636144038
+  },
+  "native_coverage": [
+    {
+      "backbone": "Chronos-2 (enc-only)",
+      "nominal": 0.8,
+      "coverage": 0.8189270198631408,
+      "width": 117.9707014391971,
+      "interval_score": 163.8187166787481
+    },
+    {
+      "backbone": "Chronos-Bolt (enc-dec)",
+      "nominal": 0.8,
+      "coverage": 0.8704180189816506,
+      "width": 149.9474001821205,
+      "interval_score": 183.53813350103343
+    },
+    {
+      "backbone": "Moirai-2.0-small (dec-only)",
+      "nominal": 0.8,
+      "coverage": 0.8196163125559622,
+      "width": 106.74762359391752,
+      "interval_score": 153.5133359995414
+    },
+    {
+      "backbone": "TimesFM-2.0-500M (dec-only)",
+      "nominal": 0.8,
+      "coverage": 0.7756583597830967,
+      "width": 126.98660510707029,
+      "interval_score": 185.2056463673476
+    }
+  ],
+  "tuned_paired_gain": 9.979980111694497,
+  "significance": {
+    "100": {
+      "ci_positive": 109,
+      "ci_negative": 2,
+      "bh_discoveries": 111,
+      "bh_positive": 109
+    },
+    "200": {
+      "ci_positive": 109,
+      "ci_negative": 2,
+      "bh_discoveries": 111,
+      "bh_positive": 109
+    },
+    "400": {
+      "ci_positive": 109,
+      "ci_negative": 2,
+      "bh_discoveries": 111,
+      "bh_positive": 109
+    }
+  },
+  "prefix_selected/aci": {
+    "panel": "main_a0.1",
+    "horizon": 1,
+    "method": "prefix_selected/aci",
+    "gain": 13.719481698060612,
+    "coverage": 0.8998194855332745,
+    "coverage_gap": 0.0004767892548984085,
+    "local_error": 0.014619427703796034,
+    "singleton_rate": 0.00011968631777236936,
+    "n_pairs": 124,
+    "n_series": 31,
+    "wins": 113,
+    "ci_low": 9.185780587584944,
+    "ci_high": 18.66541314346101
+  },
+  "cqr/aci/tuned": {
+    "panel": "main_a0.1",
+    "horizon": 1,
+    "method": "cqr/aci/tuned",
+    "gain": 14.175620209503439,
+    "coverage": 0.899184421737557,
+    "coverage_gap": 0.0015326497940740585,
+    "local_error": 0.017418949167448867,
+    "singleton_rate": 0.00020860474889753628,
+    "n_pairs": 124,
+    "n_series": 31,
+    "wins": 118,
+    "ci_low": 9.627427229252287,
+    "ci_high": 19.14455548410652
+  },
+  "cqr/aci/unsorted": {
+    "panel": "main_a0.1",
+    "horizon": 1,
+    "method": "cqr/aci/unsorted",
+    "gain": 13.557525790261728,
+    "coverage": 0.8997975859165553,
+    "coverage_gap": 0.0005247405259433128,
+    "local_error": 0.014439389641593083,
+    "singleton_rate": 0.00022115950023155723,
+    "n_pairs": 124,
+    "n_series": 31,
+    "wins": 114,
+    "ci_low": 9.069280941554803,
+    "ci_high": 18.431416919064365
+  }
+}

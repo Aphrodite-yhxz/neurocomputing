@@ -1,0 +1,563 @@
+{
+  "all_checks_passed": true,
+  "cases": [
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 1,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 2,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 3,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 4,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 5,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 6,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 7,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 8,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 9,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 10,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 11,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 12,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 13,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 14,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 15,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 16,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 17,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 18,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 19,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 20,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 21,
+      "max_endpoint_difference": 5.115907697472721e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 22,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 23,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure",
+      "horizon": 24,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 1,
+      "max_endpoint_difference": 4.973799150320701e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 2,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 3,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 4,
+      "max_endpoint_difference": 5.1514348342607263e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 5,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 6,
+      "max_endpoint_difference": 1.1368683772161603e-13
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 7,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 8,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 9,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 10,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 11,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 12,
+      "max_endpoint_difference": 5.1514348342607263e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 13,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 14,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 15,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 16,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 17,
+      "max_endpoint_difference": 5.5067062021407764e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 18,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 19,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 20,
+      "max_endpoint_difference": 6.039613253960852e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 21,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 22,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 23,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature",
+      "horizon": 24,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 1,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 2,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 3,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 4,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 5,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 6,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 7,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 8,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 9,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 10,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 11,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 12,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 13,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 14,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 15,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 16,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 17,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 18,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 19,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 20,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 21,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 22,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 23,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure",
+      "horizon": 24,
+      "max_endpoint_difference": 5.002220859751105e-12
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 1,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 2,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 3,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 4,
+      "max_endpoint_difference": 5.1514348342607263e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 5,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 6,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 7,
+      "max_endpoint_difference": 5.1514348342607263e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 8,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 9,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 10,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 11,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 12,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 13,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 14,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 15,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 16,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 17,
+      "max_endpoint_difference": 6.394884621840902e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 18,
+      "max_endpoint_difference": 5.3290705182007514e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 19,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 20,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 21,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 22,
+      "max_endpoint_difference": 5.5067062021407764e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 23,
+      "max_endpoint_difference": 5.684341886080802e-14
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature",
+      "horizon": 24,
+      "max_endpoint_difference": 5.684341886080802e-14
+    }
+  ],
+  "sources": [
+    {
+      "job": "Chronos-2enc-only__weather_pressure",
+      "scorecasts_sha256": "b9fda2df406651885a75dd7235ce8b04985c5e018f3f9d3ba2a3a206f7810d7b",
+      "author_manifest": {
+        "archive_sha256": "8475971ff23cdaca2a0ea168fb9c68446f6692228c789c5003d2ca392ff2514c",
+        "configuration": {
+          "ncal": 600,
+          "lr": 0.01,
+          "KI": 22.409999999999968,
+          "Csat": 0.5,
+          "scorecast": 1,
+          "ma_method": "CSS"
+        },
+        "r_wrapper_sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820",
+        "author_acmcp_sha256": "168346bc2c3ca00bbabdd3aff957f37a8c74f7382f28a38df3729f344f177115",
+        "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+        "elapsed_seconds": 1710.7911136001348
+      }
+    },
+    {
+      "job": "Chronos-2enc-only__weather_temperature",
+      "scorecasts_sha256": "3fc9015708d0457d3c68679159ca31eadc3e62a6b3067b7a3115a00b48609888",
+      "author_manifest": {
+        "archive_sha256": "a18eb131c7a4cb976f62d8bfb482f969c26d831addfc5a6f9e3da75254009c6c",
+        "configuration": {
+          "ncal": 600,
+          "lr": 0.01,
+          "KI": 8.160833333333333,
+          "Csat": 0.5,
+          "scorecast": 1,
+          "ma_method": "CSS"
+        },
+        "r_wrapper_sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820",
+        "author_acmcp_sha256": "168346bc2c3ca00bbabdd3aff957f37a8c74f7382f28a38df3729f344f177115",
+        "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+        "elapsed_seconds": 2112.6592003998812
+      }
+    },
+    {
+      "job": "Chronos-Boltenc-dec__weather_pressure",
+      "scorecasts_sha256": "aef8843796ed98cd3a60d6a42eb744ea68bd180d48ee8a8c36ecceb95a6bf0ff",
+      "author_manifest": {
+        "archive_sha256": "27c9379823f428ead6a0bcd259092b2d6eb87260d7c9efe1c08d62043b24f158",
+        "configuration": {
+          "ncal": 600,
+          "lr": 0.01,
+          "KI": 22.409999999999968,
+          "Csat": 0.5,
+          "scorecast": 1,
+          "ma_method": "CSS"
+        },
+        "r_wrapper_sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820",
+        "author_acmcp_sha256": "168346bc2c3ca00bbabdd3aff957f37a8c74f7382f28a38df3729f344f177115",
+        "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+        "elapsed_seconds": 1814.8678718998563
+      }
+    },
+    {
+      "job": "Chronos-Boltenc-dec__weather_temperature",
+      "scorecasts_sha256": "36033a75240b85650c2f03d4111ea6d0e3172dbb3036b5c8213279a2246ca94f",
+      "author_manifest": {
+        "archive_sha256": "88acf24379bd4c902ba61931040b80532cb98cabe534de2bedfdce9eefd014a5",
+        "configuration": {
+          "ncal": 600,
+          "lr": 0.01,
+          "KI": 7.817083333333334,
+          "Csat": 0.5,
+          "scorecast": 1,
+          "ma_method": "CSS"
+        },
+        "r_wrapper_sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820",
+        "author_acmcp_sha256": "168346bc2c3ca00bbabdd3aff957f37a8c74f7382f28a38df3729f344f177115",
+        "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+        "elapsed_seconds": 2095.780509100063
+      }
+    }
+  ]
+}

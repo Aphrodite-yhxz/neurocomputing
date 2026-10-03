@@ -1,0 +1,34 @@
+[
+  {
+    "score": "cqr",
+    "passed": false,
+    "comparisons": {
+      "issued": {
+        "mean_paired_gain": 2.536880588025694,
+        "wins": 13,
+        "mean_gap_increase": 0.0016176395660950017
+      },
+      "cop": {
+        "mean_paired_gain": 2.077993404172881,
+        "wins": 14,
+        "mean_gap_increase": 0.00025817507242748244
+      }
+    }
+  },
+  {
+    "score": "residual",
+    "passed": false,
+    "comparisons": {
+      "issued": {
+        "mean_paired_gain": 2.3044454291136685,
+        "wins": 9,
+        "mean_gap_increase": 0.012786635639660421
+      },
+      "cop": {
+        "mean_paired_gain": 2.44096692478757,
+        "wins": 8,
+        "mean_gap_increase": 0.008813117300182617
+      }
+    }
+  }
+]

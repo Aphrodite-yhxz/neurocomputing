@@ -1,0 +1,66 @@
+{
+  "all_checks_passed": true,
+  "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+  "local_protocol_not_external_preregistration": true,
+  "new_forecast_archives": 8,
+  "observation_checks": [
+    {
+      "archive": "Chronos-2enc-only__air_aotizhongxin.npz",
+      "missing_targets": 120
+    },
+    {
+      "archive": "Chronos-2enc-only__air_dingling.npz",
+      "missing_targets": 2136
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_pressure.npz",
+      "missing_targets": 0
+    },
+    {
+      "archive": "Chronos-2enc-only__weather_temperature.npz",
+      "missing_targets": 0
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__air_aotizhongxin.npz",
+      "missing_targets": 120
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__air_dingling.npz",
+      "missing_targets": 2136
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_pressure.npz",
+      "missing_targets": 0
+    },
+    {
+      "archive": "Chronos-Boltenc-dec__weather_temperature.npz",
+      "missing_targets": 0
+    }
+  ],
+  "grid_configurations": 4896,
+  "validation_selected_rows": 1728,
+  "state_identity_cases": 816,
+  "attenuation_identity_cases": 144,
+  "pv_trajectories": 1152,
+  "pv_grid_rows": 2304,
+  "pv_group_recombinations": 1152,
+  "arithmetic_causality_tests": [
+    "test_legacy_and_rolling_identity",
+    "test_delayed_causality_and_missing_labels",
+    "test_support_projection_score_and_coverage"
+  ],
+  "main_headline": {
+    "all_checks_passed": true,
+    "pairs": 124,
+    "computed_configurations": 2232,
+    "selected_references": 248,
+    "mean_paired_gain": 9.979980111694497,
+    "max_score_difference": 4.547473508864641e-13,
+    "scope": "Prediction arrays and validation tuning recomputed; neural inference not regenerated"
+  },
+  "author_trajectory_cases": 96,
+  "max_author_endpoint_difference": 5.115907697472721e-12,
+  "saved_independent_scorecast_refits": 60,
+  "max_saved_refit_difference": 3.99680288865056e-15,
+  "scorecast_scope": "Default replay uses supplied R fits; this audit verifies the saved refit witness. Full R refitting is a separate command."
+}

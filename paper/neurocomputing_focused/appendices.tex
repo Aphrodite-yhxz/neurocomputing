@@ -1,0 +1,459 @@
+
+\section{Dataset and archive details}\label{app:data}
+UCI consumer indices are 5, 37, 70, 103, 136, 168, 201, 234, 267 and 300 in the public
+LSTNet-format electricity matrix. Alabama plant indices are 3, 21, 39, 57, 75, 93, 111
+and 130. Main observed traces use the initial 8,000 raw observations, except the two
+minute-level ETT channels (12,000) and ERCOT channels (16,000). The ETT columns are
+ETTh1/OT, ETTh2/OT, ETTm1/HUFL and ETTm2/OT.
+
+The two cross-consumer splices concatenate 1,500-point segments starting at raw offset
+1,000 from clients (10,40,70,100) and (25,90,140,210). Seasonal constructions use clients
+20 and 80, concatenating 1,200-point windows starting at offsets 4392, 8784, 13128 and
+17544. They deliberately omit the intervening chronology. Synthetic series have length
+6,000, seeds 1 and 7, AR coefficient 0.7, a sinusoid of period 200 and four piecewise
+mean/innovation-scale regimes $(0,1),(0,2.2),(5,0.8),(-3,1.6)$.
+
+The multi-horizon panel uses electricity clients 20 and 80, solar plants 10 and 30,
+ETTh1/OT, the first cross-consumer splice, seasonal client 20 and synthetic seed 1.
+Origins stop 24 steps before the raw-series end for every horizon, ensuring the same
+origins within that panel. Public data sources are the LSTNet data repository\footnote{\url{https://github.com/laiguokun/multivariate-time-series-data}},
+ETDataset\footnote{\url{https://github.com/zhouhaoyi/ETDataset}}, ERCOT historical
+load\footnote{\url{https://www.ercot.com/gridinfo/load/load_hist}} and GEFCom2014.
+
+
+\clearpage
+\section{Detailed delayed-feedback results}
+\begin{table}[h!]\centering\small
+\caption{Multi-horizon comparison. Gains use the residual--ACI score at the same horizon.
+Local error is in percentage points. Tuning never uses test labels.}
+\label{tab:horizon}\input{table_horizon.tex}
+\end{table}
+
+
+\clearpage
+\section{Per-series primary comparison}
+\begin{table}[h!]\centering\small
+\caption{Default CQR--ACI compared with default residual--ACI, averaged over four backbones.}
+\input{table_series.tex}
+\end{table}
+
+
+\clearpage
+\section{Confirmation controller diagnostics}\label{app:confirmation}
+\begin{table}[htbp]\centering\scriptsize
+\caption{Confirmation contrasts at $h=24$. Each row contains four series and two models.
+Gain and median are paired interval-score improvements (\%); A is the first method in
+the comparison and B the second. Coverage is in percent, target 90\%. Correlated pairs
+are retained without interpreting the win count as independent replications.}
+\label{tab:confirmation}\input{table_confirmation.tex}
+\end{table}
+
+\begin{table}[h!]\centering\scriptsize
+\caption{Unified comparison on the revisited panel at $h=24$. IS ratio averages
+per-pair interval scores divided by that pair's residual rolling-quantile score;
+lower is better. Family coverage is percent (target 90\%). Local is the family-balanced
+150-origin absolute coverage error in percentage points; Singleton is percent.
+Original rows retain locked-grid results, wide ACI and multi-step PID are subsequent
+sensitivities. PI-log and SF-OGD retain fixed defaults, not tuned optima.}
+\input{table_confirmation_controls.tex}
+\end{table}
+
+
+\clearpage
+\section{Algorithm and integrity checks}\label{app:integrity}
+The primary evidence concerns the archived forecasts, not a reranking of freshly
+downloaded checkpoints. Offline spot checks reproduce the point and five quantile outputs
+exactly at 21 selected origins per model across three main-panel series, for 84 checked
+model--origin cases. For the two Chronos models, matching the original default batch
+grouping of 256 contexts resolves differences observed with a seven-context batch.
+TimesFM's checked outputs match the local 2.0 checkpoint through its Hugging Face adapter;
+Moirai matches after its original quantile-rearrangement step. Current checkpoint hashes
+and environment versions are recorded. These checks support archive provenance but
+do not constitute a rerun of every forecast, and original checkpoint commits were not
+stored with every archive. Possible pretraining exposure to
+public benchmark data also precludes an assertion that all test series were unseen during
+pretraining.
+
+
+The executable checks test future-target perturbations at lags 1, 6 and 24, identical
+evaluation masks, unit rescaling, exact stored-level selection, empirical quantile
+agreement, interval-score arithmetic, finite behavior under zero-width forecasts and
+the reference SAOCP expert recursion. Data validation independently reconstructs target
+values from local raw-series loaders. Cache records include archive, protocol and code
+hashes; aggregations reject stale code/protocol outputs.
+
+Source implementations and licenses are retained for SAOCP/FACI and PID. The SAOCP
+numerical check covers its nonnegative-score expert recursion, without validating a
+theorem for signed or delayed extensions. \ref{app:rules} specifies controller
+conventions; the artifact retains complete grids, failures and tail misses. Recorded
+runtimes include possible compilation overhead and do not measure neural inference speed.
+
+Additional checks cover clipping identities, COP source-recursion equivalence,
+target/issue-time conversion, grouped feedback assignment and implicit proximal
+optimality against an independent optimizer and subgradient conditions. Protocols
+and exploratory amendments remain separately identifiable.
+
+The asymmetric multi-step PID comparison matches the unmodified author implementation
+over 24 horizons and four configured scorecasters, including future-target perturbations.
+Check records and tolerances accompany the artifact. The later full AcMCP-CSS
+weather comparison has 96 complete-trajectory checks and 60 independent scorecast refits.
+
+
+\section{Matched implicit-update ablation}\label{app:implicit}
+The implicit ablation exactly solves the proximal objective already considered by
+\citet{hu2026cop}. With $p=1-\alpha$, pinball loss $\ell_p(u)=u(p-\ind\{u<0\})$,
+and a fixed prefix-scaled step $\eta=\gamma(\max_{i<600}s_i-\min_{i<600}s_i)$
+(range floored at $10^{-12}$), it uses
+\begin{equation}\label{eq:prox}
+ b_t=b_{t-1}+\eta(e_{t-h}-\alpha),\qquad
+ q_t=\arg\min_q\left\{\frac{(q-b_t)^2}{2}
+       +h\eta\,\widehat{\mathbb E}_t[\ell_p(S-q)]\right\}.
+\end{equation}
+The same 300-score convention supplies the empirical distribution. The matched OGD
+ablation sets $q_t=b_t$. Both select from $\{0.005,0.02,0.05,0.1\}$ and these values
+divided by $h$. The point of this control is to distinguish an implicit correction's
+incremental value from the fixed scale and learning rate. The development screen also
+retains half-step and explicit corrections; it did not validate a new algorithm.
+
+The delay-scaled implicit correction in Equation~\eqref{eq:prox} has a plausible
+stationary rationale. If the true and proxy CDFs have local densities $g>0$ and
+$\widehat g\geq0$, its deterministic linearized delayed gain is
+$c=\eta g/(1+h\eta\widehat g)$. With a correct slope it is below $1/h$ and hence
+inside the classical shared-state stability boundary in Equation~\eqref{eq:stability}.
+For fixed slopes, however, this is simply a smaller effective gain. It predicts no
+automatic advantage over suitably tuned basic gradient updating, and the argument
+does not cover changing empirical distributions or atoms.
+
+The development screen evaluates 3,200 configuration instances, retaining every
+setting. At $h=24$, implicit-delay CQR improves interval score by 2.54\% over issued
+ACI and 2.08\% over delay-tuned COP, but only 0.23\% over matched fixed-scale OGD.
+It fails the locally recorded continuation criterion of at least 3\% against both
+strong baselines, even before further validation. On the subsequent confirmation
+panel, its matched-OGD gain is $-0.08\%$: $-0.30\%$ for exchange rates and $0.14\%$
+for traffic, with seven of 16 positive differences. We therefore retain this result
+as a negative ablation, not a new main method. A more sophisticated update formula
+is insufficient evidence of additional predictive information or better adaptation.
+
+
+
+\section{Rate, delay and clipping diagnostics}\label{app:rates}
+Figure~\ref{fig:ratesurface} uses the common ten-rate subset of the wide grid to
+display the rate--delay sensitivity. It shows every listed rate's test behavior,
+not a test-based selector. The original selected shared-state CQR score at each
+horizon is a common per-pair denominator for both structures. The additional
+delay-scaled rates also participate in selection and remain in the full result files.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{figures/rate_delay_surface.png}
+\caption{CQR rate--delay surfaces. Color is the base-two logarithm of the mean
+paired interval-score ratio to original-grid shared CQR; zero means equal score.
+Positive values are worse. Development and revisited panels have 16 pairs each.
+Validation selects configurations; the plotted test surface is descriptive.}
+\label{fig:ratesurface}\end{figure}
+
+\begin{table}[htbp]\centering\scriptsize
+\caption{Exact revealed-test miscoverage decomposition, CQR, $h=24$, in percentage
+points. Clip plus Endpoint equals Excess up to rounding. Each interval was issued
+in the test segment and revealed by the last archive origin. The last 24 issued
+test intervals are pending; their separately recorded contribution bounds the
+difference from full issued-test coverage by $24/N_{\rm test}$.}
+\input{table_clip_accounting.tex}
+\end{table}
+
+For the controlled simulations, the response is prescribed as
+$M_t(a)=\clip\{0.1+g(a-a_t^*),0,1\}$, with $g\in\{1,4\}$ and $h\in\{1,6,24\}$.
+Runs contain 12,000 steps. Stationary runs use effective gains at 0.5 and 1.2 times
+the shared linear boundary. Tracking runs use $a_t^*=0.1,0.2,0.06$ in three
+4,000-step segments and the original three rates plus their delay-scaled versions.
+Deterministic response feedback and Bernoulli feedback are kept distinct, with
+20 fixed seeds for the latter, yielding 1,764 controller runs. In the deterministic
+$h=24,g=4,\gamma=0.005$ tracking example, mean absolute state error over the first
+500 steps after both changes is 0.0198 for shared and 0.0978 for issued updating.
+This is a specified-response illustration, not a forecast score or a causal diagnosis
+of all empirical losses.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{figures/controlled_dynamics.png}
+\caption{Deterministic response illustrations at $h=24,g=4$. Left: effective gain
+1.2 times the shared local boundary. Right: $\gamma=0.005$, below the boundary for
+both states, following an equilibrium change. State clipping and response saturation
+are explicit; the trajectories illustrate stability and tracking, not coverage guarantees.}
+\label{fig:dynamics}\end{figure}
+
+
+\section{Photovoltaic score components}\label{app:solarparts}
+\begin{table}[htbp]\centering\small
+\caption{One-step PV interval-score components, averaged over the original 32 pairs.
+IS equals Width plus Lower plus Upper, where the last two are the $2/\alpha$-weighted
+miss-distance penalties. These means use the shared PV data units; the headline
+relative gains are instead calculated per pair before averaging. All outcome-defined
+groups are evaluation-only.}
+\input{table_solar_components.tex}
+\end{table}
+Each pair's all-observation score and coverage is reconstructed by weighting its
+zero- and positive-output components by their own sample fractions. This check is
+performed before any averaging across plants and models. There are no negative
+targets in this evaluated PV panel. The original default and validation-tuned
+overall scores are reproduced from the archived predictions before decomposition.
+
+
+\section{Additional sensitivities}\label{app:sensitivity}
+\subsection{Scale mismatch can amplify interval widths}
+Normalization is helpful when the predicted scale tracks error size. It can also amplify
+historical mistakes. For positive scales, a native-normalized residual interval has width
+\begin{equation}\label{eq:ratio}
+ 2\tilde b_t\,Q_{1-a_t}\!\left(\{|y_i-m_i|/\tilde b_i:i\in\mathcal H_t\}\right).
+\end{equation}
+If more than the upper-tail fraction of the calibration history has error magnitude $c$
+and scale $\varepsilon$, its empirical threshold can approach $c/\varepsilon$. A later
+scale $B$ then produces width $2Bc/\varepsilon$. A relative floor keeps the expression
+finite, but does not eliminate a large historical-to-current scale ratio. Additive CQR
+does not have this particular multiplicative amplification mechanism, although it can
+still perform poorly when the base endpoints or update rule are unsuitable.
+
+This argument does not establish that every normalization loss is caused by exact zero
+bands. Both scale transitions and very small but nonzero widths matter. We therefore
+retain all failures, record floor activation and score extremes, and avoid a test-dependent
+score cap. Nor does the argument establish that a proposed regularizer must improve
+prediction: the validation and test experiments must decide that question.
+
+\subsection{Normalization failures and unsuccessful selection}
+At $h=24$, native-scale ACI has a mean gain of $-52.27\%$, despite a 12.91\% gain on
+the same panel at $h=1$. Large losses occur on the Chronos-Bolt solar series and on
+constructed scale switches, as well as smaller losses elsewhere. For example, its
+interval-score increase on Chronos-Bolt/solar-p10 is 286.35\% relative to residual--ACI.
+These cases are consistent with historical-to-current scale mismatch in
+Equation~\eqref{eq:ratio}; exact zero bands are not required. The artifacts include
+width-floor activation rates and normalized-score extremes for every trace.
+
+Regularized normalized CQR does not reliably fix the problem. Across all three horizons,
+its mean gains range from $-12.50\%$ at $\lambda=0$ to $-9.65\%$ at $\lambda=1$ for the
+reported endpoint choices, compared with 13.80\% for additive CQR--ACI. The validation
+selector increases the main-panel gain from 13.57\% to 13.72\%, but its multi-horizon
+mean is 13.36\%, below fixed CQR--ACI. We retain this failed hypothesis instead of
+expanding the selector grid on the test results. Prefix-based selection remains causal,
+but a causal procedure need not transfer well across later regimes.
+
+\subsection{Nominal levels, rearrangement and native-output provenance}
+The primary CQR--ACI benefit persists at 80\% and 95\% calibrated targets
+(Table~\ref{tab:sensitivity}). Omitting quantile rearrangement changes the primary mean
+gain from 13.57\% to 13.56\%. The main conclusion is therefore not driven by sorting,
+although sorting matters more for some individual normalized-score configurations.
+
+\begin{table}[htbp]\centering\small
+\caption{CQR--ACI sensitivity, using default residual--ACI at the same nominal level as
+the denominator. Dense archives are a repeated-output sensitivity, not new independent data.}
+\label{tab:sensitivity}\input{table_sensitivity.tex}
+\end{table}
+
+The genuine stored 0.1--0.9 native bands achieve average main-panel coverage of 81.89\%
+(Chronos-2), 87.04\% (Chronos-Bolt), 81.96\% (Moirai) and 77.57\% (TimesFM), against
+their 80\% nominal mass. These values include both overcoverage and undercoverage.
+They cannot substantiate a claim that all models' native 90\% intervals under-cover.
+
+The dense archive requires additional care. TimesFM still stores only the five original
+levels, so it supplies no genuine 0.05--0.95 comparison. Chronos-Bolt's stored 0.05 and
+0.95 outputs equal its 0.1 and 0.9 outputs on approximately 99.86\% of rows after
+rearrangement; requesting more levels did not create independent tail information.
+Chronos-2's stored 0.05--0.95 band attains 91.69\% coverage at a nominal 90\%.
+We therefore do not use the dense files to claim exact full-distribution CRPS or a
+universal native 90\% calibration result.
+
+\setlength{\bibsep}{4pt}
+
+
+\section{Controller implementation details}\label{app:rules}
+\subsection{One-step and delayed rule variants}
+We compare seven rules using the same score streams and observation schedule.
+\begin{enumerate}
+\item \emph{Split}: a fixed empirical $(1-\alpha)$ quantile of the initial 600 scores.
+\item \emph{Rolling}: an empirical $(1-\alpha)$ quantile of the latest $W=450$ revealed scores.
+\item \emph{Clipped ACI}: replace $\alpha$ in the rolling quantile by $a_t$, updated as
+\begin{equation}\label{eq:aciappendix}
+ a_t=\clip_{[0.001,0.999]}\{a_{t-1}+\gamma(\alpha-e_{t-d})\},\qquad \gamma=0.02,
+\end{equation}
+where $e_i=\ind\{y_i\notin C_i\}$ and the update is applied only after an issued interval's
+outcome becomes available. The equation suppresses idle steps before that event.
+\item \emph{SF-OGD adaptation}: with $M=\max_{i<600}|s_i|$, update the threshold by
+$q\leftarrow q-Mg/\sqrt{\sum g^2}$, where $g=\alpha-e$. We initialize at the prefix
+quantile and allow signed thresholds. This coverage-gradient implementation is described
+explicitly rather than claimed identical to every tie/projection convention in the
+published wrapper \citep{bhatnagar2023saocp}.
+\item \emph{PI-log adaptation}: a proportional threshold update and logarithmic tangent
+integrator inspired by \citet{angelopoulos2023pid}. With $k$ revealed post-initialization
+errors and $E_k=\sum_{j=1}^k(e_j-\alpha)$,
+\begin{equation}\label{eq:pi}
+ z_k=z_{k-1}+\gamma M(e_k-\alpha),\qquad
+ q_k=z_k+M\tan\!\left(E_k\frac{\log(k+2)}{k+1}\right).
+\end{equation}
+The tangent saturates to signed infinity outside $(-\pi/2,\pi/2)$. The initial $z$ is the
+prefix quantile. We use a fixed prefix scale, omit scorecasting and retain our causal
+delay convention; this is not full reference PID.
+\item \emph{SAOCP adaptation}: the strongly adaptive coin-betting expert update from
+the author implementation \citep{bhatnagar2023saocp}, with default lifetime multiplier 8
+and prefix scale $\sqrt{3}M$. The accelerated residual-score implementation agrees
+numerically with an independent driver of the original expert class. For signed CQR we
+remove its nonnegative projection; with delayed feedback, experts process scores in
+reveal order. These are declared extensions, without transferring the original theorem
+to the modified setting.
+\item \emph{FACI-R}: the author's FACI aggregation update with eight learning rates
+$0.001\,2^j$, $j=0,\ldots,7$, fixed-share mixing and a rolling 450-score empirical survival
+function. Unlike a full-history wrapper, this variant deliberately shares the rolling
+history design. Its weighted level is inverted using the empirical inverted-CDF quantile.
+\end{enumerate}
+The first five rules use linear empirical quantile interpolation where applicable.
+Consequently, ``split'' denotes the fixed-threshold comparator here; we do not assert
+the exact finite-sample rank correction or exchangeability guarantee of textbook split
+conformal prediction for these dependent streams.
+
+For ACI, we separately select $(\gamma,W)$ from
+$\{0.005,0.02,0.05\}\times\{200,450,900\}$ using only the validation prefix.
+The score selector retains the declared default rule settings. We report fixed defaults
+and tuned controls separately, rather than describing one untuned baseline as optimal.
+
+
+\subsection{Optimistic and groupwise controls}
+The exact COP reference recursion is checked numerically against the author's
+implementation. Our delayed adaptation is distinct: at issue $t$, with $j=t-h$,
+it uses the preceding 300 revealed scores, excluding $s_j$, to form the empirical
+CDF $\widehat F_t$ and step scale $R_t=\max s-\min s$. After feedback starts, it updates
+\begin{equation}\label{eq:cop}
+ b_t=b_{t-1}+\eta_t(e_j-\alpha),\qquad
+ q_t=b_t-\tfrac12\eta_t\{\widehat F_t(b_t)-(1-\alpha)\},\quad \eta_t=\ell R_t.
+\end{equation}
+It starts from the 0.9 quantile of the 600-score prefix; before the first issued
+interval's feedback arrives, the threshold stays at that initial value.
+Validation selects $\ell$ from $\{0.05,0.1,0.5,1\}$ and those values divided by $h$.
+The divided-rate extension was added after inspecting the development panel and is
+explicitly exploratory there. It was fixed before the confirmation evaluation.
+Singleton repairs use actual emitted-interval feedback; the original COP guarantees
+are not asserted for this delayed, repaired adaptation.
+
+Grouped ACI is an established groupwise-calibration control \citep{vovk2005algorithmic}.
+The grouping feature is native band width, with a threshold fixed at its median in
+the first 600 forecasts; ties enter the low-width group. The development factorial
+separates score memory, feedback state, both, or neither. Group memory retains 450
+scores per group and falls back to global history with fewer than 20 observations.
+Each revealed error updates the state assigned at its issue time. Confirmation uses
+the version with both memory and state separated, with the same ACI rate grid.
+
+The matched implicit-update control and its negative result are specified in
+\ref{app:implicit}.
+
+
+\subsection{Configured multi-step PID}
+We also compare the asymmetric multi-step PID implementation supplied with AcMCP
+\citep{wang2026acmcp,angelopoulos2023pid}. Its two tails target $\alpha/2$, retain the
+author's zero internal initialization and warmup recursion, and use error-range-scaled
+steps and the unbounded tangent integral correction. We set rolling history to 600,
+$C_{\rm sat}=0.5$, and initialize $K_I$ to the maximum absolute error revealed in the
+first 600 target-clock rows across horizons 1--24, rather than using the whole trace.
+Validation selects the rate from $\{0.005,0.01,0.05,0.1\}$ and those rates divided by
+$h$, jointly with no scorecaster, a rolling mean, the author's documented naive
+scorecaster, or a declared least-squares AR(1). The latter clips the fitted coefficient
+to $[-0.995,0.995]$, recalculates the intercept from sample means, and iterates $h$ steps.
+It is a configured scorecaster, not the author's default or an AcMCP substitute.
+
+An accelerated implementation reproduces the unmodified author recursion on one
+1,000-origin electricity archive for all 24 horizons and four scorecasters, and passes
+future-target perturbation checks. The benchmark evaluates all 32 development/revisited
+pairs and all three horizons, totaling 2,560 configurations. Crossed endpoints are
+collapsed to their midpoint for evaluation, while the internal tail-score feedback is
+preserved for source fidelity. Infinite or invalid intervals receive infinite score
+rather than being omitted. A separately selected no-scorecaster control is retained.
+
+
+
+\input{legacy_diagnostics.tex}
+
+
+\section{Detailed score constructions and original comparisons}\label{app:details}
+\subsection{Scores and inversions}
+Let $b_t=u_t-\ell_t$. We construct an outcome scale $v_t$ from a causal exponentially
+weighted mean absolute error, updated only when a target is revealed, with decay 0.05.
+Its initialization uses the first available forecast band and point prediction, not an
+unseen outcome. The scale is bounded below by $10^{-12}$ for numerical arithmetic.
+Define $\tilde b_t=\max(b_t,10^{-3}v_t)$. The four primary scores are
+\begin{align}
+ s_t^{\rm R}&=|y_t-m_t|,&
+ s_t^{\rm E}&=|y_t-m_t|/v_t,\\
+ s_t^{\rm N}&=|y_t-m_t|/\tilde b_t,&
+ s_t^{\rm Q}&=\max(\ell_t-y_t,y_t-u_t).
+\end{align}
+They yield intervals $[m_t-q_t,m_t+q_t]$, $[m_t-v_tq_t,m_t+v_tq_t]$,
+$[m_t-\tilde b_tq_t,m_t+\tilde b_tq_t]$ and $[\ell_t-q_t,u_t+q_t]$, respectively.
+The native-scale control asks whether a native width helps without using native endpoints
+directly; the past-error-scale control asks whether a simple outcome-based scale suffices.
+CQR thresholds may be negative, allowing a band to shrink.
+
+If inversion produces reversed endpoints, we record the event and emit a singleton at
+their center. This is a practical interval repair rather than the exact empty set obtained
+from signed-score inversion. Coverage-driven updates use the emitted interval. Infinite
+intervals, if produced, are counted and retain infinite interval scores; they are not
+capped or dropped. The primary CQR--ACI test intervals are singletons at an average rate
+of 0.013\%, and no infinite intervals occur in the reported primary comparison.
+
+We also examine normalized CQR, with denominator
+$\max(b_t+\lambda v_t,10^{-3}v_t)$ for $\lambda\in\{0,0.01,0.1,0.5,1\}$.
+A prefix selector chooses the lowest validation interval score among these five recipes
+and the four primary scores under ACI. This is an existing model-selection principle used
+as a diagnostic, not a proposed novel algorithm. A separate midpoint control replaces
+$m_t$ by $(\ell_t+u_t)/2$ while retaining the residual or native-scale score.
+
+
+\begin{table}[!htbp]\centering\small
+\caption{Original one-step main-panel methods. Gain uses default residual--ACI;
+Gap and Local denote absolute overall and 150-origin coverage errors in percentage points.}
+\label{tab:main}\input{table_main.tex}\end{table}
+\begin{table}[!htbp]\centering\scriptsize
+\caption{Earlier CQR rate sensitivity at $h=24$. Development and traffic/exchange-rate
+panels each have 16 pairs. S/I denote shared/issued. Selection uses validation only.}
+\label{tab:rates}\input{table_rate_sensitivity.tex}\end{table}
+\begin{table}[!htbp]\centering\scriptsize
+\caption{Original one-step PV decomposition. Contributions use each pair's overall
+residual denominator and add to its overall gain; group gains use group denominators.}
+\label{tab:solarparts}\input{table_solar_decomposition.tex}\end{table}
+\section{Detailed new-source protocol and reference comparison}\label{app:newprotocol}
+\input{new_design.tex}
+\begin{table}[!htbp]\centering\small
+\caption{Original configured weather comparison using full validation. Ratios use
+window-selected Rolling CQR; this precedes the common-history sensitivity.}
+\label{tab:acmcpfull}\input{table_acmcp_full.tex}\end{table}
+\section{Post-review temporal and history controls}\label{app:focused}
+These analyses revisit inspected data. For positive-rate selectors, each state
+minimizes the original full-validation score over the original stored positive
+rates, then selects its window when allowed. The smallest rate is $10^{-6}$.
+No candidate is added after test inspection. The air-quality CQR gaps are 0.0017\%
+at $W=450$ and 0.0021\% with selected memory before admitting zero; these differences
+are practically negligible. The paired records retain all rates and score scales.
+
+Each test block contains 592 forecast origins. Missing labels are excluded using
+the fixed observed mask. Local errors use 150-origin windows wholly within each
+block, so whole-test local error is not exactly the weighted average of block values.
+No configuration is reselected on a test block. Figure~\ref{fig:temporal} includes
+every source, model and block; early/late validation sensitivity is a different analysis.
+\begin{figure}[!htbp]\centering
+\includegraphics[width=\textwidth]{figures/temporal_pairs.png}
+\caption{All eight new-source pairs, three consecutive test blocks. Positive means
+issued CQR improves on matched selected-window Rolling CQR. Color scales differ
+between panels; values are descriptive, without independent-replication error bars.}
+\label{fig:temporal}\end{figure}
+
+The common-history sensitivity adds unmodified author AcMCP-CSS at
+$n_{\rm cal}=450$ to the saved $600$ runs. Both use $K_I$ from the first 600
+revealed target-clock errors. Because history also changes startup, every method
+uses post-startup validation $[900+h-1,1200-h+1)$ and unchanged testing
+$[1200,2976)$. All evaluated scorecasts are finite. Each history selects its rate;
+joint selection considers both histories. CQR retains its zero/small-rate grid;
+PID uses AcMCP's rates with zero scorecasts. Each ratio uses its matched Rolling
+denominator. History 900 and CSS-ML are outside this sensitivity.
+
+All 60 sampled history-450 scorecast refits reproduce stored values. Three emit
+an MA non-invertibility warning under CSS but return finite predictions. Their
+warnings and trajectories are retained. These results characterize the stated
+configuration, not default CSS-ML or every AcMCP setting.
+\begin{table}[!htbp]\centering\scriptsize
+\caption{Complete history sensitivity on all four weather pairs. IS ratios are
+averaged after pairing. Coverage is percent and Local is percentage points.}
+\input{table_history_control.tex}\end{table}
+

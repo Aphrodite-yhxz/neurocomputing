@@ -1,0 +1,24 @@
+\subsection{Native-band benefits survive support and asymmetry controls}\label{sec:pvnew}
+The PV controls test whether impossible negative outputs or symmetric intervals explain
+the earlier benefit. After both constructions are separately tuned using their projected
+validation scores, CQR's mean gain over symmetric residual intervals falls from 20.51\%
+to 15.61\% overall. Against the projected signed-residual comparator it is 10.86\%
+(Table~\ref{tab:pvcontrols}). The corresponding positive-output gains are 12.77\%,
+11.57\% and 9.56\%. The stronger controls reduce but do not remove the native-band
+benefit. Because the denominators and selected settings differ, successive percentage
+changes are not additive causal contributions.
+
+\begin{table}[!htbp]\centering\scriptsize
+\caption{PV construction controls, 32 pairs, validation-tuned settings. Gains are
+paired CQR improvements over the named baseline (\%); coverages are percent. High
+forecast denotes the fixed prefix-median point-forecast split, known at issue time.}
+\label{tab:pvcontrols}\input{table_pv_controls.tex}
+\end{table}
+
+Projection raises selected CQR overall coverage to 91.56\%, partly by including
+previously missed zero outputs. It does not solve positive-output coverage (86.45\%).
+The high-forecast group, averaging 53.22\% of test observations, has a 9.26\% score gain
+against projected signed residuals but only 87.07\% CQR coverage. Undercoverage is
+therefore also visible in an issue-time observable subgroup, without routing by the
+future target. Width and tail-penalty components, raw/projected defaults, all candidate
+settings and the separately selected rolling controls are supplied for every pair.

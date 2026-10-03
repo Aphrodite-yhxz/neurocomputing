@@ -1,0 +1,55 @@
+\subsection{New-source confirmation requires memory as well as rate controls}\label{sec:newresults}
+The new-source results qualify a rate-only explanation (Table~\ref{tab:newconfirm}).
+At $h=24$, the CQR state gain on air quality falls from 10.59\% to 0.23\% under the
+wide grid and to zero once zero/small rates are admitted. On weather it falls from
+9.21\% to 6.11\% and 6.08\%, respectively: smaller rates alone leave a substantial
+difference. Joint window selection then reduces it to 0.05\%. Thus the effect of
+state structure cannot be assessed without its interaction with empirical score memory.
+
+\begin{table}[!htbp]\centering\small
+\caption{Locked new-source confirmation, $h=24$. Mean paired issued/shared interval-score
+gain (\%), four pairs per source. Each column uses its predefined validation selector.
+The final column adds window selection; it does not extend the rate grid again.}
+\label{tab:newconfirm}\input{table_new_confirmation.tex}
+\end{table}
+
+The same controls do not affect every score identically. Residual-score state gains
+remain 2.16\% on air quality and 3.76\% on weather under joint selection. On air quality,
+zero/small rates at fixed window remove the residual state difference, but allowing
+window selection brings a difference back. Nested validation searches need not produce
+monotonic test improvement, and the result is not an intrinsic advantage of one state.
+The per-pair log contrasts preserve these interactions without dividing group averages.
+
+For CQR, six of eight issued and seven of eight shared configurations select zero
+learning rate. Both states select $W=900$ in seven of eight cases, so the memory search
+also reaches a boundary: we do not claim global optimality. Directly against separately
+window-tuned rolling CQR, the mean score gain is zero on air quality and 0.04\% for
+issued ACI on weather ($-0.01\%$ for shared). Weather mean coverage is 89.43\% for
+issued ACI versus 89.51\% for rolling. Small score differences therefore do not establish
+equivalence or resolve coverage. Complete rate/window curves remain in the artifact.
+
+Selector stability further limits interpretation. At $h=24$, early and late validation
+select the identical rate/window in only three of eight issued CQR pairs and four of
+eight shared CQR pairs; no residual pair has exact agreement for either state. This is
+a sensitivity result, not evidence of test leakage. The primary selector remains the
+full pre-test validation block specified before acquisition.
+
+\subsection{Full configured AcMCP on the new weather subset}\label{sec:acmcpfull}
+All four weather archives complete the author's 24-horizon AcMCP-CSS recursion.
+The cached implementation reproduces all 96 trajectories; 60 sampled fitted scorecasts
+are independently refitted. Table~\ref{tab:acmcpfull} includes every predefined pair.
+At $h=24$, AcMCP-CSS has a mean paired score ratio of 1.147 relative to selected-window
+rolling CQR, with 87.54\% coverage. The no-scorecast control scores better here but
+has slightly lower coverage. This is a result for one declared fitting option and
+four dependent weather pairs, not a general ranking of AcMCP or a controller-only
+attribution. It shows that adding a faithful autocorrelation-aware comparator does
+not reverse the near-rolling CQR finding on this subset. The entire grid and scorecast
+success counts remain available, including initialization-related missing scorecasts.
+
+\begin{table}[!htbp]\centering\small
+\caption{Complete-configuration weather comparison, four pairs per horizon. IS ratio
+averages each method's score divided by its matched validation-selected rolling CQR
+score. Coverage is percent, Local is absolute coverage error in percentage points.
+Ratios do not remove differences in native versus signed-error information.}
+\label{tab:acmcpfull}\input{table_acmcp_full.tex}
+\end{table}

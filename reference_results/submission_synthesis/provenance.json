@@ -1,0 +1,11 @@
+{
+  "status": "descriptive_synthesis_of_saved_results_no_retuning",
+  "denominator": "each matched pair CQR rolling interval score",
+  "pairs_per_horizon": 16,
+  "rounding": "percentages formatted directly from unrounded pair-level aggregate; no intermediate rounding",
+  "sources": {
+    "results/confirmation_v7/calibration/selected.csv": "bd823d2155fa755d1da631e5b4ddf35b58a09b40bdb1eee4141cd0bff9e236b1",
+    "results/review_v8/state_grid/revisit/selected.csv": "a4854911ffd06c5d90b75fca904e490423c9b6f9e4d4b829abe20e4c2de625c3",
+    "results/review_v8/solar_components/summary.csv": "6ddfba51095d8bc6a17de670456a27a9b8c88d184b8b9af4a3c28952900a3c86"
+  }
+}

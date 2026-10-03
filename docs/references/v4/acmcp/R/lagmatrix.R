@@ -1,0 +1,61 @@
+#' Create lags or leads of a matrix
+#'
+#' Find a shifted version of a matrix, adjusting the time base backward
+#' (lagged) or forward (leading) by a specified number of observations for
+#' each column.
+#'
+#' @param x A matrix or a multivariate time series.
+#' @param lag A vector of finite integer lags (positive values) or leads
+#'   (negative values) with a length equal to the number of columns of
+#'   \code{x}.
+#'
+#' @return A matrix with the same class and size as \code{x}.
+#'
+#' @seealso \code{\link{cvforecast}}, which uses this function to align the
+#'   forecasts and the forecast errors by horizon.
+#'
+#' @examples
+#' set.seed(1)
+#' x <- matrix(rnorm(20), nrow = 5, ncol = 4)
+#'
+#' # Create lags of a matrix
+#' lagmatrix(x, c(0, 1, 2, 3))
+#'
+#' # Create leads of a matrix
+#' lagmatrix(x, c(0, -1, -2, -3))
+#'
+#' @export
+lagmatrix <- function(x, lag) {
+  # Ensure 'x' is a matrix
+  if (!is.matrix(x)) {
+    stop("ensure x is a matrix")
+  }
+  n <- nrow(x)
+  k <- length(lag)
+
+  if (ncol(x) != k) {
+    stop("`lag` must have one element per column of `x`")
+  }
+  if (
+    !is.numeric(lag) ||
+      anyNA(lag) ||
+      any(!is.finite(lag)) ||
+      any(lag != trunc(lag))
+  ) {
+    stop("`lag` should contain finite integers")
+  }
+
+  lmat <- x
+  for (i in seq_len(k)) {
+    if (lag[i] == 0) {
+      lmat[, i] <- x[, i]
+    } else if (abs(lag[i]) >= n) {
+      lmat[, i] <- rep(NA_real_, n)
+    } else if (lag[i] > 0) {
+      lmat[, i] <- c(rep(NA, lag[i]), x[1:(n - lag[i]), i])
+    } else {
+      lmat[, i] <- c(x[(abs(lag[i]) + 1):n, i], rep(NA, abs(lag[i])))
+    }
+  }
+  return(structure(lmat, class = class(x)))
+}

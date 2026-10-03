@@ -1,0 +1,19 @@
+{
+  "PVDefaultPositiveCoverage": 84.96455598907446,
+  "PVDefaultOverallCoverage": 89.96360300048394,
+  "PVTunedPositiveCoverage": 86.31911122483243,
+  "PVTunedPositiveGain": 12.769942460492455,
+  "PVDefaultPositiveGain": 21.324885162653537,
+  "RollingRollingGain": 0.0,
+  "RollingCoverage": 88.59316373875008,
+  "RollingLocal": 6.369908047850171,
+  "SharedRollingGain": -0.8430546435342412,
+  "SharedCoverage": 88.77510908897642,
+  "SharedLocal": 6.213620287069713,
+  "IssuedRollingGain": 0.16821620099290238,
+  "IssuedCoverage": 89.00887970896721,
+  "IssuedLocal": 6.21765135203644,
+  "COPRollingGain": -2.8973317105805725,
+  "COPCoverage": 90.10532729726765,
+  "COPLocal": 5.570776917938728
+}

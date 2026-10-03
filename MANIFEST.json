@@ -1,0 +1,3427 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 150,
+    "sha256": "207f6d25844c672d1e95c973ccb7cf1ecb77d29a581be8c30f507f2539a1f498"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 992,
+    "sha256": "60aa74d276d95b70722f508a08f5d37c4cd56f9fa9b556f2a886a0c99bf1b127"
+  },
+  {
+    "path": "ARTIFACT_MAP.md",
+    "bytes": 5614,
+    "sha256": "9c0f1aa7489c186faa99e72bfbfb9d641f13191daaa42efddbf8f1949c6f325f"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 715,
+    "sha256": "326cda642c0ed6c1324b33003349bd87e746f83691f403ed8485a26973e34471"
+  },
+  {
+    "path": "data/strengthening_v9/air.zip",
+    "bytes": 8192212,
+    "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+  },
+  {
+    "path": "data/strengthening_v9/air_aotizhongxin.npz",
+    "bytes": 23003,
+    "sha256": "880ccc5f47fa4c06f87b84aee5678cf33c122d06a75292aa0553895ac3adde3f"
+  },
+  {
+    "path": "data/strengthening_v9/air_dingling.npz",
+    "bytes": 22257,
+    "sha256": "be72c54f8f7b802bd9dc690892d3ae452e45c9bb98da7194b8fe355764bde318"
+  },
+  {
+    "path": "data/strengthening_v9/manifest.json",
+    "bytes": 1840,
+    "sha256": "54cfed4dec5b976e8c781f0d25199e560ada0b5b409194986c7b120cdc2d0e53"
+  },
+  {
+    "path": "data/strengthening_v9/weather.zip",
+    "bytes": 1977276,
+    "sha256": "5f94cb42f5df4d7fc38784c260c841eb946d1a96b4109f7f6f1ce97c7f1bda3b"
+  },
+  {
+    "path": "data/strengthening_v9/weather_pressure.npz",
+    "bytes": 33127,
+    "sha256": "a833e6f604a87cef78ceddf17d8f1470f7cd79eda7a974b727646f1a4a4d038d"
+  },
+  {
+    "path": "data/strengthening_v9/weather_temperature.npz",
+    "bytes": 34845,
+    "sha256": "10ef721a89f4622a7fec8f7b6576a488732f44117a956e8f80f1f3d3081163fe"
+  },
+  {
+    "path": "DATA_SOURCES.md",
+    "bytes": 3225,
+    "sha256": "af8692f99db500cfde787b52c05fbfd26b6d37c2fac367ccfadb1a5b4cb04d1e"
+  },
+  {
+    "path": "docs/CONFIRMATION_PROTOCOL_V7.md",
+    "bytes": 3713,
+    "sha256": "9ebad95689fc5337c31fd980384c59011ac65da1013eacad2f0abc45f2537f66"
+  },
+  {
+    "path": "docs/FOCUSED_FINISH_PROTOCOL_V10.md",
+    "bytes": 3972,
+    "sha256": "dc99703bc88f46d73a9747e5fc4fa25c28ea1758de32c87da1329fb065fb36a2"
+  },
+  {
+    "path": "docs/NEUROCOMPUTING_ADDITIONAL_ANALYSES.md",
+    "bytes": 4487,
+    "sha256": "5e7c50d745f4ebb19ab2ef5ba01816d1136ff4287882219c93352af043957413"
+  },
+  {
+    "path": "docs/NEUROCOMPUTING_PROTOCOL.md",
+    "bytes": 5178,
+    "sha256": "09e1a585a8f754476eb3f5516c53b560dbba9797255f26ccb0144dfbd1ca0fc0"
+  },
+  {
+    "path": "docs/references/download_manifest.json",
+    "bytes": 2815,
+    "sha256": "d7e2c3fb1ccd5e10e79e115b41d788127d192980adc8a41e373d7126c5e44c67"
+  },
+  {
+    "path": "docs/references/faci.py",
+    "bytes": 5906,
+    "sha256": "6bd75dbe772d4f43b965f9873554cc587494426533c60a88f9b408049a165d30"
+  },
+  {
+    "path": "docs/references/pid_commit.json",
+    "bytes": 4363,
+    "sha256": "6069e21c99332c859c67b504c7e6aff8972b6ff9ac60e600d77e45ad225bccf1"
+  },
+  {
+    "path": "docs/references/pid_LICENSE.txt",
+    "bytes": 1080,
+    "sha256": "ef3c1a27540ae1a133179415bbfb7ca08f3ae5045dbb86bd870be2a1519d3783"
+  },
+  {
+    "path": "docs/references/pid_methods.py",
+    "bytes": 7759,
+    "sha256": "8aad182d6ec3bc16c4e632012b6f259b8e4a89722efbe4a1df576054278f6fa6"
+  },
+  {
+    "path": "docs/references/saocp.py",
+    "bytes": 5175,
+    "sha256": "83f8845559786452aafabfafdf6c136ceaf9b9b3557fc5f8f9267fcec04d386f"
+  },
+  {
+    "path": "docs/references/saocp_base.py",
+    "bytes": 5888,
+    "sha256": "83999e0444ef8868edd5235a17e806e4cbbab0ae1f94f977e6fcf964c65bd2f2"
+  },
+  {
+    "path": "docs/references/saocp_LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "docs/references/saocp_tree.json",
+    "bytes": 8696,
+    "sha256": "641340dfad16c0c8a1806be5dfe059edf0effdb9bdc6cbc8f22f5c8ed2d85f27"
+  },
+  {
+    "path": "docs/references/saocp_utils.py",
+    "bytes": 3263,
+    "sha256": "88c8e7725f114ccd5c68ebd4adcd6804c523aa241fa62f2b29c2a95354d83fa1"
+  },
+  {
+    "path": "docs/references/sfogd.py",
+    "bytes": 2446,
+    "sha256": "061604484f10f8a0465d45d69b80a441acfc41a46b1965378355110e27963b5d"
+  },
+  {
+    "path": "docs/references/submission/metadata-0.bib",
+    "bytes": 531,
+    "sha256": "be09b04b7c0181d9a782cd821b947985b6a828cfe095dd98f6e5fc9343df07cd"
+  },
+  {
+    "path": "docs/references/submission/metadata-1.bib",
+    "bytes": 552,
+    "sha256": "a5ab31e5a7ad1355105762044cecabf99ac7ed075cfa9853bd889c265b83f386"
+  },
+  {
+    "path": "docs/references/submission/metadata-2.bib",
+    "bytes": 602,
+    "sha256": "6b6d3b4fa614416b1718d03d4682eb3a220ce4251c0bef14194b2288b00a205b"
+  },
+  {
+    "path": "docs/references/v4/acmcp/_pkgdown.yml",
+    "bytes": 909,
+    "sha256": "9e6be6d3fefacc09c0bef75db709e07c9156594ddc36110cec1611e40a9c4c31"
+  },
+  {
+    "path": "docs/references/v4/acmcp/DESCRIPTION",
+    "bytes": 1501,
+    "sha256": "ae4eb15483446c06241feee5c2f2fdcd8997e6ba27f182de8ff6b6b133b3dd5f"
+  },
+  {
+    "path": "docs/references/v4/acmcp/LICENSE.md",
+    "bytes": 34904,
+    "sha256": "585e25ef8f5946a52bf2aed68d5becfc38be94a8663aa01c1b31d88aa57f1de3"
+  },
+  {
+    "path": "docs/references/v4/acmcp/NAMESPACE",
+    "bytes": 1221,
+    "sha256": "362d8eeb8afa3dd316439853dc60ff9507c6bc09c26108c637510b5145fff33f"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/acmcp.R",
+    "bytes": 18345,
+    "sha256": "168346bc2c3ca00bbabdd3aff957f37a8c74f7382f28a38df3729f344f177115"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/acp.R",
+    "bytes": 12191,
+    "sha256": "68b88093f4517ea523d2aaff095d1a232961a4829ad0d6ec5db0ebfcedf22230"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/conformal.R",
+    "bytes": 2039,
+    "sha256": "3819407ab118c402f6ef8c0fa1b66499454842419dcb619fa309355a123e9f82"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/conformalForecast-package.R",
+    "bytes": 196,
+    "sha256": "0227927b464b2ad69e754e39a8ba22a492b985de49d431060b48657077c18eb3"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/coverage.R",
+    "bytes": 5207,
+    "sha256": "69dcf613bf72ace4de079e871b33e390ee1bfc08b78451b362e5af2834a91587"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/cvforecast.R",
+    "bytes": 11828,
+    "sha256": "aafb5e778bdf2d5a82281636ef4e7d66eb92f24b5b471b91cd8cde6f8cf828f4"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/errors.R",
+    "bytes": 14525,
+    "sha256": "3aebc6d20861855f05260154d8a8a9a2f5a093b4bce216f3ce9d7928357e7944"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/lagmatrix.R",
+    "bytes": 1626,
+    "sha256": "c1e2bb0c944149284aaf9fed98d866ff3a6f5ee781d5f693fffcd629b86752c4"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/pid.R",
+    "bytes": 22353,
+    "sha256": "7c340c71759947aa4f1d5a8004fd5eaccac0f822d62e04f35e04d4c95f9283a5"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/scp.R",
+    "bytes": 13673,
+    "sha256": "724395b173bc21eea3bda21ef7986e2ec4bd580af783bbf15667e67b5a28f40c"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/update.R",
+    "bytes": 7023,
+    "sha256": "9850356a2ea98b774eb05aa6b8321db028632c3f249277c5bed1652459b0edcf"
+  },
+  {
+    "path": "docs/references/v4/acmcp/R/width.R",
+    "bytes": 5378,
+    "sha256": "323518c050d70dc77221fae5d41f18d9b41b14f285c50ad5d0f60081ea44bcee"
+  },
+  {
+    "path": "docs/references/v4/acmcp/README.md",
+    "bytes": 4014,
+    "sha256": "9a015aac568d9e6dbf5c89d9ee003cbac0d701bbfc68b5117aef639060e82bb5"
+  },
+  {
+    "path": "docs/references/v4/acmcp/README.Rmd",
+    "bytes": 3850,
+    "sha256": "9f13dd119a260f89741d5340f89f5da54b03ab810fd34d7351f3ac74bf77ab7e"
+  },
+  {
+    "path": "docs/references/v4/acmcp/source_manifest.json",
+    "bytes": 10228,
+    "sha256": "0b2260ae180407b807399cdcd2694212b6c287443729a62e3a280fbda97c77eb"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/helper-conformal.R",
+    "bytes": 3848,
+    "sha256": "1254deaa5a0a3ac159b14bd7e88d32d9e8447ea16c861b84086ec0a06ea246fa"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-acmcp.R",
+    "bytes": 1734,
+    "sha256": "b3215abedeb092526451b0227c269ac603cd91187bba8f46e6c18d127a9f76eb"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-acp.R",
+    "bytes": 2331,
+    "sha256": "36f156e7977a3432795ff80f04d15fee9f1ed2ea7baf4583da79b14d410b27c5"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-conformal.R",
+    "bytes": 4827,
+    "sha256": "1d1e3f84be3c27fd6894e48a812628cfc4cc0c6c718482e5e968ed109c23b7f5"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-coverage.R",
+    "bytes": 2620,
+    "sha256": "87fabdcc1afc9ef0263d319a47fc68c7c4f03da085c26bba67040bd44036e912"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-cvforecast.R",
+    "bytes": 7085,
+    "sha256": "2b0439469d949cb072e9df5001ae2ad0dd7d74e07830840ce315cea58c2a0dc9"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-errors.R",
+    "bytes": 4195,
+    "sha256": "c54d96f357bc73f1daf614439cbea2834326615270e2e42d9f5e2eb83eeac1c6"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-lagmatrix.R",
+    "bytes": 1188,
+    "sha256": "ee1ca2386d255efcb18eec12b7941e0eecb98ae50fef2dfc8f752bd6853addb3"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-pid.R",
+    "bytes": 2614,
+    "sha256": "86cd4b99dc47767104abf77ea814e4a997195559e1c17cd22f60291581c0a546"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-print.R",
+    "bytes": 2572,
+    "sha256": "6baecedcf6c54b4f53625da20fbc19064ed99f891eff8f0648d7162f54f3619e"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-scp.R",
+    "bytes": 2624,
+    "sha256": "da5ebfe9f16962fdf7ef4d2f27f763c0f3cdc61ba8732ae552dca7b90867aebb"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-update.R",
+    "bytes": 6951,
+    "sha256": "24caad1192640efd5102facc1f890186114e18bad45fa55e18277fc1fef3e25a"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat/test-width.R",
+    "bytes": 1897,
+    "sha256": "f792b4ec9a7031cd2571ffee967ac390f98bbaebdb9435eb3614dc56b6cdd410"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tests/testthat.R",
+    "bytes": 78,
+    "sha256": "0eec6c4c71937da55079c805948c41dd2f41ff7a79d539c9a0cc8c99a36f9c44"
+  },
+  {
+    "path": "docs/references/v4/acmcp/tree.json",
+    "bytes": 22335,
+    "sha256": "3b84e969ba183ea88f6d63de0e349c298f167973f718f88d5db8c8e2d65a07bd"
+  },
+  {
+    "path": "docs/REVIEW_RESPONSE_PROTOCOL_V8.md",
+    "bytes": 4842,
+    "sha256": "bdf01241e1c75bfe75fc3d16e43e3c4133fc814050b5479a48d2405cfc34df76"
+  },
+  {
+    "path": "docs/STRENGTHENING_PROTOCOL_V9.md",
+    "bytes": 7905,
+    "sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83"
+  },
+  {
+    "path": "docs/V8_MULTISTEP_PID_ADDENDUM.md",
+    "bytes": 2249,
+    "sha256": "cfc45e22984c4e618cdff05f68528289e720d84cf71fac44723284328b3e30f4"
+  },
+  {
+    "path": "environment-v8.json",
+    "bytes": 150,
+    "sha256": "0f0f6a2603971ce86a71dc8674352acd5d46fe03b57cf679b540067de5ae29fd"
+  },
+  {
+    "path": "experiments/focused_acmcp_v10.py",
+    "bytes": 2736,
+    "sha256": "96c439093bdc9ae493708d33a2b049885f1959acd3fc8a34cdbec2f67b6c6233"
+  },
+  {
+    "path": "experiments/focused_contrasts_v10.py",
+    "bytes": 4653,
+    "sha256": "be2f420668395febe536ee308a27a5d77476b3e9f4929d8096de160f6e5591fd"
+  },
+  {
+    "path": "experiments/generate_strengthening_v9.py",
+    "bytes": 3574,
+    "sha256": "dbd79cb6e85169010e790e545feb6c1d177545cacb81ca38a559ac3e3dd27345"
+  },
+  {
+    "path": "experiments/replay_main_headline_v9.py",
+    "bytes": 3491,
+    "sha256": "3a8e7d6f7159af74ae73fb6bd89ac1901e4608bf4c0d4a9eb89cbc0e727c0f8c"
+  },
+  {
+    "path": "experiments/review_controller_dynamics_v8.py",
+    "bytes": 4433,
+    "sha256": "915d971d46cd019ef91dbdd6c388bdf8b25d5af4aeab5dd673307a6c0c148e06"
+  },
+  {
+    "path": "experiments/review_multistep_pid_v8.py",
+    "bytes": 5658,
+    "sha256": "5dc03d5ae84c51bee69a65c6844e25a20165e77d543a4886a912f2516369193a"
+  },
+  {
+    "path": "experiments/review_solar_components_v8.py",
+    "bytes": 4443,
+    "sha256": "040a4161f782be031cacc242899bcd75b6bebf94471a78ab4f11beefe115e942"
+  },
+  {
+    "path": "experiments/review_state_grid_v8.py",
+    "bytes": 5840,
+    "sha256": "22fb15459cf6bb8e9e3c55bdeeab7551c02c9dc87a510d29c7f5a67d48154de1"
+  },
+  {
+    "path": "experiments/strengthening_acmcp_v9.py",
+    "bytes": 2866,
+    "sha256": "540980a8020434f14e7f8acfdc55c6f7dbacbd496723d80ffa66bc1e790a3350"
+  },
+  {
+    "path": "experiments/strengthening_grid_v9.py",
+    "bytes": 5029,
+    "sha256": "ec4a0b7e709b0fefc63682489cb4dc7ad404823d0e27f0e3817ef5fbce6ea90c"
+  },
+  {
+    "path": "experiments/strengthening_pv_v9.py",
+    "bytes": 5332,
+    "sha256": "c5927bee35165d3addba56d96db564d7e2194dbd70652cefc77be1b7861f4baf"
+  },
+  {
+    "path": "forecast_manifest.json",
+    "bytes": 40399,
+    "sha256": "08727455a550bae0097dd4016d4f28bff737df544b29867782aec5987ddb1a43"
+  },
+  {
+    "path": "historical_evidence/results/confirmation_v7/calibration/contrasts.csv",
+    "bytes": 529647,
+    "sha256": "f451d887a3266a786cc16d2079e4cf37170736a6fd18e4e2fd79612d3a65992c"
+  },
+  {
+    "path": "historical_evidence/results/confirmation_v7/calibration/family_balanced_summary.csv",
+    "bytes": 4856,
+    "sha256": "65e84c958d9d3f39cfa8a1bfe27312c0c96bcdb66abe3dc9e25e294eb7052c8e"
+  },
+  {
+    "path": "historical_evidence/results/confirmation_v7/calibration/family_summary.csv",
+    "bytes": 12633,
+    "sha256": "26710580c8cd394f41db91ae7e03dd0bc6383dc1f669413f098cfc1383b85ea6"
+  },
+  {
+    "path": "historical_evidence/results/confirmation_v7/calibration/results.csv",
+    "bytes": 1346836,
+    "sha256": "83880340cabf0164ae2d19af6ae8e1023ba3cf30efa60d4f7d31527ed4319082"
+  },
+  {
+    "path": "historical_evidence/results/confirmation_v7/calibration/selected.csv",
+    "bytes": 308747,
+    "sha256": "bd823d2155fa755d1da631e5b4ddf35b58a09b40bdb1eee4141cd0bff9e236b1"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v5/grouped/results.csv",
+    "bytes": 530191,
+    "sha256": "4dc7bc5b75caee9462290bc48943a13490a2037b1b6f5ef0979a56ea8d21fe1b"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v5/grouped/selected.csv",
+    "bytes": 151821,
+    "sha256": "22e530e2ca7829a726c613c1529cb18e02cf3e10b0f11eb7de8f85e4a785234f"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v5/grouped/solar_summary.csv",
+    "bytes": 2167,
+    "sha256": "258024f56ad054f5a29b545d880ed82ab9661d43be3668c26e7420b902855cec"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v5/grouped/summary.csv",
+    "bytes": 2676,
+    "sha256": "b7822d55157c39a44d35f99c41b2592b90662f5c0e5634430298efd21916f343"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v6/implicit_cop/results.csv",
+    "bytes": 1126486,
+    "sha256": "845d3f0615fc01e20fd29158d2aff12613accc21946595928f10666038215baa"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v6/implicit_cop/screening_decision.json",
+    "bytes": 763,
+    "sha256": "d594ab2f958b3dba0935ddf3c277132ca477e2d3289278b8d05420ebe8146d47"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v6/implicit_cop/selected.csv",
+    "bytes": 241210,
+    "sha256": "b57a4c66a008320e5f34becc7710755d784b2c26a6cc87fa8d79fd720c9369cc"
+  },
+  {
+    "path": "historical_evidence/results/innovation_v6/implicit_cop/summary.csv",
+    "bytes": 4215,
+    "sha256": "06860b49020c0a187148355e853928eb2e707ff3c8cb0b881a8369482fe22ebd"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/center_control/results.csv",
+    "bytes": 58644,
+    "sha256": "0a31df19c1b68616626adb1b935117ab5cd4f5d2d81558bcc1aa53fb814b1e1f"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/center_control/summary.csv",
+    "bytes": 194,
+    "sha256": "feb3660bf4833f296b4be5fed695c405d8e5610f242b026c75474cd874faf40d"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/delay_control/results.csv",
+    "bytes": 166778,
+    "sha256": "ba386af054aa295cfed94a3287929682f42d5964d3a61e07b1e870f8ceb6cab7"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/delay_control/summary.csv",
+    "bytes": 4637,
+    "sha256": "d5f482ba3bb13cf0351ee63e7446021155707a71027d43c291233ee145082529"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/dense_a0.1/native_coverage.csv",
+    "bytes": 33364,
+    "sha256": "6f6332215c36a438e1dd579403da5c40c2cd4ff88de285b09b5dea1b1f93bb7b"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/dense_a0.1/paired_comparisons.csv",
+    "bytes": 139470,
+    "sha256": "19eed43525ff1bee46c6387972410cca525338e46297961c06cf04f139acd4bb"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/dense_a0.1/per_series.csv",
+    "bytes": 196650,
+    "sha256": "b48981056c8efadcc3fc7e181a55502e08fbef314fe2fa54fe5f22e5d8d84390"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/dense_a0.1/results.csv",
+    "bytes": 1918409,
+    "sha256": "ddd9640ed1cd811b16e1639aef3d700ca978a5d2165c038d6801e6c63ce73e27"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/dense_a0.1/summary.csv",
+    "bytes": 5488,
+    "sha256": "329b82edca5e5fa5f53a08801ba50d920ce1634941f026a30566d5ee26137431"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/gefcom_a0.1/native_coverage.csv",
+    "bytes": 8677,
+    "sha256": "81e57264f8a0b4bd059f7abecb2e3e9cf8de892df2ada4e11d1abe4fa561e127"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/gefcom_a0.1/paired_comparisons.csv",
+    "bytes": 60618,
+    "sha256": "2c09fe90eec3622e800799c365b63a2602755eadf290d6b32b8c090b2cd7bd7e"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/gefcom_a0.1/per_series.csv",
+    "bytes": 83302,
+    "sha256": "744722dd31c9fec8497c53a9bcee77d6b78a732f7ceb8c5f4dda6ecc89ff80a3"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/gefcom_a0.1/results.csv",
+    "bytes": 818079,
+    "sha256": "031a99acfe0429f7cbf1a5d04004dd6e38d2964718054036c4b8307781693219"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/gefcom_a0.1/summary.csv",
+    "bytes": 5493,
+    "sha256": "4161e927d6d0221b861285b1c9cd08c33b95b2a1ff3a99c7c96750dc8c6199d5"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.05/native_coverage.csv",
+    "bytes": 27101,
+    "sha256": "7b69e837ab2acff9da50b523d93e03072377463a1a9523082dcc23a54752b97f"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.05/paired_comparisons.csv",
+    "bytes": 188385,
+    "sha256": "5b7f45e9c1292f71dc73f5104ef9ca95d0382f22adf7edd5b5cf0eb5898703a9"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.05/per_series.csv",
+    "bytes": 196664,
+    "sha256": "9dd90088af91965a249ba5903a0f398a37ea4e534eecbd666739043cade8f617"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.05/results.csv",
+    "bytes": 2574876,
+    "sha256": "1a714f8e851f48446f802fde6ba5e004c6c2a1cfcc302a575063b81bae0fd03b"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.05/summary.csv",
+    "bytes": 5487,
+    "sha256": "21235fb0c4089b88dd9a6f4e0cf0bf110a87b463cf9ac147a5b101a2502a8bc8"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.1/native_coverage.csv",
+    "bytes": 26977,
+    "sha256": "b730517e74faf535fd0cd9ff9d823eb38e320a97542fc7d97c57032faa9d44b1"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.1/paired_comparisons.csv",
+    "bytes": 187496,
+    "sha256": "61e20096bef4c9d4656dea51ea604c3c9a054218fa16bae1c1d366b07d84ffab"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.1/per_series.csv",
+    "bytes": 196552,
+    "sha256": "49fd4166d1131eadc48528c93baecea300899414cf27b371c0dd7a3a9fec889b"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.1/results.csv",
+    "bytes": 2566455,
+    "sha256": "8fa6d892306c2903b1fac7ed9428115655a4a82a82fffb3cc63ac2294f10af40"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.1/summary.csv",
+    "bytes": 5485,
+    "sha256": "182c028d22604572f3a3c2c66c58348f6463df8d70aabe45f54da7668264f2e5"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.2/native_coverage.csv",
+    "bytes": 26977,
+    "sha256": "1caa652f7f33b217710ee4e9125385070d54026a9411d4371ce2a6a24b6cc40b"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.2/paired_comparisons.csv",
+    "bytes": 189163,
+    "sha256": "fc32d37bdbbecbecbedefab25b9a0ceb901d08d8142b9f84e0ee75463a49959e"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.2/per_series.csv",
+    "bytes": 196676,
+    "sha256": "a394a91632c841cd2d2bf8aed0cd93cf0490708a23a3b4634f49b6b77ac5b72b"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.2/results.csv",
+    "bytes": 2558879,
+    "sha256": "5f3f3f7356db6bdd53ce67415ae0a34cb677a1457bb00db91f26d7b39e2174cb"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/main_a0.2/summary.csv",
+    "bytes": 5445,
+    "sha256": "5813e7cea086528b23bd4aac9b778da1088fc8cfbba06e5775d7d5dd56ce444c"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/multihorizon_a0.1/native_coverage.csv",
+    "bytes": 10214,
+    "sha256": "9a22fa3b26251de186e4e25373613414eb38351495bcbcee4d4f9008ee6f135a"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/multihorizon_a0.1/paired_comparisons.csv",
+    "bytes": 69847,
+    "sha256": "dd4267a199738f7484de778f78dfc01e872dd91e1034a93cd0bc09578be86c2c"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/multihorizon_a0.1/per_series.csv",
+    "bytes": 153531,
+    "sha256": "d060d0cb8b4dcbe7a22009ab1d4afc7ebf8d774dd56b3c0dac12f9f2c3b4ff1d"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/multihorizon_a0.1/results.csv",
+    "bytes": 984973,
+    "sha256": "441633f36416c8fda78ddb077f6e22de5f084d81249d37afac03386f8d18bf26"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/multihorizon_a0.1/summary.csv",
+    "bytes": 16378,
+    "sha256": "dbe8b5eb298d89468236dc75330551c205bb73b52fa3b95fe3121b2ef911e5f8"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/report/aggregate.csv",
+    "bytes": 88616,
+    "sha256": "aaa232906b0a9e7056f18fa63de37d3b4d85343ca382fea2d8c86537dca2ed3f"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/report/backbone_results.csv",
+    "bytes": 32142,
+    "sha256": "12c1d879d316ad22ade216387bc4da8768c4b7aee0bc13c1910a320ebbf05865"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/report/claims.json",
+    "bytes": 3624,
+    "sha256": "ee72a35799b3cefb5e81a5dca5cca32b03daa142d4ea84eff986de1f735f59c8"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/report/family_results.csv",
+    "bytes": 32429,
+    "sha256": "42eddc61db7a1afc076eebdc614a053af512a5414f48968c73a261e444f1fe75"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/report/gefcom_family_results.csv",
+    "bytes": 14501,
+    "sha256": "224391ac2485c6666b0c4a6688e1fa0fa8c196a2dd87f101df2011c9f8f08fbe"
+  },
+  {
+    "path": "historical_evidence/results/neurocomputing/report/native.csv",
+    "bytes": 391,
+    "sha256": "ec426516af8ff222ddded09182233a6189649dc796d5913b8541783805d0fa84"
+  },
+  {
+    "path": "historical_evidence/scripts/build_mechanism_evidence.py",
+    "bytes": 5246,
+    "sha256": "2df6200a631721304e3d10e2cb0483d2efee3491f295a6460056ca153500394e"
+  },
+  {
+    "path": "historical_evidence/scripts/summarize_revision.py",
+    "bytes": 9729,
+    "sha256": "01df08450509612d8afeb12f442b95d4bec977671da636add8da0caba9915c78"
+  },
+  {
+    "path": "licenses/conformalForecast-GPL-3.0.txt",
+    "bytes": 34904,
+    "sha256": "585e25ef8f5946a52bf2aed68d5becfc38be94a8663aa01c1b31d88aa57f1de3"
+  },
+  {
+    "path": "LICENSING.md",
+    "bytes": 1486,
+    "sha256": "6104facce7f4a54ba2e2f96543b88af0cf9299722e9bf203243993d97d06c2da"
+  },
+  {
+    "path": "paper/neurocomputing_focused/appendices.tex",
+    "bytes": 28708,
+    "sha256": "d38d5908d6de546410e95f7994f3c0f6bb2faca2357161e6c13fd627c1d4df95"
+  },
+  {
+    "path": "paper/neurocomputing_focused/body.tex",
+    "bytes": 30964,
+    "sha256": "4402f418e7fc40d6e1826c8ee9f1ec358d5ca5a5a6c7e19dd544d00729a011f0"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle-harv.bst",
+    "bytes": 30002,
+    "sha256": "d85a928515628a9526d1d02f076f723a4da25387286a4f656d8943600880a436"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle-num-names.bst",
+    "bytes": 28896,
+    "sha256": "c6c0d83707463ac6ebed7f43a754e38b7a38b17a8e58897e8057f8af0dc35024"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle-num.bst",
+    "bytes": 29462,
+    "sha256": "f04dfa2f78d0198ab8e4055b609dc0b91bdb730743cbbd549d84270f20d11394"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle.cls",
+    "bytes": 45215,
+    "sha256": "40af0200a8ad6777126f93bf7be6ab3046fa7c3ef1073307f0809703602e59da"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle.dtx",
+    "bytes": 48559,
+    "sha256": "5679fe34806e0a08d3747f96e472126f520b6ccd3e92118c14bdd26e9e101e2e"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle.ins",
+    "bytes": 2626,
+    "sha256": "fb7a1005446d3217a77dc4496a10837d01f5ea3a177859054bf0daac0d4072c1"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle_manifest.txt",
+    "bytes": 1891,
+    "sha256": "e842502ff3e4ed77372b785d124def8bea494a12b96cf925dab8c532cc6f42d7"
+  },
+  {
+    "path": "paper/neurocomputing_focused/elsarticle_README.txt",
+    "bytes": 2041,
+    "sha256": "c6eb2fcd2741bf2836ca40c8e8d7f5ff2cc49e52d92b0d96051385299e021233"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/confirmation.png",
+    "bytes": 47117,
+    "sha256": "825437f68799c3c3d5f976d92084f22493ce1d3cbd22fd39ee030d43181ab0ab"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/controlled_dynamics.png",
+    "bytes": 150378,
+    "sha256": "c4d147cebf931edcc7db975425cbccd2cb32d92d1844d747bb01cd090815f2ee"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/core_findings.png",
+    "bytes": 127100,
+    "sha256": "7372cfcf137021b6f91a188cd6ff27150db33ff5b9b4044e58897952132ef60c"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/delay_control.png",
+    "bytes": 157139,
+    "sha256": "dd811f6979509055280acb733278997fab44592e73fce53d775d8d42d3ce5f4b"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/families.png",
+    "bytes": 70040,
+    "sha256": "bfae7a4ad3e4ea2a2cddd8f20af7b899f64032337caee20bfa1bc69a0c4b3d5c"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/horizon.png",
+    "bytes": 153816,
+    "sha256": "b3c8db7e1e5c0a22efd35b797af5e64dfdca4d5cd9ead474bdbcfcd43cae8a76"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/new_confirmation.png",
+    "bytes": 106267,
+    "sha256": "6960a158c54d288524bb95aa6a20223b09776996aad2c87519d5ef9533e9ba64"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/positive_rates.png",
+    "bytes": 75581,
+    "sha256": "29ea09e21ca5d9198350c7e011c942bd3cf376fd807c40bf5ed951c9eaeb19df"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/pv_controls.png",
+    "bytes": 115467,
+    "sha256": "b1c414af5829e8864fdb004d1d4f2a7c57b18f7292afea63573adb52ffd7d5ac"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/rate_delay_surface.png",
+    "bytes": 133497,
+    "sha256": "476ea9b2af1a99b451919c63e4405c3d8dcba056deeaa6fc7e6aa402282bb8ff"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/score_rule.png",
+    "bytes": 58865,
+    "sha256": "6ff785f88ddba65e97f1fee2c83aaabf5fd6f18d41c665b9a1a76bb0e2c512b3"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/solar_conditional_coverage.png",
+    "bytes": 141524,
+    "sha256": "4fd4155ca5fc6988c45cc4cecc47a4d46143887f2cca9370b02bfab710678c1f"
+  },
+  {
+    "path": "paper/neurocomputing_focused/figures/temporal_pairs.png",
+    "bytes": 174785,
+    "sha256": "8b10e4f6b54f83c5016f7b86403799bc8a97e359ab69e948b422608dceefd8b4"
+  },
+  {
+    "path": "paper/neurocomputing_focused/highlights.txt",
+    "bytes": 367,
+    "sha256": "e3347a8a9e13a1c614ab798e51473e992c7c2aca8e2e41429209de52992c4998"
+  },
+  {
+    "path": "paper/neurocomputing_focused/legacy_diagnostics.tex",
+    "bytes": 8240,
+    "sha256": "1eeab416f12fb80af63d3da5f04c45e81414d88c341b0f15a214d3c06327cbb4"
+  },
+  {
+    "path": "paper/neurocomputing_focused/manuscript.pdf",
+    "bytes": 1429225,
+    "sha256": "19cb4335b1b96f21dd8780d58e64102f108078b4456f60ff38316e010cbf11b2"
+  },
+  {
+    "path": "paper/neurocomputing_focused/manuscript.tex",
+    "bytes": 2736,
+    "sha256": "6154f46b775926ad0753222ee43bac076750d1fecf26187386a028e66ef7e190"
+  },
+  {
+    "path": "paper/neurocomputing_focused/new_design.tex",
+    "bytes": 4960,
+    "sha256": "5c137cba30bb9306b579ac90af765bfeec79981b442f26d38288a91f3c74ed58"
+  },
+  {
+    "path": "paper/neurocomputing_focused/new_pv_results.tex",
+    "bytes": 1687,
+    "sha256": "66b50ab497666debeabcf1c2b55e1539549b7b1eb3b519ecfc0c73930eaed909"
+  },
+  {
+    "path": "paper/neurocomputing_focused/new_results.tex",
+    "bytes": 3854,
+    "sha256": "576c1235f7f336bbac13a0cb11ab2b510ee2f8732f4b32e32d8784afad00a6f4"
+  },
+  {
+    "path": "paper/neurocomputing_focused/numbers.tex",
+    "bytes": 659,
+    "sha256": "7d57a41cc9552faeb350f3f9292c44dac3d17b80ace19ce672d832b3efe342d2"
+  },
+  {
+    "path": "paper/neurocomputing_focused/README.md",
+    "bytes": 1394,
+    "sha256": "529d3c6d6bfce9325447571da97ac81adab4dda8b9cec567d57c25248e431822"
+  },
+  {
+    "path": "paper/neurocomputing_focused/references.bib",
+    "bytes": 12678,
+    "sha256": "33cfa30015f1e3bef6d9c9158b903f611a462f844f868c87017a8c5e6d926d06"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_acmcp_full.tex",
+    "bytes": 652,
+    "sha256": "e7b24cba5384fc46bb8774cc1480d5caa84c8d11be6caa70408aaa3cccec3f7a"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_clip_accounting.tex",
+    "bytes": 815,
+    "sha256": "59d09b2e32df0e88cc97e75159753dbea5bac4b8c76d41f884670ebe002afa12"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_confirmation.tex",
+    "bytes": 577,
+    "sha256": "a980efc2bac0a2733bc257e9bc0a3741836f8b12a98974d25c7b819bd4bd2bcf"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_confirmation_controls.tex",
+    "bytes": 1689,
+    "sha256": "4e04c09e4f55962c37de2e473b9d527dac03dedb2bb75f91adf7b841cd8120fc"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_family.tex",
+    "bytes": 425,
+    "sha256": "baf4f57df8c0b0d3c1e24ff19ba3c1254953b9d0235904d0acea68f2d5314fa9"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_final_choices.tex",
+    "bytes": 741,
+    "sha256": "3396d79b2931abda4b537e88f5482b7daaaf063da85ef85a248ff98b4db8d3cc"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_history_control.tex",
+    "bytes": 2423,
+    "sha256": "7020e073583b3892b36219eee61b942983cb4b8a7cf0ae7c37b4a78c3015cbb8"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_history_main.tex",
+    "bytes": 821,
+    "sha256": "78413506892e4a29d8e3b7d94c3207b9f373f34d47490f399e6ae18698c5dc03"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_horizon.tex",
+    "bytes": 1029,
+    "sha256": "115aabc66d011135db0a46dd284170227c4ec1db4ec57572333ed7eb1325a414"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_horizon_tradeoff.tex",
+    "bytes": 460,
+    "sha256": "c7c25d8581ec68f8d130f5a70c23ee7c890b2fd17dc9c70eec17c961c2bfaac8"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_local_pairs.tex",
+    "bytes": 411,
+    "sha256": "8613ba41e926b80225568dae7f8383ad695908233768e632ce59094381315621"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_main.tex",
+    "bytes": 748,
+    "sha256": "d9c87dfa05768b613d5f6ac259aded211add90c9c2cea5955549eb2b2ce162e2"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_new_confirmation.tex",
+    "bytes": 336,
+    "sha256": "d2c95be6103e12645f2a0e1f683bdaf4058c420cd21c0c972075f3d5c1173eb9"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_new_rolling.tex",
+    "bytes": 376,
+    "sha256": "ca5b4c7a57ad160c230a7d47498f869eb55ba5e88bd9380887cfcfdbabc4d127"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_positive_rates.tex",
+    "bytes": 339,
+    "sha256": "4951817942bc0a5e498ce62bb629eabc2ca42d1f8e74bc46f763672b8eb8bbb4"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_pv_controls.tex",
+    "bytes": 664,
+    "sha256": "9ca0e23a98ade531ebdf846d8d0d9852ef11dff3e9be1053cac24e59cb5326bc"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_rate_sensitivity.tex",
+    "bytes": 561,
+    "sha256": "d250fcf8c1025ebff692a60aa291fd263ba8cc781c1917edf35f5bf0c7af53b9"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_rolling_direct.tex",
+    "bytes": 395,
+    "sha256": "3b4044e89e0ef8cfb4fdaa490bdbf6ff5c96caf92ee579c4c4c04282331b9cc9"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_sensitivity.tex",
+    "bytes": 306,
+    "sha256": "c3989919ed200568d81952dba40de20e6c25c29751846ee26f769b5f0b3d4ed3"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_series.tex",
+    "bytes": 1191,
+    "sha256": "36e4ce68bf7b79ccd871dddf766d3d24ed2f2531ed178697badc960c276642a7"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_solar_components.tex",
+    "bytes": 846,
+    "sha256": "1b0668923b0ca3b30fad6a66a54f51b18d61e2eedae4ae8abf89358a373400b9"
+  },
+  {
+    "path": "paper/neurocomputing_focused/table_solar_decomposition.tex",
+    "bytes": 501,
+    "sha256": "2ab64a7c60c753020d04f6172a6b833e2a8ed03ea6ab1ccaf9db3f5f97aea1d3"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle-harv.bst",
+    "bytes": 30002,
+    "sha256": "d85a928515628a9526d1d02f076f723a4da25387286a4f656d8943600880a436"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle-num-names.bst",
+    "bytes": 28896,
+    "sha256": "c6c0d83707463ac6ebed7f43a754e38b7a38b17a8e58897e8057f8af0dc35024"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle-num.bst",
+    "bytes": 29462,
+    "sha256": "f04dfa2f78d0198ab8e4055b609dc0b91bdb730743cbbd549d84270f20d11394"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle.cls",
+    "bytes": 45215,
+    "sha256": "40af0200a8ad6777126f93bf7be6ab3046fa7c3ef1073307f0809703602e59da"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle.dtx",
+    "bytes": 48559,
+    "sha256": "5679fe34806e0a08d3747f96e472126f520b6ccd3e92118c14bdd26e9e101e2e"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle.ins",
+    "bytes": 2626,
+    "sha256": "fb7a1005446d3217a77dc4496a10837d01f5ea3a177859054bf0daac0d4072c1"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle_manifest.txt",
+    "bytes": 1891,
+    "sha256": "e842502ff3e4ed77372b785d124def8bea494a12b96cf925dab8c532cc6f42d7"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/elsarticle_README.txt",
+    "bytes": 2041,
+    "sha256": "c6eb2fcd2741bf2836ca40c8e8d7f5ff2cc49e52d92b0d96051385299e021233"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/confirmation.png",
+    "bytes": 47117,
+    "sha256": "825437f68799c3c3d5f976d92084f22493ce1d3cbd22fd39ee030d43181ab0ab"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/controlled_dynamics.png",
+    "bytes": 150378,
+    "sha256": "c4d147cebf931edcc7db975425cbccd2cb32d92d1844d747bb01cd090815f2ee"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/core_findings.png",
+    "bytes": 127100,
+    "sha256": "7372cfcf137021b6f91a188cd6ff27150db33ff5b9b4044e58897952132ef60c"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/delay_control.png",
+    "bytes": 157139,
+    "sha256": "dd811f6979509055280acb733278997fab44592e73fce53d775d8d42d3ce5f4b"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/families.png",
+    "bytes": 70040,
+    "sha256": "bfae7a4ad3e4ea2a2cddd8f20af7b899f64032337caee20bfa1bc69a0c4b3d5c"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/horizon.png",
+    "bytes": 153816,
+    "sha256": "b3c8db7e1e5c0a22efd35b797af5e64dfdca4d5cd9ead474bdbcfcd43cae8a76"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/new_confirmation.png",
+    "bytes": 106267,
+    "sha256": "6960a158c54d288524bb95aa6a20223b09776996aad2c87519d5ef9533e9ba64"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/pv_controls.png",
+    "bytes": 115467,
+    "sha256": "b1c414af5829e8864fdb004d1d4f2a7c57b18f7292afea63573adb52ffd7d5ac"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/rate_delay_surface.png",
+    "bytes": 133497,
+    "sha256": "476ea9b2af1a99b451919c63e4405c3d8dcba056deeaa6fc7e6aa402282bb8ff"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/score_rule.png",
+    "bytes": 58865,
+    "sha256": "6ff785f88ddba65e97f1fee2c83aaabf5fd6f18d41c665b9a1a76bb0e2c512b3"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/figures/solar_conditional_coverage.png",
+    "bytes": 141524,
+    "sha256": "4fd4155ca5fc6988c45cc4cecc47a4d46143887f2cca9370b02bfab710678c1f"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/highlights.txt",
+    "bytes": 354,
+    "sha256": "66cc034e0cba75d4bfc1114404122ddd3faebe122b728360b63857e365a4fb2c"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/legacy_diagnostics.tex",
+    "bytes": 8240,
+    "sha256": "1eeab416f12fb80af63d3da5f04c45e81414d88c341b0f15a214d3c06327cbb4"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/manuscript.tex",
+    "bytes": 69492,
+    "sha256": "e53e1b8150471c907ac536c13139d09f5603822de0126c28953712ec5f58f649"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/new_design.tex",
+    "bytes": 4825,
+    "sha256": "42a62a71b1ffd262cfba7a2031a5e3718053f0180d90c35cfe75f156f16145db"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/new_pv_results.tex",
+    "bytes": 1687,
+    "sha256": "66b50ab497666debeabcf1c2b55e1539549b7b1eb3b519ecfc0c73930eaed909"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/new_results.tex",
+    "bytes": 3854,
+    "sha256": "576c1235f7f336bbac13a0cb11ab2b510ee2f8732f4b32e32d8784afad00a6f4"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/numbers.tex",
+    "bytes": 659,
+    "sha256": "7d57a41cc9552faeb350f3f9292c44dac3d17b80ace19ce672d832b3efe342d2"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/README.md",
+    "bytes": 990,
+    "sha256": "8adc81cc3c4c7bdd8a521ecb076dcebd487911055c35fd4256afe3a3e8e336cb"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/references.bib",
+    "bytes": 12678,
+    "sha256": "33cfa30015f1e3bef6d9c9158b903f611a462f844f868c87017a8c5e6d926d06"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_acmcp_full.tex",
+    "bytes": 652,
+    "sha256": "e7b24cba5384fc46bb8774cc1480d5caa84c8d11be6caa70408aaa3cccec3f7a"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_clip_accounting.tex",
+    "bytes": 815,
+    "sha256": "59d09b2e32df0e88cc97e75159753dbea5bac4b8c76d41f884670ebe002afa12"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_confirmation.tex",
+    "bytes": 577,
+    "sha256": "a980efc2bac0a2733bc257e9bc0a3741836f8b12a98974d25c7b819bd4bd2bcf"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_confirmation_controls.tex",
+    "bytes": 1689,
+    "sha256": "4e04c09e4f55962c37de2e473b9d527dac03dedb2bb75f91adf7b841cd8120fc"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_family.tex",
+    "bytes": 425,
+    "sha256": "baf4f57df8c0b0d3c1e24ff19ba3c1254953b9d0235904d0acea68f2d5314fa9"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_horizon.tex",
+    "bytes": 1029,
+    "sha256": "115aabc66d011135db0a46dd284170227c4ec1db4ec57572333ed7eb1325a414"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_main.tex",
+    "bytes": 748,
+    "sha256": "d9c87dfa05768b613d5f6ac259aded211add90c9c2cea5955549eb2b2ce162e2"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_new_confirmation.tex",
+    "bytes": 336,
+    "sha256": "d2c95be6103e12645f2a0e1f683bdaf4058c420cd21c0c972075f3d5c1173eb9"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_new_rolling.tex",
+    "bytes": 376,
+    "sha256": "ca5b4c7a57ad160c230a7d47498f869eb55ba5e88bd9380887cfcfdbabc4d127"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_pv_controls.tex",
+    "bytes": 664,
+    "sha256": "9ca0e23a98ade531ebdf846d8d0d9852ef11dff3e9be1053cac24e59cb5326bc"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_rate_sensitivity.tex",
+    "bytes": 561,
+    "sha256": "d250fcf8c1025ebff692a60aa291fd263ba8cc781c1917edf35f5bf0c7af53b9"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_rolling_direct.tex",
+    "bytes": 395,
+    "sha256": "3b4044e89e0ef8cfb4fdaa490bdbf6ff5c96caf92ee579c4c4c04282331b9cc9"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_sensitivity.tex",
+    "bytes": 306,
+    "sha256": "c3989919ed200568d81952dba40de20e6c25c29751846ee26f769b5f0b3d4ed3"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_series.tex",
+    "bytes": 1191,
+    "sha256": "36e4ce68bf7b79ccd871dddf766d3d24ed2f2531ed178697badc960c276642a7"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_solar_components.tex",
+    "bytes": 846,
+    "sha256": "1b0668923b0ca3b30fad6a66a54f51b18d61e2eedae4ae8abf89358a373400b9"
+  },
+  {
+    "path": "paper/neurocomputing_strengthened/table_solar_decomposition.tex",
+    "bytes": 501,
+    "sha256": "2ab64a7c60c753020d04f6172a6b833e2a8ed03ea6ab1ccaf9db3f5f97aea1d3"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle-harv.bst",
+    "bytes": 30002,
+    "sha256": "d85a928515628a9526d1d02f076f723a4da25387286a4f656d8943600880a436"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle-num-names.bst",
+    "bytes": 28896,
+    "sha256": "c6c0d83707463ac6ebed7f43a754e38b7a38b17a8e58897e8057f8af0dc35024"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle-num.bst",
+    "bytes": 29462,
+    "sha256": "f04dfa2f78d0198ab8e4055b609dc0b91bdb730743cbbd549d84270f20d11394"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle.cls",
+    "bytes": 45215,
+    "sha256": "40af0200a8ad6777126f93bf7be6ab3046fa7c3ef1073307f0809703602e59da"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle.dtx",
+    "bytes": 48559,
+    "sha256": "5679fe34806e0a08d3747f96e472126f520b6ccd3e92118c14bdd26e9e101e2e"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle.ins",
+    "bytes": 2626,
+    "sha256": "fb7a1005446d3217a77dc4496a10837d01f5ea3a177859054bf0daac0d4072c1"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle_manifest.txt",
+    "bytes": 1891,
+    "sha256": "e842502ff3e4ed77372b785d124def8bea494a12b96cf925dab8c532cc6f42d7"
+  },
+  {
+    "path": "paper/neurocomputing_submission/elsarticle_README.txt",
+    "bytes": 2041,
+    "sha256": "c6eb2fcd2741bf2836ca40c8e8d7f5ff2cc49e52d92b0d96051385299e021233"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/confirmation.png",
+    "bytes": 47117,
+    "sha256": "825437f68799c3c3d5f976d92084f22493ce1d3cbd22fd39ee030d43181ab0ab"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/controlled_dynamics.png",
+    "bytes": 150378,
+    "sha256": "c4d147cebf931edcc7db975425cbccd2cb32d92d1844d747bb01cd090815f2ee"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/core_findings.png",
+    "bytes": 127100,
+    "sha256": "7372cfcf137021b6f91a188cd6ff27150db33ff5b9b4044e58897952132ef60c"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/delay_control.png",
+    "bytes": 157139,
+    "sha256": "dd811f6979509055280acb733278997fab44592e73fce53d775d8d42d3ce5f4b"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/families.png",
+    "bytes": 70040,
+    "sha256": "bfae7a4ad3e4ea2a2cddd8f20af7b899f64032337caee20bfa1bc69a0c4b3d5c"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/horizon.png",
+    "bytes": 153816,
+    "sha256": "b3c8db7e1e5c0a22efd35b797af5e64dfdca4d5cd9ead474bdbcfcd43cae8a76"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/rate_delay_surface.png",
+    "bytes": 133497,
+    "sha256": "476ea9b2af1a99b451919c63e4405c3d8dcba056deeaa6fc7e6aa402282bb8ff"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/score_rule.png",
+    "bytes": 58865,
+    "sha256": "6ff785f88ddba65e97f1fee2c83aaabf5fd6f18d41c665b9a1a76bb0e2c512b3"
+  },
+  {
+    "path": "paper/neurocomputing_submission/figures/solar_conditional_coverage.png",
+    "bytes": 141524,
+    "sha256": "4fd4155ca5fc6988c45cc4cecc47a4d46143887f2cca9370b02bfab710678c1f"
+  },
+  {
+    "path": "paper/neurocomputing_submission/highlights.txt",
+    "bytes": 368,
+    "sha256": "d10b38d9b0a13ed028bdb4a126fa05e62d30b4f3c9fca40d043552b9b65ed8b4"
+  },
+  {
+    "path": "paper/neurocomputing_submission/manuscript.tex",
+    "bytes": 72841,
+    "sha256": "4670eddbbc77d38578bfa86121691191348ae0809488214bd228dc0ba624fb63"
+  },
+  {
+    "path": "paper/neurocomputing_submission/numbers.tex",
+    "bytes": 659,
+    "sha256": "7d57a41cc9552faeb350f3f9292c44dac3d17b80ace19ce672d832b3efe342d2"
+  },
+  {
+    "path": "paper/neurocomputing_submission/README.md",
+    "bytes": 1162,
+    "sha256": "87b08e36506cf57370d172a0b690455ec4a28a9df1ad2979d99be2bb834c5a8e"
+  },
+  {
+    "path": "paper/neurocomputing_submission/references.bib",
+    "bytes": 12107,
+    "sha256": "cc245b669c9f96baf99904498d1c03ed535385fa40009e1208a726241a9dfff7"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_clip_accounting.tex",
+    "bytes": 815,
+    "sha256": "59d09b2e32df0e88cc97e75159753dbea5bac4b8c76d41f884670ebe002afa12"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_confirmation.tex",
+    "bytes": 577,
+    "sha256": "a980efc2bac0a2733bc257e9bc0a3741836f8b12a98974d25c7b819bd4bd2bcf"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_confirmation_controls.tex",
+    "bytes": 1689,
+    "sha256": "4e04c09e4f55962c37de2e473b9d527dac03dedb2bb75f91adf7b841cd8120fc"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_family.tex",
+    "bytes": 425,
+    "sha256": "baf4f57df8c0b0d3c1e24ff19ba3c1254953b9d0235904d0acea68f2d5314fa9"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_horizon.tex",
+    "bytes": 1029,
+    "sha256": "115aabc66d011135db0a46dd284170227c4ec1db4ec57572333ed7eb1325a414"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_main.tex",
+    "bytes": 748,
+    "sha256": "d9c87dfa05768b613d5f6ac259aded211add90c9c2cea5955549eb2b2ce162e2"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_rate_sensitivity.tex",
+    "bytes": 561,
+    "sha256": "d250fcf8c1025ebff692a60aa291fd263ba8cc781c1917edf35f5bf0c7af53b9"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_rolling_direct.tex",
+    "bytes": 395,
+    "sha256": "3b4044e89e0ef8cfb4fdaa490bdbf6ff5c96caf92ee579c4c4c04282331b9cc9"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_sensitivity.tex",
+    "bytes": 306,
+    "sha256": "c3989919ed200568d81952dba40de20e6c25c29751846ee26f769b5f0b3d4ed3"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_series.tex",
+    "bytes": 1191,
+    "sha256": "36e4ce68bf7b79ccd871dddf766d3d24ed2f2531ed178697badc960c276642a7"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_solar_components.tex",
+    "bytes": 846,
+    "sha256": "1b0668923b0ca3b30fad6a66a54f51b18d61e2eedae4ae8abf89358a373400b9"
+  },
+  {
+    "path": "paper/neurocomputing_submission/table_solar_decomposition.tex",
+    "bytes": 501,
+    "sha256": "2ab64a7c60c753020d04f6172a6b833e2a8ed03ea6ab1ccaf9db3f5f97aea1d3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5888,
+    "sha256": "3619e2bae0c176976c74d518ab065c1d685c83372d9cab3023220930dc1b4e6c"
+  },
+  {
+    "path": "reference_results/focused_v10/final_pair_choices.csv",
+    "bytes": 4161,
+    "sha256": "cff4db239bbc561a98147b9893ef17f908fd2c4d7e725f580994c649d2093fd1"
+  },
+  {
+    "path": "reference_results/focused_v10/history_grid.csv",
+    "bytes": 259464,
+    "sha256": "c8092a87f0169c6f808a0b676d34a92ed16583f204432f8912de7e9c27503305"
+  },
+  {
+    "path": "reference_results/focused_v10/history_pairs.csv",
+    "bytes": 77099,
+    "sha256": "1c89e6615f3e1d4357d7d5246751f334ecabd87f4daff66e8d3ba19bd6e3b69c"
+  },
+  {
+    "path": "reference_results/focused_v10/history_selected.csv",
+    "bytes": 39265,
+    "sha256": "1b55f457f893c3efaedc9f243b1664b2a554342837c3bb08b677a780bc5b23b3"
+  },
+  {
+    "path": "reference_results/focused_v10/history_summary.csv",
+    "bytes": 4641,
+    "sha256": "73645898cee67562f5f76b91b14594f242eacbce260ac5ff7d9291a081f96ff4"
+  },
+  {
+    "path": "reference_results/focused_v10/positive_pairs.csv",
+    "bytes": 114567,
+    "sha256": "7891c51c64a7018f16cd21d423df67ace3aabcd7e8545f83cccafa7e91083795"
+  },
+  {
+    "path": "reference_results/focused_v10/positive_selected.csv",
+    "bytes": 123906,
+    "sha256": "2ad54f20f9ad845f0992f0be4e50bc94248866e86555d7472a4dc9935de60ad3"
+  },
+  {
+    "path": "reference_results/focused_v10/positive_summary.csv",
+    "bytes": 3748,
+    "sha256": "7c1f97d9e56a9460e74b875cc8c96c4defe5af505f57be116ebe26911f3be139"
+  },
+  {
+    "path": "reference_results/focused_v10/temporal_pairs.csv",
+    "bytes": 71280,
+    "sha256": "b206a234a4be9646b0dc99506be53c6361cbf0ad528f08770ff0ea885e486439"
+  },
+  {
+    "path": "reference_results/focused_v10/temporal_results.csv",
+    "bytes": 58070,
+    "sha256": "5a2d2e03da3c1eee0bc2c354b3026ed22188527af6a2d3201fd02c84c20f73aa"
+  },
+  {
+    "path": "reference_results/focused_v10/temporal_summary.csv",
+    "bytes": 6552,
+    "sha256": "4f6ed7bdb5e62aba9849033d9fa8261a8322a6b44877553688f7bd6a36036183"
+  },
+  {
+    "path": "reference_results/review_v8/dynamics/results.csv",
+    "bytes": 253985,
+    "sha256": "0c020da206bd6a33e27cfd2fa581fedec5850c17e893dd60e0541cb715f2df93"
+  },
+  {
+    "path": "reference_results/review_v8/dynamics/summary.csv",
+    "bytes": 26435,
+    "sha256": "78527c347fc2ac05239089f1d18c316bb8de14634dbd69a666b38106223e99a0"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/development/contrasts.csv",
+    "bytes": 167431,
+    "sha256": "616dbe05cf6590b201e06daaa19feb946578cfa791bcc786bc40afd6f14333d8"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/development/results.csv",
+    "bytes": 471904,
+    "sha256": "19234d2aeb84dccfc97ba6ed902d9059e16a38cd5a5e055519f083ffc0b9b873"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/development/selected.csv",
+    "bytes": 34837,
+    "sha256": "d51013eb63795430d82311e2bc41707002f837bb2865b524343ff1673c374227"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/development/summary.csv",
+    "bytes": 2715,
+    "sha256": "97a8282e2bad5144755c22eb5c1d52978fbb1ef3f6859c6364159934991b1dd3"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/revisit/contrasts.csv",
+    "bytes": 172093,
+    "sha256": "93d13a350a7544c125b3d5c9f6aa5eb9f9bc33ae52ef375f5e58f73c2c10768a"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/revisit/results.csv",
+    "bytes": 488362,
+    "sha256": "ba888f154bd771b3e1cbec43d90cd08060978ff23e94b0ef3ad9fbc8cce3747a"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/revisit/selected.csv",
+    "bytes": 35981,
+    "sha256": "436a31214f0e2f675afa2c18209d6e01c4f1786882683ccded50b210b06b525f"
+  },
+  {
+    "path": "reference_results/review_v8/multistep_pid/revisit/summary.csv",
+    "bytes": 2725,
+    "sha256": "2ce39517162a9630ff16e176a47cd40c64836a9cf8b0e87054d9746ad10b1fba"
+  },
+  {
+    "path": "reference_results/review_v8/native_state_contrasts.csv",
+    "bytes": 483677,
+    "sha256": "4ada28affe21e7f3d34a32ee5b72e678a28d159cb170a69ffd1e67c72e29539e"
+  },
+  {
+    "path": "reference_results/review_v8/native_state_summary.csv",
+    "bytes": 3079,
+    "sha256": "1c301df9126106404ee86268d0a76fe70a62fa87671103ed2da0e1dbc7338c17"
+  },
+  {
+    "path": "reference_results/review_v8/selected_rate_counts.csv",
+    "bytes": 13720,
+    "sha256": "dba8dac995d361643f0a3444bb03ecaf057de14940c56da22adb10683d948bc5"
+  },
+  {
+    "path": "reference_results/review_v8/solar_components/components.csv",
+    "bytes": 1650,
+    "sha256": "5eba8e2608fa28d6eb176d51e31e7483b500850612e3364389f7fb692fed582e"
+  },
+  {
+    "path": "reference_results/review_v8/solar_components/contrasts.csv",
+    "bytes": 81074,
+    "sha256": "f2e085981571f46d7f1b0641d748b9da0b2bb5860d5f394303698dfd05e3c957"
+  },
+  {
+    "path": "reference_results/review_v8/solar_components/results.csv",
+    "bytes": 68605,
+    "sha256": "b6ed734f468b0df1edbc5311906924c7aa9624cc7c79ac6a6ee1dfab9286efd9"
+  },
+  {
+    "path": "reference_results/review_v8/solar_components/summary.csv",
+    "bytes": 1137,
+    "sha256": "6ddfba51095d8bc6a17de670456a27a9b8c88d184b8b9af4a3c28952900a3c86"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/development/contrasts.csv",
+    "bytes": 247356,
+    "sha256": "ca99e0f6a071605ccb02c30f5eb893775e878e8ba7d900d1e428d60ce6472227"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/development/results.csv",
+    "bytes": 1240635,
+    "sha256": "d0ad9e22906a8c753997ff0eb2d361ccc0ba65c5a610974809664cfcf085a69f"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/development/selected.csv",
+    "bytes": 259068,
+    "sha256": "85dee5a5192ee51efd80193bc281de2f63c3c703663c8e414c2556b122174c8b"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/development/summary.csv",
+    "bytes": 4005,
+    "sha256": "e0aff5f18eec45196a89389c985e9b7caa8581110c4bc22a723e7f74f1ee5d1d"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/revisit/contrasts.csv",
+    "bytes": 250351,
+    "sha256": "73022e9f88238e9fc79faab4fa1e93d50f3bbefe40f84c6ddd8d802141ff6422"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/revisit/family_summary.csv",
+    "bytes": 3537,
+    "sha256": "049cf6e0f9e66c78e21933d0a63ef5d6095bbc9b95e5c823e48caab9c91004b6"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/revisit/results.csv",
+    "bytes": 1247104,
+    "sha256": "c17787b890fce9a644162ae5b70a4fcbc7c3c83ad5b39fb6414c3e3c7355366f"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/revisit/selected.csv",
+    "bytes": 260728,
+    "sha256": "a4854911ffd06c5d90b75fca904e490423c9b6f9e4d4b829abe20e4c2de625c3"
+  },
+  {
+    "path": "reference_results/review_v8/state_grid/revisit/summary.csv",
+    "bytes": 4053,
+    "sha256": "7dd7da880438ee67dbf999f572e530a4df5e107b5680e716e61d41e221d98c09"
+  },
+  {
+    "path": "reference_results/review_v8/unified_controller_rows.csv",
+    "bytes": 163443,
+    "sha256": "537e1a6af3cac8d819c5766c45a9b99864127e047f7adb7220b93052d9d93b73"
+  },
+  {
+    "path": "reference_results/strengthening_v9/acmcp/direct_comparison.csv",
+    "bytes": 25523,
+    "sha256": "034fe2b6abeb2dde5da99969da90827be95afa063642a94b3b249f2f39c23df8"
+  },
+  {
+    "path": "reference_results/strengthening_v9/acmcp/grid.csv",
+    "bytes": 43621,
+    "sha256": "514589690d0d76e1be838d7f0a010a0293d3d1e17463f9d7c97f960b88404a22"
+  },
+  {
+    "path": "reference_results/strengthening_v9/acmcp/selected.csv",
+    "bytes": 5375,
+    "sha256": "e1230e7d7a2953a0322f246b46b600a17779b0c630951363b3f3a96a71c8b6bd"
+  },
+  {
+    "path": "reference_results/strengthening_v9/confirmation_headlines.csv",
+    "bytes": 351,
+    "sha256": "9e77e6429fec041ec0f89042c7b03c7d42a1358da75483ef910cca2b6dcfa50f"
+  },
+  {
+    "path": "reference_results/strengthening_v9/grid/results.csv",
+    "bytes": 1227494,
+    "sha256": "564754673ac93635d568f0950ab03ebd8d0ef4a6e3ed151a70605c715d7c79cb"
+  },
+  {
+    "path": "reference_results/strengthening_v9/grid/score_state_interaction.csv",
+    "bytes": 415021,
+    "sha256": "6a3577c65d6ff18c52e10514dfcf6214678e9d5fadb49527c93eccb803475599"
+  },
+  {
+    "path": "reference_results/strengthening_v9/grid/selected.csv",
+    "bytes": 477937,
+    "sha256": "d3b231a49c8fecc7cedbe54cfd866430c3e2ee85210c2ae6999c236b9c30cb22"
+  },
+  {
+    "path": "reference_results/strengthening_v9/grid/selection_summary.csv",
+    "bytes": 13677,
+    "sha256": "292b626c61f18dee35fb47724b33fb4ed37bf5c91f54bfbbb92cafae921b9cb7"
+  },
+  {
+    "path": "reference_results/strengthening_v9/grid/state_contrasts.csv",
+    "bytes": 435979,
+    "sha256": "74769437e01ee7f8abae8ba3fad91ca8c115737a0fc420424de16057fc566b2f"
+  },
+  {
+    "path": "reference_results/strengthening_v9/grid/state_summary.csv",
+    "bytes": 20105,
+    "sha256": "1ea8e5a142f2a484d705690603ba7176ba0f662255d86357d23c6cbc8086bab9"
+  },
+  {
+    "path": "reference_results/strengthening_v9/grid/validation_stability.csv",
+    "bytes": 2289,
+    "sha256": "6e8cbf1c8e8a0274e3b6c705418f79927dc7b4f70523b48adf5f037402c347db"
+  },
+  {
+    "path": "reference_results/strengthening_v9/main_replay/headline_pairs.csv",
+    "bytes": 68146,
+    "sha256": "91bf34aaf0ff9e733f05538e2d574b901840a213c91d00eb7b2bfd64a19cdb14"
+  },
+  {
+    "path": "reference_results/strengthening_v9/main_replay/results.csv",
+    "bytes": 665250,
+    "sha256": "ebf9a54962b5e4644cdd4c2a40b37ab352a29ebd63a1ff54f8f6ef53b6ee2c04"
+  },
+  {
+    "path": "reference_results/strengthening_v9/pv/components.csv",
+    "bytes": 14461,
+    "sha256": "2c6b762e99faf3b977a9c10260b9b42e47ba1adcc1e4b52e5acbe49cbd33fe86"
+  },
+  {
+    "path": "reference_results/strengthening_v9/pv/contrasts.csv",
+    "bytes": 772667,
+    "sha256": "2f411123335bc36111b72497f2d3bbb4040ce821da560f164225db5f9bdf5cb5"
+  },
+  {
+    "path": "reference_results/strengthening_v9/pv/grid.csv",
+    "bytes": 470179,
+    "sha256": "0a168ad3e00f92578f6a5464775719d543e2ccd9ca8689c0d19ba74298a01379"
+  },
+  {
+    "path": "reference_results/strengthening_v9/pv/results.csv",
+    "bytes": 626412,
+    "sha256": "3a6567adff61fcc10d6463979dc0e6907ab45f4bfe0638505345c97f4ce864ec"
+  },
+  {
+    "path": "reference_results/strengthening_v9/pv/summary.csv",
+    "bytes": 6794,
+    "sha256": "2ce139ad9f1adaf8ddbd8030de6f57f2aa12d2e921e645370a31845e0d232c47"
+  },
+  {
+    "path": "reference_results/strengthening_v9/rolling_direct.csv",
+    "bytes": 9128,
+    "sha256": "f83d8f2d3bde64ad35f698b64419f138f7128411a1f7baaffd85fbcd453553ed"
+  },
+  {
+    "path": "reference_results/strengthening_v9/validation_selection_pairs.csv",
+    "bytes": 275539,
+    "sha256": "278bd18aad6b13c9eaea231ab81195a68b4cea65d5f395beccff21cfaf966b4c"
+  },
+  {
+    "path": "reference_results/submission_synthesis/headline_values.json",
+    "bytes": 714,
+    "sha256": "9d6a8e684d28fccdf77673312e4080506e249baf30d6bdc6f5f0cd82337f5c9c"
+  },
+  {
+    "path": "reference_results/submission_synthesis/provenance.json",
+    "bytes": 672,
+    "sha256": "d76eb13cb195f8356a4c931c758f466d9d3a3abd1a539d288a8ad04cb50671e3"
+  },
+  {
+    "path": "reference_results/submission_synthesis/rolling_family_summary.csv",
+    "bytes": 2455,
+    "sha256": "238c63757abff32bc908523e9745f77f93d72f317f52a5b07024fb39a2ef90bb"
+  },
+  {
+    "path": "reference_results/submission_synthesis/rolling_pairs.csv",
+    "bytes": 64950,
+    "sha256": "f2400df6f30f66b0a70762222eadd804302cfa226b4365ee25e9b24345b4141f"
+  },
+  {
+    "path": "reference_results/submission_synthesis/rolling_summary.csv",
+    "bytes": 1556,
+    "sha256": "6d2d2589c48b56cedd019e95908c2d8f5fca7e43f91a7252f03e69daa4763016"
+  },
+  {
+    "path": "reproduce.py",
+    "bytes": 84,
+    "sha256": "7000670d7d0f6e486d7182008271ba4a1ea72b3d55ce75a7afc9dfafdad5458f"
+  },
+  {
+    "path": "requirements-v8.txt",
+    "bytes": 64,
+    "sha256": "857cb0e2fbc130cc2c293965d7327b81be2e430d0cde3d3d8e43990847067358"
+  },
+  {
+    "path": "results/confirmation_v7/calibration/selected.csv",
+    "bytes": 308747,
+    "sha256": "bd823d2155fa755d1da631e5b4ddf35b58a09b40bdb1eee4141cd0bff9e236b1"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__exchange_rate_c0.npz",
+    "bytes": 345947,
+    "sha256": "7fe2e34df25431261403e1785ea79a649859863197a94215e355fffbdf9da9ce"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__exchange_rate_c2.npz",
+    "bytes": 283731,
+    "sha256": "aa274b1c1ecf3e832b49c1f323745888489223cbbc70645135c1285417ee8e88"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__exchange_rate_c4.npz",
+    "bytes": 123965,
+    "sha256": "e06433ab3f5430934f5399c7b67bfcd9e4d1a0196ee13f20bb63e029781db873"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__exchange_rate_c6.npz",
+    "bytes": 348321,
+    "sha256": "8c29cf74d0fcf43abb0303d37ea4085bd95a7f2ecf0ff23a65fc2a73514ab32a"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__traffic_c0.json",
+    "bytes": 1044,
+    "sha256": "d1ca7951a7f0dd792fe33bae2705a552c45263c0a1294ae3fe665797ca458342"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__traffic_c0.npz",
+    "bytes": 1526267,
+    "sha256": "3877ef0bfe57ca6949110d120008adb5f31f52b3d18b276dedab664e4050d14e"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__traffic_c20.npz",
+    "bytes": 1100435,
+    "sha256": "9d1b999aeae0a81aa9d66dca0b19da1e2dd3f0c7b81cc3696a993a58057eec0b"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__traffic_c40.npz",
+    "bytes": 1443175,
+    "sha256": "fe466d1f31cdffb01b6f5c06d2d45baef429ce6da3559103f4840c5f3d4d138a"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-2enc-only__traffic_c60.npz",
+    "bytes": 1376854,
+    "sha256": "dd9505b4073a8b082bcec491a2acb8a064e686f4a6aa12b7566b1875a9cc35cb"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__exchange_rate_c0.npz",
+    "bytes": 343310,
+    "sha256": "c1f3c737d0c03f9e8567a25a3db48bb4657163b04a083ce02f0708c0137c453b"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__exchange_rate_c2.npz",
+    "bytes": 282888,
+    "sha256": "e66e4d70789b0e8b7f6e03753df7178d67eca7c5e54c4889c4b535b5ac179d8d"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__exchange_rate_c4.npz",
+    "bytes": 122229,
+    "sha256": "ce3524a69d25302cb5281cd8ebedc1282757c3bbc5d8e32b9238c7d657902c62"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__exchange_rate_c6.npz",
+    "bytes": 343639,
+    "sha256": "996c58c99e81588ea71e08ad10de299d24ec677a06fb1dabbc662617f2c8e051"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__traffic_c0.json",
+    "bytes": 1052,
+    "sha256": "f3e406133d6b7c2dc5d4590c8963f23ac03f6589c5764c06a58ac33079c7944d"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__traffic_c0.npz",
+    "bytes": 1713426,
+    "sha256": "dfbdbf332df511e1cd402a8450732ef80ed6f14146b0df51a25c01bb28ee1233"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__traffic_c20.npz",
+    "bytes": 1303582,
+    "sha256": "34dc34ede8b6e4299c6954cc1a97eeafc8ead40534091c4a649e54a3ee469c0e"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__traffic_c40.npz",
+    "bytes": 1541904,
+    "sha256": "9837e4cca5da5c71551028eab23aa4d6500c9971c4b1eae0b0da9423a5da01ec"
+  },
+  {
+    "path": "results/confirmation_v7/forecasts/Chronos-Boltenc-dec__traffic_c60.npz",
+    "bytes": 1482119,
+    "sha256": "489a5453a30bead118c578bb87de7444468ec1bda743de9a425b538f7390cf08"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/author_result.rds",
+    "bytes": 4657094,
+    "sha256": "7990003126bc92bb0bab612873772780917e53aaaa83973fde069b7c8f7441e8"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/complete.json",
+    "bytes": 568,
+    "sha256": "16ae1d00d4d66bad86dae9d8ad4f1c0602c26a989cd21d058bcbda6f7ffdfa78"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/config.csv",
+    "bytes": 76,
+    "sha256": "9b22a175dfd40e87c922c0f286f61b9f335e5a2a9138c855a8dcd6f6b5b5f9de"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/counts.csv",
+    "bytes": 367,
+    "sha256": "f04b6f5c1efbff65e970e0420164475d62e8d71b58d970648baf92ef9ee5760b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/errors.csv",
+    "bytes": 1817346,
+    "sha256": "02f898c7e01a5634f7a9f115d5335d316c23e5f2a87846907640294613f7967f"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/execution.log",
+    "bytes": 316,
+    "sha256": "cd5b349dea3c7a40ceeb35481efd5cd9bca6e71df6ef86d557bb1b2d1513904b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/lower.csv",
+    "bytes": 1057238,
+    "sha256": "261edc3f6af9ee337a0d77a76ffa3d5805477e3748be8a72aed6fb7c5f535a98"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/mean.csv",
+    "bytes": 1790807,
+    "sha256": "ec278a10143b03565e737b7bb4adc4fbc2828dfc46ca8c6a7f4b043d70a7fd9b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/runtime.txt",
+    "bytes": 1020,
+    "sha256": "11912e3cfc47d46fc2973ce1a693bff423599a3b5c0a823e4b049e65c8c62ac2"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/scorecaster.csv",
+    "bytes": 1133531,
+    "sha256": "7d8e86298bcbc5b6f4b858ebce3ea2d2c749a6cffbd25557ccb660fc443a6b5e"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/started.json",
+    "bytes": 526,
+    "sha256": "8bd437a2ec14f4a4844e67d58156e3e1384536fefa56f41f7cf23241f9c83c8d"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_pressure/upper.csv",
+    "bytes": 1057192,
+    "sha256": "31339ce9799d602702924439dd01f7305c5003f3e8d8a8167c0207bece032565"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/author_result.rds",
+    "bytes": 5120466,
+    "sha256": "fc65828ea38ce9d3f9a298e72651ef33aa66794aa906db3fc9a09ee2091ea6eb"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/complete.json",
+    "bytes": 566,
+    "sha256": "ef4001aa1106649b84c81be62e361db517519b28bf2f6d536133094b66810c1f"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/config.csv",
+    "bytes": 75,
+    "sha256": "7f980452ceb4a89c67cfc929c4293c02e91290bcf5ebdbc87e73d34b5a953414"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/counts.csv",
+    "bytes": 367,
+    "sha256": "f04b6f5c1efbff65e970e0420164475d62e8d71b58d970648baf92ef9ee5760b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/errors.csv",
+    "bytes": 1814919,
+    "sha256": "c4204045b4b6863d691a3e7fa8fab9524dccffab61fc49f83167684973462489"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/execution.log",
+    "bytes": 319,
+    "sha256": "9804fc9967adbfdab467ee2c013c04d64eda965b9aa79f499eb4b518d5058967"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/lower.csv",
+    "bytes": 1079940,
+    "sha256": "5477a3088301d05cfd684f4c635cfeb9e85897131e5a2ed3b9bffa89b4ecbc75"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/mean.csv",
+    "bytes": 1799390,
+    "sha256": "bb1d60268c8d185b54a6b2291b068c2d4b33c4653128adf6318fd2091d0233df"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/runtime.txt",
+    "bytes": 1020,
+    "sha256": "3233f4210457766a6b613a8822083307c1b03889fc4f5f277bc6f60215ce2529"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/scorecaster.csv",
+    "bytes": 1111961,
+    "sha256": "66faea8ccc97c6a5517510ae6be74cb8fbb5c748389c5b0a36bf7fb62a5d6bbe"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/started.json",
+    "bytes": 525,
+    "sha256": "fec82cd3ca5a47f9e1319b5392688831cf3593fbc6681307161c8ef6fc17dada"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-2enc-only__weather_temperature/upper.csv",
+    "bytes": 1058292,
+    "sha256": "22e36928096da1d420b8dcd6ed9aabfb724556c9617367362ab042ead6812d82"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/author_result.rds",
+    "bytes": 4641276,
+    "sha256": "a068b76483c0de7acdde55c60143985728166f46e8621c2c2ae4f22ed5bce07f"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/complete.json",
+    "bytes": 568,
+    "sha256": "c58a9231915a8b70d857c9802887fe1403122ead821cd243bc68416fbf4b416c"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/config.csv",
+    "bytes": 76,
+    "sha256": "9b22a175dfd40e87c922c0f286f61b9f335e5a2a9138c855a8dcd6f6b5b5f9de"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/counts.csv",
+    "bytes": 367,
+    "sha256": "f04b6f5c1efbff65e970e0420164475d62e8d71b58d970648baf92ef9ee5760b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/errors.csv",
+    "bytes": 1816504,
+    "sha256": "b307818442e3f0c2ea9dab8660fe99dcfc464e699844ba6dbe2c31d425d8805b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/execution.log",
+    "bytes": 318,
+    "sha256": "be645f015686d5ea40d687a399b04c76e43ed24df5d62ca02939911d65329d56"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/lower.csv",
+    "bytes": 1057074,
+    "sha256": "66244e9a2d3cd24bdd73af02083525802b080c15cd2989743ab129214ca3156f"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/mean.csv",
+    "bytes": 1790807,
+    "sha256": "6b7bfd56ef44912e1b16678b1e8e178c5731de83c5aa21ff5de0c250c8e66675"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/runtime.txt",
+    "bytes": 1020,
+    "sha256": "c502392dbe433f438393a991eb4eb5b889be723c256c7fa501fd3641b126320f"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/scorecaster.csv",
+    "bytes": 1126359,
+    "sha256": "9ddba26dcd1dea3643b2f3cf11d4a30b71a95d31f3994561aa82aee0196152e3"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/started.json",
+    "bytes": 526,
+    "sha256": "dc38aac6c76fd76340517162442f1d1c6b95997f13c3d871f4d313d816b82355"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_pressure/upper.csv",
+    "bytes": 1057104,
+    "sha256": "52fe3463750e9d1331facf2d6c310a9d10830b1c00b62ff2f6d4ca9827e8662b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/author_result.rds",
+    "bytes": 5119799,
+    "sha256": "8f2a39a9ea1b37eb779a3342ab0f88e0a0345fadcaa16d4a697b14513bb9f2d8"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/complete.json",
+    "bytes": 567,
+    "sha256": "8070b86aeae072d391d1c1dae8de126edf3f5747c08da8d7833248961b42040a"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/config.csv",
+    "bytes": 75,
+    "sha256": "9099b3ac56020d48c615b44575ed98dedd71c64dcc4f0051f5bdf3c8096398c9"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/counts.csv",
+    "bytes": 367,
+    "sha256": "f04b6f5c1efbff65e970e0420164475d62e8d71b58d970648baf92ef9ee5760b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/errors.csv",
+    "bytes": 1814683,
+    "sha256": "ce40fded01e43fc68003b74df1e2bde9895b456c6e9087bffa9c3db56472899b"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/execution.log",
+    "bytes": 321,
+    "sha256": "28c8fe42d0a34bb022fb18f8e2155ba6fa6a2a4b4890fc381a66fdfc5a8f4678"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/lower.csv",
+    "bytes": 1080754,
+    "sha256": "19c62f51863637b32bb3a8d8fa2fbffdef8088bc78bd38093274fb02b3127822"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/mean.csv",
+    "bytes": 1799431,
+    "sha256": "993908da617e257f56372afd245efc4f8d26c0e53e902a56a01c817e889c09a8"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/runtime.txt",
+    "bytes": 1020,
+    "sha256": "c7c52ef32e9fc65de438ca97a68a9838152b35100df779460fb7c39cf3ebe267"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/scorecaster.csv",
+    "bytes": 1114809,
+    "sha256": "831918f12b2fcfe44ff9c4e5a3f835f4ddc4a2c33434d52c3d1f36fb96e5ee36"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/started.json",
+    "bytes": 525,
+    "sha256": "7f5323bf80152c11b81bd7ca2db3a7b49e04268dbaca5662363498b2f2b68fc4"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/Chronos-Boltenc-dec__weather_temperature/upper.csv",
+    "bytes": 1058224,
+    "sha256": "2cc3e8d0021133efc91daf638dcd0d7ef0fce79f8498079f0ffba7d1e98d1274"
+  },
+  {
+    "path": "results/focused_v10/acmcp_n450/scorecast_refits.csv",
+    "bytes": 7025,
+    "sha256": "d283f42c0d840624655e5d427fdc3b6b7c3b387624984d519051271aeb548e3a"
+  },
+  {
+    "path": "results/innovation_v3/delay_topology/selected.csv",
+    "bytes": 196011,
+    "sha256": "18e80e7f5340c038448bdbec1231b41d8739c6b8c3167d2845c794c714adcd52"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__electricity_c20.npz",
+    "bytes": 1250070,
+    "sha256": "d20500820a906fc0198681ecc50511a59e0dd0affdaff94b36349f5654d3f687"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__electricity_c80.npz",
+    "bytes": 1220521,
+    "sha256": "370135da27ace9f13d2df012769ca9ab6b0ddf3b189d346ba70f27cfec38439c"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__ETTh1_OT.npz",
+    "bytes": 1247428,
+    "sha256": "e619629a1f69e48a0e2c4320fbc6e9509c39cfd5ce1a50ab001633119bf163a9"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__seasonal_elec_c20.npz",
+    "bytes": 728808,
+    "sha256": "196a43d11f0e80dced1d674222b7279fb2ed425c796ab7b9503fcc29ce45d227"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__solar_p10.npz",
+    "bytes": 1129857,
+    "sha256": "461856cfd78fd2b2dbd792c2141adb2706eda8269a054ba7d1bddc58ca890975"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__solar_p30.npz",
+    "bytes": 1095265,
+    "sha256": "3b512e3b36460c89506f014a711155ab48b7ed2bfd498483386d96c0dc9c41f4"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__spliced_electricity_4seg.npz",
+    "bytes": 890332,
+    "sha256": "aa1067d4cc02bd1e9006da33de2597e6cccbb30c32a03312556f33e7a68e902e"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-2enc-only__synthetic_T6000.npz",
+    "bytes": 1168894,
+    "sha256": "097f783307c2b0179f7814797f64415970c40b940c13953041a02eaeed0eff1f"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__electricity_c20.npz",
+    "bytes": 1274830,
+    "sha256": "23e9009c9615a7913ccaa403c0458b0119455d96ae17cab62466b67486d83ae4"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__electricity_c80.npz",
+    "bytes": 1220548,
+    "sha256": "f553dcdd22e7769f6a796137d9695419483672735d41d0aafaf21ca3f18273a8"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__ETTh1_OT.npz",
+    "bytes": 1249777,
+    "sha256": "4479e3f8d12b6d2efefa23e23c333fd824e78f2c72ebc86714544099d6991791"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__seasonal_elec_c20.npz",
+    "bytes": 734957,
+    "sha256": "21aec5f4ef61447d6699cdfe253266148edb08a29386fbbb0357188241ace21c"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__solar_p10.npz",
+    "bytes": 1460552,
+    "sha256": "ad641526b49ff473d6025d2e2839b3cd7a7b5173f02255b6c4ca1b5fcf413d82"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__solar_p30.npz",
+    "bytes": 1567512,
+    "sha256": "80dca7146ab757bfce1f3c5d9a55e86cb81e8314e58faa9ede141c7171a99586"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__spliced_electricity_4seg.npz",
+    "bytes": 923980,
+    "sha256": "48f2a97056dbfd0c3c91df5ea4f1fac8c70ebca6e58787ad5a8b4aafb38dce7b"
+  },
+  {
+    "path": "results/innovation_v4/full_horizon/Chronos-Boltenc-dec__synthetic_T6000.npz",
+    "bytes": 1227736,
+    "sha256": "74d38dbc47187321badd732195db65348d9d9076b2059351704ca01b610a0471"
+  },
+  {
+    "path": "results/neurocomputing/main_a0.1/results.csv",
+    "bytes": 2566455,
+    "sha256": "8fa6d892306c2903b1fac7ed9428115655a4a82a82fffb3cc63ac2294f10af40"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c103.npz",
+    "bytes": 84904,
+    "sha256": "e8d39b047e931a444d34aaca0bde0c2dc64e95503dc0a54c267526639efdb306"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c136.npz",
+    "bytes": 73405,
+    "sha256": "51c11b7f904357a1b1c34c5abd6d62ee063102d8f8aa0290392e926091caf719"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c168.npz",
+    "bytes": 74015,
+    "sha256": "23cf5c03de2c9223198ba8e976b4880a7c0804e1c5787700d8a2a8c90060b685"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c201.npz",
+    "bytes": 72431,
+    "sha256": "c14f3f2508a99f460766ce1927e3b5d3e53a384703dff3e4fa22c1cd441f67bc"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c234.npz",
+    "bytes": 72470,
+    "sha256": "4272f116d1f00116577b639e057c3a40e2ad7eeee6daa82e9926fe0f1ca265fe"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c267.npz",
+    "bytes": 74051,
+    "sha256": "58fd2cd72e64570fa34af0423bc1848b1469e497ff3a29ec2ded564aa43f5669"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c300.npz",
+    "bytes": 85693,
+    "sha256": "b85e26145e7c867580f2562435c443df1e126bb814151a7fb62da37a320cfaf9"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c37.npz",
+    "bytes": 81298,
+    "sha256": "112e1ab4a6b185de0dc30cc119e6c628f55ecb1bb640a0cd557cc252e5cb9fc4"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c5.npz",
+    "bytes": 78948,
+    "sha256": "f28cc6204aa855c6874e4a22e2fe3493439a0628371b8a24e04e36c546f5e295"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__electricity_c70.npz",
+    "bytes": 81191,
+    "sha256": "7be6cb33bed5de97b96657bc74c6ad5d6c32e7a6792c897087cce2707c12f941"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__ercot_COAST.npz",
+    "bytes": 215750,
+    "sha256": "dab7fe15117ae25f0e7e2bc19849e77bcd190af31dbca88fa04a6486f67f483b"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__ercot_ERCOT.npz",
+    "bytes": 215453,
+    "sha256": "83a100952079feea7cc7e82d20fd2aeed43afc70aa0667e01acf52a697a34cad"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__ercot_NORTH.npz",
+    "bytes": 218933,
+    "sha256": "bf440000112308739432805cfe99d3fff18ebc1fb72d12fabef6c91bd24c7fbf"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__ETTh1_OT.npz",
+    "bytes": 83592,
+    "sha256": "19079c8912cfd974b8fedb6cc0b0c8a8906cc992576441450a5c2cad04b96c00"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__ETTh2_OT.npz",
+    "bytes": 76025,
+    "sha256": "f44c4e20c2cbc2e800de51e2e9451116ff5862b72bfe6766091b25bc294a7d6e"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__ETTm1_HUFL.npz",
+    "bytes": 120462,
+    "sha256": "6d5415429be6d66ddd7d96ef19cf769cedc06c573d6c6382d9c42a427f0fe6f0"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__ETTm2_OT.npz",
+    "bytes": 77341,
+    "sha256": "364d4b530ba17c34b5ef214c2073706fb59bc4e2c0e07176836d4b03beb73df1"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__seasonal_elec_c20.npz",
+    "bytes": 46971,
+    "sha256": "584e0247e9f35cf0b26c5dcc2201b0e9cc1bbc629843fbe1bcf37638c6f74a16"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__seasonal_elec_c80.npz",
+    "bytes": 48009,
+    "sha256": "de0c3d85ab95f1b7b4b479b34762cf973915b8f78cee9beb58b73662f6761fb7"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p111.npz",
+    "bytes": 92497,
+    "sha256": "a73a591eca6b3c8c586f43cfcb3496ede4051635089d7e5a9f4b2472d5f6e5e9"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p130.npz",
+    "bytes": 94647,
+    "sha256": "a2a3bd398eafff8fff6b7fa2d901cdabb26d1d38c820875b306872342ffbd78f"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p21.npz",
+    "bytes": 93552,
+    "sha256": "1250db075d3873d20f03e14897c73b63b1b96ca93fce44927c94e43593322734"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p3.npz",
+    "bytes": 93798,
+    "sha256": "95c76ba0c8b4cdcc383124d8e89d82e655ede08dc09279222f47f1ad59d5cc5f"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p39.npz",
+    "bytes": 94835,
+    "sha256": "caa76569bfb169f483dae775c290ea025c135abe1cf3ebd04fd1e98faf06f172"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p57.npz",
+    "bytes": 93946,
+    "sha256": "3e8ec9cf7a42018b41ac42f7e0ce008eef239dda2fd47441d25d28b78015895f"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p75.npz",
+    "bytes": 94038,
+    "sha256": "9383c83727b5807e2e35475309f59704dd4703dc8ff59fd8f9bbc25684277294"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__solar_p93.npz",
+    "bytes": 93028,
+    "sha256": "91e64fceaa4c2b5e6dd3e5ce2958add8f443635d7a19f015aac047e15ea1b638"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__spliced_electricity_4seg.npz",
+    "bytes": 64600,
+    "sha256": "b5d1263c395409a77fee6f827333442dc942abc146cf90e90101c7c0caea96a5"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__spliced_electricity_4seg_b.npz",
+    "bytes": 57543,
+    "sha256": "144f3e0c9a038ffea6bfc1187bd15b1d8b1aab2171f8e8a697361c8a2035d71c"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__synthetic_T6000.npz",
+    "bytes": 110173,
+    "sha256": "f3f991e74be04a9339f9ae51941070176c1da0d45ffac1fa5ea4dd666dfb2349"
+  },
+  {
+    "path": "results/real/traces/Chronos-2enc-only__synthetic_T6000_s7.npz",
+    "bytes": 110451,
+    "sha256": "20f03d099a235b7b00a9a2fe71d6626155ae7cace23e20732ed46a48d06d9ede"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c103.npz",
+    "bytes": 85814,
+    "sha256": "118da0743baeab6b3c6d6e59208ca4f770a13bf530a1aa8b09b6a1f4e7f5b873"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c136.npz",
+    "bytes": 74998,
+    "sha256": "c4d70e7f6f7973e1985bc71123ba484473493ac9dd8388f232cbc040513ae417"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c168.npz",
+    "bytes": 75074,
+    "sha256": "0140bb71192ae50fd9363b495eed4354e4f191fa1312a50e736a12e454542036"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c201.npz",
+    "bytes": 73609,
+    "sha256": "53aa6abad6a093b2f068ed8452ee4611d895d759475761a256326dd1e9862c21"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c234.npz",
+    "bytes": 73415,
+    "sha256": "f01b088867717e78ca823a8bd61a125d5c6ddd726bdd3b32ce26cede484b32ea"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c267.npz",
+    "bytes": 74920,
+    "sha256": "0f1630bb96527ee303edab751de4a73e90fda7db90f7a765f17aadfcdcaec42b"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c300.npz",
+    "bytes": 86460,
+    "sha256": "1a8ccdbe06ab1f2e3320fd6cb9cfa251da0741686c6bcbe2d162463e49509192"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c37.npz",
+    "bytes": 80905,
+    "sha256": "3b538105a322cebb9994fd3a7a900310a90d4305d7c2f4547812e2344245d50c"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c5.npz",
+    "bytes": 79382,
+    "sha256": "cc929d48f1afde9a63a5799d82123a7b7a8c2a54d12f3824ffd223f22f4ebddd"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__electricity_c70.npz",
+    "bytes": 81334,
+    "sha256": "3da63b8027fb2acfdc9f71ea75772dcc0b542a8ad739dc02717a87b96ad1767b"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__ercot_COAST.npz",
+    "bytes": 216885,
+    "sha256": "45a7d4a61fcbfdcab2b524f5536d37fdeae9e6f3a40306ef6a5457832cecc9eb"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__ercot_ERCOT.npz",
+    "bytes": 217670,
+    "sha256": "bdd17b5391d93ffa2290aa380b81c5fee27e0c89e2adf8dbb5f0bb13886ca3ae"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__ercot_NORTH.npz",
+    "bytes": 220321,
+    "sha256": "8c68567a2fc7b4c0a6430862dcecd1063cd6820068245c51f00e0563dba0f0a3"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__ETTh1_OT.npz",
+    "bytes": 83782,
+    "sha256": "1e951a7417d383d472465cf91d5794a03f67cdbf4c299d1c64863500e1e0b72e"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__ETTh2_OT.npz",
+    "bytes": 77215,
+    "sha256": "7200e09141385796166fab8f7238bced016345f0edc298bc00082abe27ba64a9"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__ETTm1_HUFL.npz",
+    "bytes": 120849,
+    "sha256": "e2c01de036a04d7d32510f19d22adca296fa6022bedaa80a0be322f24b1afe64"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__ETTm2_OT.npz",
+    "bytes": 79797,
+    "sha256": "8c7bdb8b9c1c9dbf4cd33cac97149949327cfbc8daf745854102a53f58571333"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__seasonal_elec_c20.npz",
+    "bytes": 46966,
+    "sha256": "8a0eb77cb8d3c60ddc89d0cc5a95928cdca23904a56dbf65317ed03c56c7a951"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__seasonal_elec_c80.npz",
+    "bytes": 48083,
+    "sha256": "77cf52efdab149dfcfd58fac31ff64414a9ffa235fad478181c0a131bf9f04c4"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p111.npz",
+    "bytes": 99267,
+    "sha256": "f6d7137dd7e6228154509c5af64a64745e52a73252bc15cae557c99b9a9534df"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p130.npz",
+    "bytes": 100299,
+    "sha256": "450f647f569e34dc2c74483bed7aa7f9369d146f838931f195501fe3db1e678e"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p21.npz",
+    "bytes": 99833,
+    "sha256": "4407b40bf727931293b2432c065da6214f2af00d5f5f4dbc391101a9baec7138"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p3.npz",
+    "bytes": 99761,
+    "sha256": "ade9da36f4a0081b49b245cfe33bc4f173cc05336cd72e57aef29b3ff577f32a"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p39.npz",
+    "bytes": 100222,
+    "sha256": "1e4496702acc94290d6965e1ae867724f2f285e507fce0668edcfa0944231848"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p57.npz",
+    "bytes": 99821,
+    "sha256": "cf2b1c7a0953b6b87ab283936a0cbd651c11a3caea85dfcc100f0a30d1f018fb"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p75.npz",
+    "bytes": 100002,
+    "sha256": "309d96d1b2e56ed65401d45f36a36024f35ce67877946f9410a1bb0801a1bed1"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__solar_p93.npz",
+    "bytes": 99695,
+    "sha256": "1a09a464e735d2407cde23da1b737709cc4a04b9e8417f0229540b2f4262a3e5"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__spliced_electricity_4seg.npz",
+    "bytes": 66399,
+    "sha256": "5ec2a35645eb344609ef3aa78c412015af01df5e691eb216f4c9398fa4c54941"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__spliced_electricity_4seg_b.npz",
+    "bytes": 59343,
+    "sha256": "aa42a94fdcf613081feccee18e83ccf1bd619af6490439570eac4ee777167da4"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__synthetic_T6000.npz",
+    "bytes": 110334,
+    "sha256": "1b805362664c2d8fd5ad41a7e827f235f0063293d7423e5ef5e8f44cdc5e47f5"
+  },
+  {
+    "path": "results/real/traces/Chronos-Boltenc-dec__synthetic_T6000_s7.npz",
+    "bytes": 110266,
+    "sha256": "a3c1935ed82c0160fffd4d447d8cd70a1503244dbcab6867c5e70103dcaba8d4"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c103.npz",
+    "bytes": 205639,
+    "sha256": "6be04be8cb468db00bee4cf9cab51224ef4e204ba9a1a2125f218917ca343154"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c136.npz",
+    "bytes": 199639,
+    "sha256": "69e6b70b4b375d9840245726911233adddb5678bbb46a088100e620cec67c68e"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c168.npz",
+    "bytes": 199671,
+    "sha256": "4cdac2ad4f75efd5abf7677fb4c84d156a7da1eca25b96d5a173739bc65946ae"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c201.npz",
+    "bytes": 199429,
+    "sha256": "f6f79a4964368dfc73256cb839789054889ddb345f98b78ba75d4648f32b7907"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c234.npz",
+    "bytes": 198039,
+    "sha256": "ee13e5e755d12942a828cec4ca50487fa00b2c4e055d4f86afa9495ff67415bb"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c267.npz",
+    "bytes": 201149,
+    "sha256": "163522ca1079e0d238ba4184248936acbd06c0a6041fa0e1ba2c02c3f417ac2f"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c300.npz",
+    "bytes": 204135,
+    "sha256": "fa1e49d90d6feb1f3c8a24a9dff9e606144c8a556f6efb6d5bb78a834e9af700"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c37.npz",
+    "bytes": 201605,
+    "sha256": "8d0825e4f153121b80d0d97fae46e07a87c82cac9712b178b49ceddd2dd1695c"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c5.npz",
+    "bytes": 201738,
+    "sha256": "2ba5989ef5eaa89fc2d55189e1654cc6ad829f4980245226879f8787d3e107c6"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__electricity_c70.npz",
+    "bytes": 201238,
+    "sha256": "e72c1b97cbe427abbe49c1546ccd5f10153ec078928ebea28159316cd82574e0"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__ercot_COAST.npz",
+    "bytes": 488322,
+    "sha256": "187392ea7a1865fa39bcd00f50f15571a598a4bd6809949573946589388a3a72"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__ercot_ERCOT.npz",
+    "bytes": 490113,
+    "sha256": "5ce1b41793f98ff9e2a4b629c494966ac72e38c44bd84ed0cd57df6f4e6d559a"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__ercot_NORTH.npz",
+    "bytes": 488544,
+    "sha256": "2e54f57d570f79019bfa282daff5042a0dd844415571d11b151cda4ededbc570"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__ETTh1_OT.npz",
+    "bytes": 202581,
+    "sha256": "0d9d535152fd939a1bb258dfb5579c7ea9f8b0ccd163e10c444c0cefa3e84cae"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__ETTh2_OT.npz",
+    "bytes": 199754,
+    "sha256": "bfb60b4ccc3525f173915b2ca7d003232b3f12a5c47e5891d346c046126e0eaf"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__ETTm1_HUFL.npz",
+    "bytes": 306610,
+    "sha256": "06fe9f69f40b0eb8dc6215dd166fbd28005fb280ffc1e3c0c7bb780e8a34660c"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__ETTm2_OT.npz",
+    "bytes": 284893,
+    "sha256": "a7e2549235d45875b1391ad100952114a67b30f588992ed416d98af6a2ddf01e"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__seasonal_elec_c20.npz",
+    "bytes": 114309,
+    "sha256": "410b74f5d146e92294428cd3c9387afdc97e984f33dcdf43638970c371b451a9"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__seasonal_elec_c80.npz",
+    "bytes": 116584,
+    "sha256": "e56b7fc1fc51b09bbc794ba441e00e5fe09c261e4d03993f17973974bc4cba31"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p111.npz",
+    "bytes": 195107,
+    "sha256": "9219c76cf7f3b9b798c5d2291a52d33baa75d38af471cbfa18354bfa17a4129f"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p130.npz",
+    "bytes": 195551,
+    "sha256": "684deca1779b6990ca504754fd5eb60c5b162a90a41a992075c446fffccd6d3b"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p21.npz",
+    "bytes": 195556,
+    "sha256": "21db0d91060f080295fbd9112d4cce5a42e16cd072ec680bd0a7ce3dbf802e40"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p3.npz",
+    "bytes": 195513,
+    "sha256": "d05ad00b8fb5117947e71cd875119759852df46893ad7522c8d1d32893589710"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p39.npz",
+    "bytes": 196433,
+    "sha256": "86f3015f6a7b365f6ec8b9ea0bf3ef2d02d447feb71a37be95509a96bf669c44"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p57.npz",
+    "bytes": 195915,
+    "sha256": "d81c2741f97d34d02ffdfd133a2ae0516ac0120029f965dee89090e39d6a3078"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p75.npz",
+    "bytes": 195784,
+    "sha256": "51844fb6e071c9e5d01bcc4c40c23dfbb4c33429fd46fe8e9881388bed914892"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__solar_p93.npz",
+    "bytes": 195383,
+    "sha256": "d1da5c061cd0acaef0b5ee160ff74a05c5ee47df2f707e8260802f498414e57a"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__spliced_electricity_4seg.npz",
+    "bytes": 149678,
+    "sha256": "0f6752e15a11be54735f766f1e4946f80428405a12de224ee94f06c98d109f07"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__spliced_electricity_4seg_b.npz",
+    "bytes": 146858,
+    "sha256": "54d062aafc61b906926f72c840250a717016f11c840697d0798acc4e5ea18190"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__synthetic_T6000.npz",
+    "bytes": 188956,
+    "sha256": "559cb037ada203e3aa6face2fb45790dbb4a1102780104ae7a9f163c0dafde81"
+  },
+  {
+    "path": "results/real/traces/Moirai-2.0-smalldec-only__synthetic_T6000_s7.npz",
+    "bytes": 189014,
+    "sha256": "533bdfdb6c7f4a362b9241e5cd43c3ee0e0773c450fd72e84eeea8a1747692ff"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c103.npz",
+    "bytes": 206872,
+    "sha256": "5bb65fa7fc2f754e4e70d3ac3f90b01ed5a6ca18e5bce1944cf851e438ed8604"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c136.npz",
+    "bytes": 200529,
+    "sha256": "4e613a1d56e264f4d8dd231b53f771c8d10fb8fe7a41291f8d728eb75531e2ab"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c168.npz",
+    "bytes": 200817,
+    "sha256": "523a11d084fafd6307d905e2cb75085a6a3ab9b213c3b98b359be428e1df8e45"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c201.npz",
+    "bytes": 200111,
+    "sha256": "04a4c7b490d783ff35530ec55a1cbbcaee763eddcc10fbb027838d53dc6d12d5"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c234.npz",
+    "bytes": 199067,
+    "sha256": "048f919e14ed66bdfc5298748a23ef53a77be0dafaf2f3d5b45ca2116a1b9689"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c267.npz",
+    "bytes": 202179,
+    "sha256": "8c1dde23941f85cdf122d0e3fa02da5783344fd29d1792a0c2fa9f5e501fe61c"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c300.npz",
+    "bytes": 205396,
+    "sha256": "02d79d9f317e7a50d96357b73de19246fc00d65969448ca1d6a94a7d508d2b47"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c37.npz",
+    "bytes": 202394,
+    "sha256": "230d46db12f625c409a1860dce5ff10b39d1fe0204fd5c912388ab09bf0cf10c"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c5.npz",
+    "bytes": 202744,
+    "sha256": "d4404ab284a3e67ded3cf1d1a9f5a45a5991f595447b1f62ff9132af8359cd8d"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__electricity_c70.npz",
+    "bytes": 201887,
+    "sha256": "b8e94d8f4d274007e5038fd212c7ad125bc2000ee03b138a2e00f26dcd6b9df4"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__ercot_COAST.npz",
+    "bytes": 490517,
+    "sha256": "a41649cb079136ac023fdc97507c42f3fc4435feb85247716b7a8a4191da8017"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__ercot_ERCOT.npz",
+    "bytes": 492125,
+    "sha256": "475e27d4d5a900d20635a8fc4aaab2623bd61ac604f5286cc6073a7318093321"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__ercot_NORTH.npz",
+    "bytes": 490696,
+    "sha256": "632c51b62d7312e9861a24b2f527db225bd79aab30e4049397ee327c00c703ad"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__ETTh1_OT.npz",
+    "bytes": 203262,
+    "sha256": "c9a03ddbe457232ab0812cdd30f38b092f45086f9e9e95ec730cd3cedeb6435d"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__ETTh2_OT.npz",
+    "bytes": 200672,
+    "sha256": "bd30fe13ebf0a3b10494434b29ee7fa1deb1eb804d6dc0d6aaed256b3f22d632"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__ETTm1_HUFL.npz",
+    "bytes": 308229,
+    "sha256": "61c5c602829f120213281139e961d28daf0631a218039e65b4d3b5e1d5c37cbc"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__ETTm2_OT.npz",
+    "bytes": 286187,
+    "sha256": "a90d7313535d45c356736a32a9ca21f1aa7eb770cdf50ff80fcf174e43deb197"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__seasonal_elec_c20.npz",
+    "bytes": 114820,
+    "sha256": "7c2add14f001cb2b0f2b6f3859936bd4cbdfba37ee7e1f577590ad2481157765"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__seasonal_elec_c80.npz",
+    "bytes": 117208,
+    "sha256": "b0d2be2ccfb5e7a0b76feefe1b07a4b9fe98f7d2d0f4270d1e84ed03941b2516"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p111.npz",
+    "bytes": 202618,
+    "sha256": "58aa18fde6aaab8d49647e932b8334f84329925ea7468d86f8a7747fd95d2356"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p130.npz",
+    "bytes": 202652,
+    "sha256": "1a7971bf04f3b61331fc8f18318df865021954b3d96e06b7ad3e2cab92ecb8ca"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p21.npz",
+    "bytes": 203621,
+    "sha256": "a890c9c94c1f1be8b8c8289154a3c0cd82484487ba2ea0f43c8f9a6d503e67c1"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p3.npz",
+    "bytes": 203589,
+    "sha256": "6d8569c9f89a2681fcc2b5e1455262121dad412be063c2a543d55c2b587c7997"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p39.npz",
+    "bytes": 203928,
+    "sha256": "a8c0db05982e2622a0ebdefb3dd61df285d53b1760329d8116876b480a5542d6"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p57.npz",
+    "bytes": 203682,
+    "sha256": "71edb08a0cc579fa209ec06ef004e3f588fd14c63b40a814919078f7dec1d95c"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p75.npz",
+    "bytes": 203560,
+    "sha256": "6ff0b3f3bd18f0e5f6de2b77d219982f60e4c87d23b6f0c8a76e8c5eda715aa1"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__solar_p93.npz",
+    "bytes": 202590,
+    "sha256": "4cf3a87f687de84dfcee937ffa83f2b49d7b7baf472de7f5b2bd4bae7d39c965"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__spliced_electricity_4seg.npz",
+    "bytes": 150514,
+    "sha256": "4e706a76ac313ed1a4a6f63409a3ab7dfb661a6c3e5718da02bc40b62481958a"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__spliced_electricity_4seg_b.npz",
+    "bytes": 147901,
+    "sha256": "8b4c06260a6cf5ebb9861ef88a7f003845f31349481290d66c9458f072791fbc"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__synthetic_T6000.npz",
+    "bytes": 188997,
+    "sha256": "477fe48d2d13cbed33443a04241ef5019fc8680a36b47cd066892c1e029aa4cf"
+  },
+  {
+    "path": "results/real/traces/TimesFM-2.0-500Mdec-only__synthetic_T6000_s7.npz",
+    "bytes": 188968,
+    "sha256": "0df57535283fc959e622ab51338b565cc2ae28e50c522b86ac11833a8297c0fd"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/ar1_lower.csv",
+    "bytes": 204179,
+    "sha256": "cf32af28bf580769628fff2ec587bd344338f0b2ecea39bbe36a8d09477b3b65"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/ar1_upper.csv",
+    "bytes": 204189,
+    "sha256": "b12bf865880f0c0036ca9ec188834ca0a694e05ccc732fdee2c3a2728b407410"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/checks.json",
+    "bytes": 11294,
+    "sha256": "e2022ec9318d322c86f6bbb0ab4f6f6b2a8c4ebc82cbacdec4a1077446bbb49e"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/config.csv",
+    "bytes": 28,
+    "sha256": "75dcc80e2de53c4584841e26f211524093ef870358e0d2a448c0220f9372a8f8"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/errors.csv",
+    "bytes": 606475,
+    "sha256": "e39f8a80beb3a1c2b26c0bf18a00cfb51ad59657c1322311fa91adc9eaf0ce1a"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/mean.csv",
+    "bytes": 603231,
+    "sha256": "04a7bcb8010bbff79f30ae1b28fecd58a68a84754fac26ba3462a1c334ac409c"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/mean_lower.csv",
+    "bytes": 204142,
+    "sha256": "8fbb790a0ba3999e5a39e7726131745409a7c1fedac8007eddb2b78734ba0897"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/mean_upper.csv",
+    "bytes": 204195,
+    "sha256": "a3b64f5dfd53546197f471068b3057ef9424df73d8ca3af784d2aafefd39691d"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/naive_lower.csv",
+    "bytes": 204669,
+    "sha256": "93fb70c1b2dc87b67b9ef54f1ab888b4595c41b676128fa2c4a095e97ef581c3"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/naive_upper.csv",
+    "bytes": 204137,
+    "sha256": "00769010f32aab4d92413169573d8888cf147075e13696570c6b462df0c56dcf"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/none_lower.csv",
+    "bytes": 204132,
+    "sha256": "5b11795045991e8c51e43f34fe6880a62bfe253ddd94c0900d45666d2bf9db06"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/none_upper.csv",
+    "bytes": 204188,
+    "sha256": "1188e5fc9c6310fe8ee59e6e67f9dcd00fc34a34599ae5612e3432bf17b7c492"
+  },
+  {
+    "path": "results/review_v8/pid_source_checks/h24_n1000/run_snapshot.R",
+    "bytes": 1579,
+    "sha256": "0dcd79e218dd027ed9477138f9ba4e95655aed5dc701d09efc807e2567b07dbb"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/author_result.rds",
+    "bytes": 4494410,
+    "sha256": "fd6d1d1e19064d48380efbd4a6f67e897a6b644854bd9ead6e89dad3a74c4d06"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/complete.json",
+    "bytes": 568,
+    "sha256": "a0238e4bd820314c01db5008365b91821292da7a4062cbf6ec689c70711a9a82"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/config.csv",
+    "bytes": 76,
+    "sha256": "b39c76943732d0f3843182322cf25a815539a14e7b0e564c6adc54819b0261e3"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/counts.csv",
+    "bytes": 367,
+    "sha256": "af5d106db29eed0781c1dd47188641fcc66c12257bc7852f84449b7cfa0dee85"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/errors.csv",
+    "bytes": 1817346,
+    "sha256": "02f898c7e01a5634f7a9f115d5335d316c23e5f2a87846907640294613f7967f"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/execution.log",
+    "bytes": 316,
+    "sha256": "ab793e194f71327ff9cf26acc3e8b25b1e93e34204c42bd1727ec09988c68b96"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/lower.csv",
+    "bytes": 1007130,
+    "sha256": "616b7b3350d5e528e0034f8fea60c819c567f6802903caf0dfdfbde1ec1fd670"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/mean.csv",
+    "bytes": 1790807,
+    "sha256": "ec278a10143b03565e737b7bb4adc4fbc2828dfc46ca8c6a7f4b043d70a7fd9b"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/runtime.txt",
+    "bytes": 1020,
+    "sha256": "19c11cb8c0e9fef61d3711dc5c14d68b6b7e80ee3bc8539b8874a5fa38fd739a"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/scorecaster.csv",
+    "bytes": 1081287,
+    "sha256": "b9fda2df406651885a75dd7235ce8b04985c5e018f3f9d3ba2a3a206f7810d7b"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/started.json",
+    "bytes": 526,
+    "sha256": "688998af0778654e37d15c9abfd8efc0c66ff3752b97bb388bf6eb0826803310"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_pressure/upper.csv",
+    "bytes": 1007044,
+    "sha256": "03497f8c4e2452ac1a620ededba9d098d747e5af5cb42c5a0e72a344834b22c8"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/author_result.rds",
+    "bytes": 4952812,
+    "sha256": "e17e0a93b600642c6fadaa64703cb374cb31a75c73db44bd633c48a3edca5683"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/complete.json",
+    "bytes": 567,
+    "sha256": "e8e4a0695f0515e189ec113977c0e1ccdd71d0a12173abfb403c53306d0b3448"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/config.csv",
+    "bytes": 75,
+    "sha256": "d0d49d0b6279c5c6a0570d92381e59e2b7718a928ca8d678eb43c3e8224edf51"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/counts.csv",
+    "bytes": 367,
+    "sha256": "af5d106db29eed0781c1dd47188641fcc66c12257bc7852f84449b7cfa0dee85"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/errors.csv",
+    "bytes": 1814919,
+    "sha256": "c4204045b4b6863d691a3e7fa8fab9524dccffab61fc49f83167684973462489"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/execution.log",
+    "bytes": 319,
+    "sha256": "7bc6d03c5dda57e0d4d30f6a984bf3a170cf613f7baede0e4a0be59f7eac14c4"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/lower.csv",
+    "bytes": 1026292,
+    "sha256": "7861fb1753eec12e3f60b6c3b2d649a08f1d6d68349a9e18e78104a8b5736f96"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/mean.csv",
+    "bytes": 1799390,
+    "sha256": "bb1d60268c8d185b54a6b2291b068c2d4b33c4653128adf6318fd2091d0233df"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/runtime.txt",
+    "bytes": 1020,
+    "sha256": "b8d1e310e5ef04a3e0a7aa30e08d5d3909b988d294000329589c93d566b735ca"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/scorecaster.csv",
+    "bytes": 1058074,
+    "sha256": "3fc9015708d0457d3c68679159ca31eadc3e62a6b3067b7a3115a00b48609888"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/started.json",
+    "bytes": 525,
+    "sha256": "a60311c4a535c189e1e429dfd281ee4fbd72aea28b455610648eed1301225125"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-2enc-only__weather_temperature/upper.csv",
+    "bytes": 1007354,
+    "sha256": "de119a27a1e2d4661b50420a3dd8467fe75f8959a7a8d395f2ea02c44d49f32f"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/author_result.rds",
+    "bytes": 4472616,
+    "sha256": "35b9a3de7a1c6d39f82b07ec61741b419dd9b3b3df60ea9e49b1a75eaff947cc"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/complete.json",
+    "bytes": 568,
+    "sha256": "b38ed19e2ea4c1e655151b9c87dd38ec6d3a269be07889feba50c06a0fcda2dc"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/config.csv",
+    "bytes": 76,
+    "sha256": "b39c76943732d0f3843182322cf25a815539a14e7b0e564c6adc54819b0261e3"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/counts.csv",
+    "bytes": 367,
+    "sha256": "af5d106db29eed0781c1dd47188641fcc66c12257bc7852f84449b7cfa0dee85"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/errors.csv",
+    "bytes": 1816504,
+    "sha256": "b307818442e3f0c2ea9dab8660fe99dcfc464e699844ba6dbe2c31d425d8805b"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/execution.log",
+    "bytes": 318,
+    "sha256": "ad9dcf3ef2ed5d1c86567c5a8d21cf27b08d41b770e7b06fe1a0ef0d83d3121e"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/lower.csv",
+    "bytes": 1007230,
+    "sha256": "45120230f9e8287be580ab9cae63deb4094293b3a96c069861454faa6e14f655"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/mean.csv",
+    "bytes": 1790807,
+    "sha256": "6b7bfd56ef44912e1b16678b1e8e178c5731de83c5aa21ff5de0c250c8e66675"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/runtime.txt",
+    "bytes": 1020,
+    "sha256": "60c8bed7afbb42901886549ec646d6f0fd12773c4472edc87aa3343e666c1deb"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/scorecaster.csv",
+    "bytes": 1070939,
+    "sha256": "aef8843796ed98cd3a60d6a42eb744ea68bd180d48ee8a8c36ecceb95a6bf0ff"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/started.json",
+    "bytes": 526,
+    "sha256": "ffdb6f35ea95e4265bca7794f974035151248c0bfc31bd6aaa0cb086d7086cae"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_pressure/upper.csv",
+    "bytes": 1007108,
+    "sha256": "678c7837a472493e858d49279e73964fad356ebf9b7809012cd851b28572bcd8"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/author_result.rds",
+    "bytes": 4964469,
+    "sha256": "39baa91710ba7218668b3d82ac1a286bd1b7e43ba3ea5f7c9f9e29cc6dbcf1a7"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/complete.json",
+    "bytes": 566,
+    "sha256": "af0b072042584b325ce4c4c01ed15aa55562c826e4c124dbb45b768a5f8d85e0"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/config.csv",
+    "bytes": 75,
+    "sha256": "f953f6b93ee817ad6125fe1107cce8924cce3ff47e0caced1513eca2345b2630"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/counts.csv",
+    "bytes": 367,
+    "sha256": "af5d106db29eed0781c1dd47188641fcc66c12257bc7852f84449b7cfa0dee85"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/errors.csv",
+    "bytes": 1814683,
+    "sha256": "ce40fded01e43fc68003b74df1e2bde9895b456c6e9087bffa9c3db56472899b"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/execution.log",
+    "bytes": 321,
+    "sha256": "e6f1c817b4bf868c9ef8c3117a9e0bd42449fa992e842c178e35a5ca691629e0"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/lower.csv",
+    "bytes": 1026735,
+    "sha256": "acae1f317a4308152eeeb12c85522e0abd59d9794b31575d47f7d8e31a003360"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/mean.csv",
+    "bytes": 1799431,
+    "sha256": "993908da617e257f56372afd245efc4f8d26c0e53e902a56a01c817e889c09a8"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/run_author_snapshot.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/runtime.txt",
+    "bytes": 1020,
+    "sha256": "39d7af1959d12c77df7ede458c9c6075fef8c907f565684255e77262505b926c"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/scorecaster.csv",
+    "bytes": 1060912,
+    "sha256": "36033a75240b85650c2f03d4111ea6d0e3172dbb3036b5c8213279a2246ca94f"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/started.json",
+    "bytes": 525,
+    "sha256": "498f842e9a93a8aefcc3c9e385932ac5f9bfae8221db51400324e754320b5fdf"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/Chronos-Boltenc-dec__weather_temperature/upper.csv",
+    "bytes": 1007352,
+    "sha256": "94f678715ba457d6634f9b20f58e5f0b667776c8e4d724904ef5eb337dcb27ae"
+  },
+  {
+    "path": "results/strengthening_v9/acmcp/scorecast_refits.csv",
+    "bytes": 6726,
+    "sha256": "48afa949e5fa97204f4392c321c138ef98db62f56efad4f58088c5720673c381"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__air_aotizhongxin.json",
+    "bytes": 974,
+    "sha256": "1558103513cfff5d6b8ca8165b90560e289a8bef55ade01d71f9e04a72027f65"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__air_aotizhongxin.npz",
+    "bytes": 677138,
+    "sha256": "904f489f1f37cb78a9d28960f94c21f2209633f5a0968c732050225bc17c84ca"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__air_dingling.json",
+    "bytes": 974,
+    "sha256": "2ba271dc8076b2b546966d7977b677ea73a91a83d358874ef6c0392b9c0347b1"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__air_dingling.npz",
+    "bytes": 674229,
+    "sha256": "94f102c1c51ab98479a0e0cf87904d51b803c208a6f06c15fb73e58a67e2e419"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__weather_pressure.json",
+    "bytes": 974,
+    "sha256": "2b583638a254450fcdd6ddd20a7225e8b43101736c0c1b1d2b1c7e26f56ba82d"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__weather_pressure.npz",
+    "bytes": 109069,
+    "sha256": "8475971ff23cdaca2a0ea168fb9c68446f6692228c789c5003d2ca392ff2514c"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__weather_temperature.json",
+    "bytes": 974,
+    "sha256": "fbcb44c0cbb9b27ee5f63952a97c3af1d26421bc642f310344e80cc6c3fdabe1"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-2enc-only__weather_temperature.npz",
+    "bytes": 727499,
+    "sha256": "a18eb131c7a4cb976f62d8bfb482f969c26d831addfc5a6f9e3da75254009c6c"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__air_aotizhongxin.json",
+    "bytes": 981,
+    "sha256": "54fe9ee2428b4faaabb066a6691ca5ce3e80137a155cad397d881325fe07610c"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__air_aotizhongxin.npz",
+    "bytes": 687318,
+    "sha256": "517535eb80c6f4223125168393751804b40ea0ef47bde33ed6d0891074342e4e"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__air_dingling.json",
+    "bytes": 982,
+    "sha256": "2a16fc720d0057b2a421c95b876dc6abc33008cb6925fd3f2eb64badd7da64c7"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__air_dingling.npz",
+    "bytes": 689227,
+    "sha256": "0e4ebddb28e014e0f51b458f57c20abf1296895ad78fd9081d1ebd5c837996c2"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__weather_pressure.json",
+    "bytes": 981,
+    "sha256": "67e174b237e549d27919ac022965d9b40c76eba2c2b60451d400b71f782c9318"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__weather_pressure.npz",
+    "bytes": 112495,
+    "sha256": "27c9379823f428ead6a0bcd259092b2d6eb87260d7c9efe1c08d62043b24f158"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__weather_temperature.json",
+    "bytes": 982,
+    "sha256": "dca9974ffc51353c6926e2a0e02b1ef70e6d6aaa6f50f45c8d4f5b68afa43613"
+  },
+  {
+    "path": "results/strengthening_v9/forecasts/Chronos-Boltenc-dec__weather_temperature.npz",
+    "bytes": 717517,
+    "sha256": "88acf24379bd4c902ba61931040b80532cb98cabe534de2bedfdce9eefd014a5"
+  },
+  {
+    "path": "results/strengthening_v9/protocol_lock.json",
+    "bytes": 278,
+    "sha256": "c6f0866ef2c5f29501983f0138a852cef0266936e4edfb87e67eb9bb95a9118e"
+  },
+  {
+    "path": "scripts/audit_focused_v10.py",
+    "bytes": 6284,
+    "sha256": "50b402177a2cd008c6fdd3a0d1bf48e9c1a1513513172a5127210def309c4698"
+  },
+  {
+    "path": "scripts/audit_review_v8.py",
+    "bytes": 7709,
+    "sha256": "5514328b3e8d945e01c98a5f77884d2e6a868335ef0500e503d55d4e60947a92"
+  },
+  {
+    "path": "scripts/audit_strengthening_v9.py",
+    "bytes": 8052,
+    "sha256": "267f2b05efa42387a82f1e57007010cda6ebb48bb49c853505d9e25bd8905cf7"
+  },
+  {
+    "path": "scripts/audit_submission_synthesis.py",
+    "bytes": 2606,
+    "sha256": "ce1456ea2e38f2c8518cb7855bc2d3e91d5dfb01ae74b1d8e6e403282b022f4c"
+  },
+  {
+    "path": "scripts/build_focused_v10.py",
+    "bytes": 6532,
+    "sha256": "4f9590547db758c72d59d55a9755b3bc016759995eef0174773ba5578f4e0237"
+  },
+  {
+    "path": "scripts/build_review_v8_evidence.py",
+    "bytes": 7534,
+    "sha256": "37572f540579695722a71d0e9171faa03e7008aa24343755d68ed80a8dac1615"
+  },
+  {
+    "path": "scripts/build_strengthening_v9.py",
+    "bytes": 6986,
+    "sha256": "4b3902c68d18e73d38a93b8c0d2265c2ebac35f56b7fb2f6d09544b7760a1ac6"
+  },
+  {
+    "path": "scripts/build_submission_synthesis.py",
+    "bytes": 8998,
+    "sha256": "8ddeeeea20137cd7d7b9389e3137d407eb68773503fbf7354baed017413f3250"
+  },
+  {
+    "path": "scripts/check_acmcp_focused_scorecasts.R",
+    "bytes": 2522,
+    "sha256": "654d44c045fc7b7d33723c7a32d0b6cc9133ab4ba1b2addf78c17a41b69f980c"
+  },
+  {
+    "path": "scripts/check_acmcp_strengthening_scorecasts.R",
+    "bytes": 2272,
+    "sha256": "1f8db66828294375d2f719b9cac0fb93840ae8829644798135031a57a4df3db4"
+  },
+  {
+    "path": "scripts/check_multistep_pid_v8.R",
+    "bytes": 1579,
+    "sha256": "0dcd79e218dd027ed9477138f9ba4e95655aed5dc701d09efc807e2567b07dbb"
+  },
+  {
+    "path": "scripts/fetch_strengthening_v9.py",
+    "bytes": 3319,
+    "sha256": "13332983e443c648b5cd0e86bb442579b925694c7b2e87eea0c332fb9e9f42a5"
+  },
+  {
+    "path": "scripts/reproduce_focused_v10.py",
+    "bytes": 2082,
+    "sha256": "60335ef042341c0fa304f26502f77a8152de01ee197555b285b8cab105bc08dc"
+  },
+  {
+    "path": "scripts/reproduce_strengthening_v9.py",
+    "bytes": 2389,
+    "sha256": "d03e66efdafb6b9b603a4de864d84d7bb19ac836622bbbe52c05ad9e4a403597"
+  },
+  {
+    "path": "scripts/reproduce_submission.py",
+    "bytes": 1925,
+    "sha256": "b313aefff582f31f6b29f1eb110106d8237891ffa4fc36e153cb028fd7b3425b"
+  },
+  {
+    "path": "scripts/run_acmcp_author.R",
+    "bytes": 1715,
+    "sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820"
+  },
+  {
+    "path": "scripts/run_review_v8_reproduction.py",
+    "bytes": 2561,
+    "sha256": "3cbd75922222410ea2648d9070d7ef0e4f1776c8fbd3334259bca1633b64e57b"
+  },
+  {
+    "path": "scripts/summarize_acmcp_v9.py",
+    "bytes": 3057,
+    "sha256": "3ecf810140fadd0c40295c79a89bb3b00638bd3bf5c226127dd8b6248349ece2"
+  },
+  {
+    "path": "scripts/summarize_focused_acmcp_v10.py",
+    "bytes": 4670,
+    "sha256": "a1939b6ee7ed19e31a9df7f10e3f0e46dd10676007f29635eac2aeec3be28090"
+  },
+  {
+    "path": "scripts/verify_multistep_pid_v8.py",
+    "bytes": 3075,
+    "sha256": "d6c2bb7cc9e611648bad983c25737496e6c1a56760d693612f32fc4db426563e"
+  },
+  {
+    "path": "src/daci/__init__.py",
+    "bytes": 731,
+    "sha256": "e954f272d573b847b2394973fce0e77d8e40e011d788f0e16c776b0a6f080a13"
+  },
+  {
+    "path": "src/daci/acmcp_cached.py",
+    "bytes": 1222,
+    "sha256": "4f088f521bc71e158e50f1b6c6b88f20eb9b8a3ecde7b994f23b753835b25020"
+  },
+  {
+    "path": "src/daci/adapters.py",
+    "bytes": 6617,
+    "sha256": "621c8397fdf4907ed4a05cbeb54aaf55b4091653bda0f3ccde49d46635a3f5c5"
+  },
+  {
+    "path": "src/daci/adapters_ext.py",
+    "bytes": 9794,
+    "sha256": "e070c9993e8a6763e025404d5959fd0d5155b45b2a43a33df2ac6f5ebe563918"
+  },
+  {
+    "path": "src/daci/bounded_transfer.py",
+    "bytes": 2072,
+    "sha256": "38081bb168bcfe16cd51dede5c0b301149e482aa9c3c02064e633b339ea41e20"
+  },
+  {
+    "path": "src/daci/calibrators.py",
+    "bytes": 29655,
+    "sha256": "82c14de6f41aba064edbdd05437a46fa7bbbde0f86ec1388ab7c04819b344ef2"
+  },
+  {
+    "path": "src/daci/calibrators_cqr.py",
+    "bytes": 5186,
+    "sha256": "81aa3582dc420890a3ff0010731b1ba005b03579824897bb56eb259f08d51e52"
+  },
+  {
+    "path": "src/daci/cop_baseline.py",
+    "bytes": 2305,
+    "sha256": "83c08c5f2795458d569c728008de474dcbc802e68d4a6454d1fb21decc0315a7"
+  },
+  {
+    "path": "src/daci/datasets.py",
+    "bytes": 12024,
+    "sha256": "60686e59afbb9be61153e794aeed7bb392aeed168a8b859ed4ddcc33899271e4"
+  },
+  {
+    "path": "src/daci/datasets_gefcom.py",
+    "bytes": 2144,
+    "sha256": "d1009e7d8f34279c51b627129624df568fb091266f7afe246ab2caec29534e9c"
+  },
+  {
+    "path": "src/daci/delay_topology.py",
+    "bytes": 1670,
+    "sha256": "0bbcab2dfac4f4937f7309c66e7c776aae79bd60c26d2b3644c06266ebcf4917"
+  },
+  {
+    "path": "src/daci/diagnostics.py",
+    "bytes": 4145,
+    "sha256": "a212a4643c24d553a82b919552a73548ad4d8018007b600b7344e36a5796409d"
+  },
+  {
+    "path": "src/daci/forecasters.py",
+    "bytes": 5561,
+    "sha256": "839ab232123064bea4a91842981835a8b1d573a65440f2f6f499589d4d68a902"
+  },
+  {
+    "path": "src/daci/full_horizon.py",
+    "bytes": 1508,
+    "sha256": "b039b8ca84d6aecde07ac833401bfa44977639017de22bfb23eda8415fcee649"
+  },
+  {
+    "path": "src/daci/grouped_calibration.py",
+    "bytes": 2064,
+    "sha256": "1b48cb9f5703a9ceb7a1d01223995e41fe8d4fc773a5c56af1574fbbe8c6c1f3"
+  },
+  {
+    "path": "src/daci/implicit_cop.py",
+    "bytes": 2444,
+    "sha256": "62aaf67a1822177094231dd4c8ceb6451fd37bf3b233a7a314f0d28d64394b1f"
+  },
+  {
+    "path": "src/daci/metrics.py",
+    "bytes": 2880,
+    "sha256": "658b95ca25020662c6ee0dff6742dc409e0a914f014974cf7906ff465725a86c"
+  },
+  {
+    "path": "src/daci/multistep_pid.py",
+    "bytes": 2261,
+    "sha256": "a1463aeb3c68a0b428059477599d6f235134baf47d6456fc3e36ada9309854d6"
+  },
+  {
+    "path": "src/daci/pending_revision.py",
+    "bytes": 6806,
+    "sha256": "0f91187212489eded1566caeeacc5706b790c17a496d74beb6155956bf9a525f"
+  },
+  {
+    "path": "src/daci/reference_rules.py",
+    "bytes": 5056,
+    "sha256": "5c4f0c5f093711bc76fa976a473015b94a07d0a353868b9e862cb6ade8f7249f"
+  },
+  {
+    "path": "src/daci/revision.py",
+    "bytes": 9173,
+    "sha256": "48d38814fbf0221cc20c96ca7910fb3138cae5ce64fc2ed433f51c487547fe01"
+  },
+  {
+    "path": "src/daci/runner.py",
+    "bytes": 2454,
+    "sha256": "1e612452c1235d0366e198325fa57e1c5460dc0428b49c0377b963b6bb31dfb5"
+  },
+  {
+    "path": "src/daci/strengthening.py",
+    "bytes": 2785,
+    "sha256": "5abd6a49b957d6968e96d4ff017ea699e2ff35ff474a3c66f07b5432186231fb"
+  },
+  {
+    "path": "strengthening_forecast_manifest.json",
+    "bytes": 45519,
+    "sha256": "20de679c9d215d0928ee1d09f3d4092b49e904ce2890e782fc216d7645e71da9"
+  },
+  {
+    "path": "tests/test_strengthening_v9.py",
+    "bytes": 2526,
+    "sha256": "f96c2b02e96af0042f6cb4c67db33957451d01aa857846f6b47b9792f3c9e1c3"
+  },
+  {
+    "path": "verification/focused/audit.json",
+    "bytes": 1048,
+    "sha256": "f6dcfe0a11a8a3d960718355bb46a264a1d840a4c027d14843a0724ca348555d"
+  },
+  {
+    "path": "verification/focused/history_source_checks.json",
+    "bytes": 35279,
+    "sha256": "2b5f3b623deb7af2db1d411290963f5d19395d858534fca87160dea49de1012e"
+  },
+  {
+    "path": "verification/pdf_checks.json",
+    "bytes": 580,
+    "sha256": "f0e448f584cdb4e2efd816dccc9879bd78a1a71049c12b0f86858360d24b802f"
+  },
+  {
+    "path": "verification/repository_reproduction_report.json",
+    "bytes": 1865,
+    "sha256": "e9a2b3b83eb326c3027e968f2a0bf1ad2660f9aa6a1d9419c9bb5923f341622f"
+  },
+  {
+    "path": "verification/strengthening/acmcp/source_checks.json",
+    "bytes": 18077,
+    "sha256": "96c9190459a0363b85944db029fff15449737ce00ffe4d1ecf38bde01467744f"
+  },
+  {
+    "path": "verification/strengthening/audit.json",
+    "bytes": 2190,
+    "sha256": "78a7b1ec2a74442fe197c42a64a8d072f47c64d9fd4c28e357a2ba01148838ed"
+  },
+  {
+    "path": "verification/strengthening/main_replay/audit.json",
+    "bytes": 311,
+    "sha256": "e1239f3f4fd22b41cf1fcc28d19a54acf1ed6ec8412465e7d335b7bbecc9c8ec"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "archive_sha256": "27c9379823f428ead6a0bcd259092b2d6eb87260d7c9efe1c08d62043b24f158",
+  "source_sha256": "a833e6f604a87cef78ceddf17d8f1470f7cd79eda7a974b727646f1a4a4d038d",
+  "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+  "generator_sha256": "dbd79cb6e85169010e790e545feb6c1d177545cacb81ca38a559ac3e3dd27345",
+  "model_repository": "amazon/chronos-bolt-base",
+  "model_snapshot": "5d9f166d69f47aef3401367a7b842e78fe97b121",
+  "model_files": {
+    "config.json": "46f7e7e695569f67b06178faa4f236c281392945aa2d1bdf844442e57155530b",
+    "model.safetensors": "31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36"
+  },
+  "context": 512,
+  "batch": 128,
+  "dtype": "bfloat16",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.1",
+    "transformers": "4.57.6",
+    "chronos-forecasting": "2.2.2"
+  },
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "elapsed_seconds": 1.606659400044009
+}

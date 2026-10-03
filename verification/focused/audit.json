@@ -1,0 +1,26 @@
+{
+  "all_checks_passed": true,
+  "positive_selected_rows": 480,
+  "temporal_rows": 288,
+  "same_rolling_pairs": 6,
+  "one_step_state_identity_cases": 32,
+  "all_block_local_improvement_pairs": 3,
+  "common_history_grid_rows": 1240,
+  "original_R_trajectory_cases": 192,
+  "new_R_trajectory_cases": 96,
+  "new_saved_refit_cases": 60,
+  "max_new_refit_difference": 5.10702591327572e-15,
+  "abstract_values": {
+    "main_native_gain": 9.979980111694497,
+    "weather_positive_fixed_gain": 6.08005374330084,
+    "weather_positive_window_gain": 0.0524157457597151,
+    "weather_h1_score_gain": 0.35832807597001026,
+    "weather_h1_local_rolling": 3.1509936488424457,
+    "weather_h1_local_aci": 1.4255275558287175,
+    "pv_positive_gain": 9.556925767413098,
+    "pv_positive_coverage": 86.4529218445642,
+    "pv_forecast_high_gain": 9.256248035076483,
+    "pv_forecast_high_coverage": 87.0746283489671
+  },
+  "scope": "Post-review exploratory analyses; saved R scorecasts and refit witness are inputs to the default replay."
+}

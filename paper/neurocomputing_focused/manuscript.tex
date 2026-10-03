@@ -1,0 +1,51 @@
+\documentclass[preprint,11pt]{elsarticle}
+\usepackage{amsmath,amssymb,booktabs,graphicx,longtable}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{lmodern}
+\setlength{\emergencystretch}{2em}
+\input{numbers.tex}
+\journal{Neurocomputing}
+\newcommand{\IS}{\operatorname{IS}}
+\newcommand{\ind}{\mathbf{1}}
+\newcommand{\clip}{\operatorname{clip}}
+\begin{document}
+\begin{frontmatter}
+\title{Separating predictive information from delayed adaptation gains in time-series foundation models}
+\author[a]{Haoxuanzi Yin\textsuperscript{\href{https://orcid.org/0009-0001-1166-2216}{iD}}}
+\ead{3250102684@zju.edu.cn}
+\author[b]{Fan Zhang\textsuperscript{\href{https://orcid.org/0009-0004-3509-7495}{iD}}\corref{cor1}}
+\ead{f.zhang@zju.edu.cn}
+\cortext[cor1]{Corresponding author.}
+\affiliation[a]{organization={Zhejiang University},city={Hangzhou},country={China}}
+\affiliation[b]{organization={State Key Laboratory of Ocean Sensing and Ocean College, Zhejiang University},city={Zhoushan},postcode={316021},country={China}}
+\begin{abstract}
+Comparisons of online calibration can confound predictive information, feedback state
+and retained score history. We hold neural forecasts and reveal schedules fixed to
+separate these effects. Native-band conformalized quantile regression (CQR) improves
+interval score by 9.98\% over matched, validation-tuned symmetric residual calibration
+across 124 model--series pairs. A protocol-locked weather/air-quality study shows that
+rate controls alone can leave a misleading state comparison. On weather at horizon 24,
+subsequent positive-rate analysis reduces the issued/shared CQR score gap from 6.080\%
+at a fixed window to 0.052\% with window selection, before admitting zero. Many selected
+rates remain very small. At one step, adaptive CQR improves mean score by only 0.36\%
+but reduces local coverage error from 3.15 to 1.43 percentage points; three of four
+weather pairs improve in every test block. Common-support and asymmetric-residual
+controls leave a 9.56\% positive-output photovoltaic score benefit, with only 86.45\%
+coverage at a 90\% target. Full configured AcMCP-CSS, common-history comparisons and
+exact clipping accounting support the evaluation. The findings distinguish predictive
+information, configuration-dependent adaptation gains and unresolved reliability gaps.
+\end{abstract}
+\begin{keyword}
+Time-series foundation models \sep Conformal calibration \sep Delayed feedback \sep
+Probabilistic forecasting \sep Conditional reliability
+\end{keyword}
+\end{frontmatter}
+\input{body.tex}
+\clearpage
+\appendix
+\input{appendices.tex}
+\clearpage
+\bibliographystyle{elsarticle-num-names}
+\bibliography{references}
+\end{document}

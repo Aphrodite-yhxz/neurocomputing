@@ -1,0 +1,67 @@
+[
+  {
+    "file": "saocp.py",
+    "url": "https://raw.githubusercontent.com/salesforce/online_conformal/main/online_conformal/saocp.py",
+    "sha256": "83f8845559786452aafabfafdf6c136ceaf9b9b3557fc5f8f9267fcec04d386f"
+  },
+  {
+    "file": "sfogd.py",
+    "url": "https://raw.githubusercontent.com/salesforce/online_conformal/main/online_conformal/ogd.py",
+    "sha256": "061604484f10f8a0465d45d69b80a441acfc41a46b1965378355110e27963b5d"
+  },
+  {
+    "file": "faci.py",
+    "url": "https://raw.githubusercontent.com/salesforce/online_conformal/main/online_conformal/faci.py",
+    "sha256": "6bd75dbe772d4f43b965f9873554cc587494426533c60a88f9b408049a165d30"
+  },
+  {
+    "file": "saocp_base.py",
+    "url": "https://raw.githubusercontent.com/salesforce/online_conformal/main/online_conformal/base.py",
+    "sha256": "83999e0444ef8868edd5235a17e806e4cbbab0ae1f94f977e6fcf964c65bd2f2"
+  },
+  {
+    "file": "saocp_utils.py",
+    "url": "https://raw.githubusercontent.com/salesforce/online_conformal/main/online_conformal/utils.py",
+    "sha256": "88c8e7725f114ccd5c68ebd4adcd6804c523aa241fa62f2b29c2a95354d83fa1"
+  },
+  {
+    "file": "saocp_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/salesforce/online_conformal/main/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "file": "pid_methods.py",
+    "url": "https://raw.githubusercontent.com/aangelopoulos/conformal-time-series/main/core/methods.py",
+    "sha256": "8aad182d6ec3bc16c4e632012b6f259b8e4a89722efbe4a1df576054278f6fa6"
+  },
+  {
+    "file": "pid_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/aangelopoulos/conformal-time-series/main/LICENSE",
+    "sha256": "ef3c1a27540ae1a133179415bbfb7ca08f3ae5045dbb86bd870be2a1519d3783"
+  },
+  {
+    "file": "saocp_tree.json",
+    "url": "https://api.github.com/repos/salesforce/online_conformal/git/trees/main?recursive=1",
+    "sha256": "641340dfad16c0c8a1806be5dfe059edf0effdb9bdc6cbc8f22f5c8ed2d85f27"
+  },
+  {
+    "file": "pid_commit.json",
+    "url": "https://api.github.com/repos/aangelopoulos/conformal-time-series/commits/main",
+    "sha256": "6069e21c99332c859c67b504c7e6aff8972b6ff9ac60e600d77e45ad225bccf1"
+  },
+  {
+    "file": "elsarticle.zip",
+    "url": "https://mirrors.ctan.org/macros/latex/contrib/elsarticle.zip",
+    "sha256": "f25a3e1b006e0f86abb091a02f3afa7c6d60491665c7aa89f70cc5609e14d9dc"
+  },
+  {
+    "file": "saocp.pdf",
+    "url": "https://proceedings.mlr.press/v202/bhatnagar23a/bhatnagar23a.pdf",
+    "sha256": "c6c9f9e3f0159d091cf804060b5e040d8add3530614980966a0256465b1ea20b"
+  },
+  {
+    "file": "pid.pdf",
+    "url": "https://arxiv.org/pdf/2307.16895",
+    "sha256": "4b5ee1458b4debfe164fc3bbca858e4807057b776ccb2587749178d9533deafb"
+  }
+]

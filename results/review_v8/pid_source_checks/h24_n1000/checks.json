@@ -1,0 +1,489 @@
+{
+  "author_equivalence_passed": true,
+  "causality_passed": true,
+  "comparisons": [
+    {
+      "horizon": 1,
+      "scorecaster": "none",
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "horizon": 2,
+      "scorecaster": "none",
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "horizon": 3,
+      "scorecaster": "none",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 4,
+      "scorecaster": "none",
+      "max_difference": 3.836930773104541e-13
+    },
+    {
+      "horizon": 5,
+      "scorecaster": "none",
+      "max_difference": 2.984279490192421e-13
+    },
+    {
+      "horizon": 6,
+      "scorecaster": "none",
+      "max_difference": 3.694822225952521e-13
+    },
+    {
+      "horizon": 7,
+      "scorecaster": "none",
+      "max_difference": 1.1368683772161603e-13
+    },
+    {
+      "horizon": 8,
+      "scorecaster": "none",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 9,
+      "scorecaster": "none",
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "horizon": 10,
+      "scorecaster": "none",
+      "max_difference": 4.121147867408581e-13
+    },
+    {
+      "horizon": 11,
+      "scorecaster": "none",
+      "max_difference": 2.4158453015843406e-13
+    },
+    {
+      "horizon": 12,
+      "scorecaster": "none",
+      "max_difference": 1.7053025658242404e-13
+    },
+    {
+      "horizon": 13,
+      "scorecaster": "none",
+      "max_difference": 1.1368683772161603e-13
+    },
+    {
+      "horizon": 14,
+      "scorecaster": "none",
+      "max_difference": 3.836930773104541e-13
+    },
+    {
+      "horizon": 15,
+      "scorecaster": "none",
+      "max_difference": 2.2737367544323206e-13
+    },
+    {
+      "horizon": 16,
+      "scorecaster": "none",
+      "max_difference": 7.105427357601002e-14
+    },
+    {
+      "horizon": 17,
+      "scorecaster": "none",
+      "max_difference": 3.410605131648481e-13
+    },
+    {
+      "horizon": 18,
+      "scorecaster": "none",
+      "max_difference": 7.105427357601002e-14
+    },
+    {
+      "horizon": 19,
+      "scorecaster": "none",
+      "max_difference": 4.689582056016661e-13
+    },
+    {
+      "horizon": 20,
+      "scorecaster": "none",
+      "max_difference": 3.836930773104541e-13
+    },
+    {
+      "horizon": 21,
+      "scorecaster": "none",
+      "max_difference": 1.1368683772161603e-13
+    },
+    {
+      "horizon": 22,
+      "scorecaster": "none",
+      "max_difference": 4.973799150320701e-13
+    },
+    {
+      "horizon": 23,
+      "scorecaster": "none",
+      "max_difference": 2.2737367544323206e-13
+    },
+    {
+      "horizon": 24,
+      "scorecaster": "none",
+      "max_difference": 3.979039320256561e-13
+    },
+    {
+      "horizon": 1,
+      "scorecaster": "mean",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 2,
+      "scorecaster": "mean",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 3,
+      "scorecaster": "mean",
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "horizon": 4,
+      "scorecaster": "mean",
+      "max_difference": 3.694822225952521e-13
+    },
+    {
+      "horizon": 5,
+      "scorecaster": "mean",
+      "max_difference": 3.694822225952521e-13
+    },
+    {
+      "horizon": 6,
+      "scorecaster": "mean",
+      "max_difference": 2.984279490192421e-13
+    },
+    {
+      "horizon": 7,
+      "scorecaster": "mean",
+      "max_difference": 1.1368683772161603e-13
+    },
+    {
+      "horizon": 8,
+      "scorecaster": "mean",
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "horizon": 9,
+      "scorecaster": "mean",
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "horizon": 10,
+      "scorecaster": "mean",
+      "max_difference": 2.5579538487363607e-13
+    },
+    {
+      "horizon": 11,
+      "scorecaster": "mean",
+      "max_difference": 2.4158453015843406e-13
+    },
+    {
+      "horizon": 12,
+      "scorecaster": "mean",
+      "max_difference": 1.7053025658242404e-13
+    },
+    {
+      "horizon": 13,
+      "scorecaster": "mean",
+      "max_difference": 4.405364961712621e-13
+    },
+    {
+      "horizon": 14,
+      "scorecaster": "mean",
+      "max_difference": 3.836930773104541e-13
+    },
+    {
+      "horizon": 15,
+      "scorecaster": "mean",
+      "max_difference": 2.2737367544323206e-13
+    },
+    {
+      "horizon": 16,
+      "scorecaster": "mean",
+      "max_difference": 7.105427357601002e-14
+    },
+    {
+      "horizon": 17,
+      "scorecaster": "mean",
+      "max_difference": 3.410605131648481e-13
+    },
+    {
+      "horizon": 18,
+      "scorecaster": "mean",
+      "max_difference": 2.984279490192421e-13
+    },
+    {
+      "horizon": 19,
+      "scorecaster": "mean",
+      "max_difference": 1.8474111129762605e-13
+    },
+    {
+      "horizon": 20,
+      "scorecaster": "mean",
+      "max_difference": 3.979039320256561e-13
+    },
+    {
+      "horizon": 21,
+      "scorecaster": "mean",
+      "max_difference": 1.2789769243681803e-13
+    },
+    {
+      "horizon": 22,
+      "scorecaster": "mean",
+      "max_difference": 1.5631940186722204e-13
+    },
+    {
+      "horizon": 23,
+      "scorecaster": "mean",
+      "max_difference": 2.2737367544323206e-13
+    },
+    {
+      "horizon": 24,
+      "scorecaster": "mean",
+      "max_difference": 2.7000623958883807e-13
+    },
+    {
+      "horizon": 1,
+      "scorecaster": "naive",
+      "max_difference": 4.121147867408581e-13
+    },
+    {
+      "horizon": 2,
+      "scorecaster": "naive",
+      "max_difference": 4.405364961712621e-13
+    },
+    {
+      "horizon": 3,
+      "scorecaster": "naive",
+      "max_difference": 2.5579538487363607e-13
+    },
+    {
+      "horizon": 4,
+      "scorecaster": "naive",
+      "max_difference": 4.831690603168681e-13
+    },
+    {
+      "horizon": 5,
+      "scorecaster": "naive",
+      "max_difference": 4.405364961712621e-13
+    },
+    {
+      "horizon": 6,
+      "scorecaster": "naive",
+      "max_difference": 4.831690603168681e-13
+    },
+    {
+      "horizon": 7,
+      "scorecaster": "naive",
+      "max_difference": 4.405364961712621e-13
+    },
+    {
+      "horizon": 8,
+      "scorecaster": "naive",
+      "max_difference": 4.263256414560601e-13
+    },
+    {
+      "horizon": 9,
+      "scorecaster": "naive",
+      "max_difference": 4.263256414560601e-13
+    },
+    {
+      "horizon": 10,
+      "scorecaster": "naive",
+      "max_difference": 4.831690603168681e-13
+    },
+    {
+      "horizon": 11,
+      "scorecaster": "naive",
+      "max_difference": 4.405364961712621e-13
+    },
+    {
+      "horizon": 12,
+      "scorecaster": "naive",
+      "max_difference": 4.973799150320701e-13
+    },
+    {
+      "horizon": 13,
+      "scorecaster": "naive",
+      "max_difference": 4.973799150320701e-13
+    },
+    {
+      "horizon": 14,
+      "scorecaster": "naive",
+      "max_difference": 4.263256414560601e-13
+    },
+    {
+      "horizon": 15,
+      "scorecaster": "naive",
+      "max_difference": 4.973799150320701e-13
+    },
+    {
+      "horizon": 16,
+      "scorecaster": "naive",
+      "max_difference": 4.689582056016661e-13
+    },
+    {
+      "horizon": 17,
+      "scorecaster": "naive",
+      "max_difference": 4.121147867408581e-13
+    },
+    {
+      "horizon": 18,
+      "scorecaster": "naive",
+      "max_difference": 4.263256414560601e-13
+    },
+    {
+      "horizon": 19,
+      "scorecaster": "naive",
+      "max_difference": 4.973799150320701e-13
+    },
+    {
+      "horizon": 20,
+      "scorecaster": "naive",
+      "max_difference": 4.831690603168681e-13
+    },
+    {
+      "horizon": 21,
+      "scorecaster": "naive",
+      "max_difference": 4.689582056016661e-13
+    },
+    {
+      "horizon": 22,
+      "scorecaster": "naive",
+      "max_difference": 4.973799150320701e-13
+    },
+    {
+      "horizon": 23,
+      "scorecaster": "naive",
+      "max_difference": 3.979039320256561e-13
+    },
+    {
+      "horizon": 24,
+      "scorecaster": "naive",
+      "max_difference": 4.689582056016661e-13
+    },
+    {
+      "horizon": 1,
+      "scorecaster": "ar1",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 2,
+      "scorecaster": "ar1",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 3,
+      "scorecaster": "ar1",
+      "max_difference": 3.836930773104541e-13
+    },
+    {
+      "horizon": 4,
+      "scorecaster": "ar1",
+      "max_difference": 8.526512829121202e-14
+    },
+    {
+      "horizon": 5,
+      "scorecaster": "ar1",
+      "max_difference": 3.979039320256561e-13
+    },
+    {
+      "horizon": 6,
+      "scorecaster": "ar1",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 7,
+      "scorecaster": "ar1",
+      "max_difference": 2.1316282072803006e-13
+    },
+    {
+      "horizon": 8,
+      "scorecaster": "ar1",
+      "max_difference": 6.394884621840902e-14
+    },
+    {
+      "horizon": 9,
+      "scorecaster": "ar1",
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "horizon": 10,
+      "scorecaster": "ar1",
+      "max_difference": 3.694822225952521e-13
+    },
+    {
+      "horizon": 11,
+      "scorecaster": "ar1",
+      "max_difference": 2.7000623958883807e-13
+    },
+    {
+      "horizon": 12,
+      "scorecaster": "ar1",
+      "max_difference": 2.2737367544323206e-13
+    },
+    {
+      "horizon": 13,
+      "scorecaster": "ar1",
+      "max_difference": 4.405364961712621e-13
+    },
+    {
+      "horizon": 14,
+      "scorecaster": "ar1",
+      "max_difference": 4.689582056016661e-13
+    },
+    {
+      "horizon": 15,
+      "scorecaster": "ar1",
+      "max_difference": 2.1316282072803006e-13
+    },
+    {
+      "horizon": 16,
+      "scorecaster": "ar1",
+      "max_difference": 2.7000623958883807e-13
+    },
+    {
+      "horizon": 17,
+      "scorecaster": "ar1",
+      "max_difference": 2.2737367544323206e-13
+    },
+    {
+      "horizon": 18,
+      "scorecaster": "ar1",
+      "max_difference": 4.547473508864641e-13
+    },
+    {
+      "horizon": 19,
+      "scorecaster": "ar1",
+      "max_difference": 9.947598300641403e-14
+    },
+    {
+      "horizon": 20,
+      "scorecaster": "ar1",
+      "max_difference": 2.4158453015843406e-13
+    },
+    {
+      "horizon": 21,
+      "scorecaster": "ar1",
+      "max_difference": 2.7000623958883807e-13
+    },
+    {
+      "horizon": 22,
+      "scorecaster": "ar1",
+      "max_difference": 3.836930773104541e-13
+    },
+    {
+      "horizon": 23,
+      "scorecaster": "ar1",
+      "max_difference": 3.552713678800501e-13
+    },
+    {
+      "horizon": 24,
+      "scorecaster": "ar1",
+      "max_difference": 4.689582056016661e-13
+    }
+  ],
+  "source_sha256": "7c340c71759947aa4f1d5a8004fd5eaccac0f822d62e04f35e04d4c95f9283a5",
+  "module_sha256": "a1463aeb3c68a0b428059477599d6f235134baf47d6456fc3e36ada9309854d6",
+  "wrapper_sha256": "0dcd79e218dd027ed9477138f9ba4e95655aed5dc701d09efc807e2567b07dbb"
+}

@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "8475971ff23cdaca2a0ea168fb9c68446f6692228c789c5003d2ca392ff2514c",
+  "configuration": {
+    "ncal": 600,
+    "lr": 0.01,
+    "KI": 22.409999999999968,
+    "Csat": 0.5,
+    "scorecast": 1,
+    "ma_method": "CSS"
+  },
+  "r_wrapper_sha256": "80f15ad2be7558846b9a22d6eea8c5f4c12caf55b2dd628d58813c2b04798820",
+  "author_acmcp_sha256": "168346bc2c3ca00bbabdd3aff957f37a8c74f7382f28a38df3729f344f177115",
+  "protocol_sha256": "7f442876ed7ac3daf9bc5f9f20697864f17c00913b15b996b7bd81d1afa5bc83",
+  "elapsed_seconds": 1710.7911136001348
+}

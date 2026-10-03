@@ -1,0 +1,5 @@
+Delayed-state gains depend jointly on score, learning rate and memory.
+New weather data require window controls beyond small learning rates.
+Native-band PV gains survive support and asymmetric-residual controls.
+Forecast-defined high-output groups remain below target coverage.
+Full AcMCP-CSS comparisons and forecast-based headline replay are supplied.

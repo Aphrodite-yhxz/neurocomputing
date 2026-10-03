@@ -1,0 +1,589 @@
+{
+  "sha": "0fe81e6ff9a80f8c4bb9632b32942d29f3a99127",
+  "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127",
+  "tree": [
+    {
+      "path": ".Rbuildignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04d0ba03d9fd8c61e8d6ac1186fa541f1c17094",
+      "size": 153,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/f04d0ba03d9fd8c61e8d6ac1186fa541f1c17094"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84b6b11d9950a8ce1fc8a571522c0b08db9ae9cc",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/84b6b11d9950a8ce1fc8a571522c0b08db9ae9cc"
+    },
+    {
+      "path": ".github/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d19fc766d98a08d9d1437896bfb008a7b15f340",
+      "size": 7,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/2d19fc766d98a08d9d1437896bfb008a7b15f340"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10da132e7a2e0231c83ea0cf730ec28869a25d26",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/10da132e7a2e0231c83ea0cf730ec28869a25d26"
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72776bd2647d623efb855aa17e0a082ce9dcdca7",
+      "size": 1443,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/72776bd2647d623efb855aa17e0a082ce9dcdca7"
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfc9f4db3044e4716a8e714482f61e6dfda572e5",
+      "size": 1303,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/bfc9f4db3044e4716a8e714482f61e6dfda572e5"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e7da89d8afe3968138973d7a4eef5e43b3a204",
+      "size": 176,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/b7e7da89d8afe3968138973d7a4eef5e43b3a204"
+    },
+    {
+      "path": "DESCRIPTION",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbd91d7a3a1dca7b04730d070806a2dc1df25763",
+      "size": 1501,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/bbd91d7a3a1dca7b04730d070806a2dc1df25763"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "175443ce8855883fcbf0122a6bfba12ac4cfb49d",
+      "size": 34904,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/175443ce8855883fcbf0122a6bfba12ac4cfb49d"
+    },
+    {
+      "path": "NAMESPACE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36697027ea900f5ed7580db39648e5d27b1b6a94",
+      "size": 1221,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/36697027ea900f5ed7580db39648e5d27b1b6a94"
+    },
+    {
+      "path": "NEWS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fadaaf4545f793bde4bdbcdedc298d674c0bdb95",
+      "size": 3160,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/fadaaf4545f793bde4bdbcdedc298d674c0bdb95"
+    },
+    {
+      "path": "R",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce78843a7e44d9f4f11bc9a3c31928c3e8f57a5f",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/ce78843a7e44d9f4f11bc9a3c31928c3e8f57a5f"
+    },
+    {
+      "path": "R/acmcp.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb19e9fcec076aa3364e4b7e2ee315dc360e3478",
+      "size": 18345,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/eb19e9fcec076aa3364e4b7e2ee315dc360e3478"
+    },
+    {
+      "path": "R/acp.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c244c19c46b493032c7b1ed470d11626ef003dae",
+      "size": 12191,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/c244c19c46b493032c7b1ed470d11626ef003dae"
+    },
+    {
+      "path": "R/conformal.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "911f40b3383ca4fdac0e2593b7e8b4c1fdd20d68",
+      "size": 2039,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/911f40b3383ca4fdac0e2593b7e8b4c1fdd20d68"
+    },
+    {
+      "path": "R/conformalForecast-package.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c6ac6221ea6f34d79d485a72abda10d402589f0",
+      "size": 196,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/8c6ac6221ea6f34d79d485a72abda10d402589f0"
+    },
+    {
+      "path": "R/coverage.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc1f84259a4addaa708f7a90bfa78e5df525a046",
+      "size": 5207,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/fc1f84259a4addaa708f7a90bfa78e5df525a046"
+    },
+    {
+      "path": "R/cvforecast.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a497dbcfb9cdab424e87c8f2f58c5bc08459907",
+      "size": 11828,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/6a497dbcfb9cdab424e87c8f2f58c5bc08459907"
+    },
+    {
+      "path": "R/errors.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03f8634fbae96fbedf83d78b8bef2d4a47430fc7",
+      "size": 14525,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/03f8634fbae96fbedf83d78b8bef2d4a47430fc7"
+    },
+    {
+      "path": "R/lagmatrix.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4e189a783d8a090926e99bf08c6d339d9ddf0c",
+      "size": 1626,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/eb4e189a783d8a090926e99bf08c6d339d9ddf0c"
+    },
+    {
+      "path": "R/pid.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e83889aee43fbdd7c8a8118b81c727100a911e2",
+      "size": 22353,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/3e83889aee43fbdd7c8a8118b81c727100a911e2"
+    },
+    {
+      "path": "R/scp.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ef16ab86c8c7f711218ae59e07c90421267a617",
+      "size": 13673,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/4ef16ab86c8c7f711218ae59e07c90421267a617"
+    },
+    {
+      "path": "R/update.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e1c48ddbf7e977d2eb9fb0e5b3349e371f20c9",
+      "size": 7023,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/c9e1c48ddbf7e977d2eb9fb0e5b3349e371f20c9"
+    },
+    {
+      "path": "R/width.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e0e596b5259b5e03ed9f0e65b040c0943e507ab",
+      "size": 5378,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/1e0e596b5259b5e03ed9f0e65b040c0943e507ab"
+    },
+    {
+      "path": "README.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d076a057cb2d193783a235cd084c97dcdb40558f",
+      "size": 3850,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/d076a057cb2d193783a235cd084c97dcdb40558f"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b7293e9d2f60d054f64dfa8bc03a06098cdf10",
+      "size": 4014,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/27b7293e9d2f60d054f64dfa8bc03a06098cdf10"
+    },
+    {
+      "path": "_pkgdown.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb689430e2e178314b1201ce4a09d9b340f23ef",
+      "size": 909,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/bdb689430e2e178314b1201ce4a09d9b340f23ef"
+    },
+    {
+      "path": "conformalForecast.Rproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e93abf1052f409668d59a7e153bf2af4b23bd3",
+      "size": 462,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/51e93abf1052f409668d59a7e153bf2af4b23bd3"
+    },
+    {
+      "path": "man",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3366e1827e95e89a4637b3c2f9686a66a11af4e",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/a3366e1827e95e89a4637b3c2f9686a66a11af4e"
+    },
+    {
+      "path": "man/accuracy.cvforecast.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "743a9ea37cf922c834c6ecb4f7c2bf2c7005afee",
+      "size": 3203,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/743a9ea37cf922c834c6ecb4f7c2bf2c7005afee"
+    },
+    {
+      "path": "man/acmcp.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "994a8a20e55464df93a2725063021634b3c7de2b",
+      "size": 8012,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/994a8a20e55464df93a2725063021634b3c7de2b"
+    },
+    {
+      "path": "man/acp.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4df41d386d39c7dbc80f054dec6956c907fa989",
+      "size": 6057,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/f4df41d386d39c7dbc80f054dec6956c907fa989"
+    },
+    {
+      "path": "man/conformal.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4870ef093500de3eda8506157f57658916f884a2",
+      "size": 2095,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/4870ef093500de3eda8506157f57658916f884a2"
+    },
+    {
+      "path": "man/conformalForecast-package.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "951f4d4de7f1045b2d77f5c921213f24374821a4",
+      "size": 1371,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/951f4d4de7f1045b2d77f5c921213f24374821a4"
+    },
+    {
+      "path": "man/coverage.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c93f379c836b290800ebc2a79c54eb7c57995766",
+      "size": 2496,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/c93f379c836b290800ebc2a79c54eb7c57995766"
+    },
+    {
+      "path": "man/cvforecast.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d3c93feacf1e1d9c529ad668ff18b9b1ee8f74",
+      "size": 5367,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/00d3c93feacf1e1d9c529ad668ff18b9b1ee8f74"
+    },
+    {
+      "path": "man/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1375b24d29ddc5ac6d48aa25c7b02ee656ad6ef2",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/1375b24d29ddc5ac6d48aa25c7b02ee656ad6ef2"
+    },
+    {
+      "path": "man/figures/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03cf651f1c61730f25d1322d910d90ba6789905b",
+      "size": 85283,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/03cf651f1c61730f25d1322d910d90ba6789905b"
+    },
+    {
+      "path": "man/interval_measures.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d541252c7ee76b303ce6b2499e4d5a5c268c8ba",
+      "size": 2243,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/3d541252c7ee76b303ce6b2499e4d5a5c268c8ba"
+    },
+    {
+      "path": "man/lagmatrix.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e6835f6dcd679c14a1adcd5968e4c7b38ee8c6",
+      "size": 942,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/00e6835f6dcd679c14a1adcd5968e4c7b38ee8c6"
+    },
+    {
+      "path": "man/pid.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62a0130e85656dac8832fb141a50b131b77bfcd4",
+      "size": 8782,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/62a0130e85656dac8832fb141a50b131b77bfcd4"
+    },
+    {
+      "path": "man/point_measures.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e4916c8fc8f2b0ea3121566d0f5a864e554a6ae",
+      "size": 2739,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/2e4916c8fc8f2b0ea3121566d0f5a864e554a6ae"
+    },
+    {
+      "path": "man/scp.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01147040f842d2050da7a8a95bd925f740fb593e",
+      "size": 6958,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/01147040f842d2050da7a8a95bd925f740fb593e"
+    },
+    {
+      "path": "man/update.cpforecast.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a870101852ae6ccc52423d9f4d756c819d080bf6",
+      "size": 2744,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/a870101852ae6ccc52423d9f4d756c819d080bf6"
+    },
+    {
+      "path": "man/width.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c059540745692ac9fa1e010f404e4f81b0061622",
+      "size": 2914,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/c059540745692ac9fa1e010f404e4f81b0061622"
+    },
+    {
+      "path": "pkgdown",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "311ad856fa55da551cd55aeaa3a0266e3e3b2eb8",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/311ad856fa55da551cd55aeaa3a0266e3e3b2eb8"
+    },
+    {
+      "path": "pkgdown/favicon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e65a1e271b09b04c713e03788a2a2b9c6ed6a38b",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/e65a1e271b09b04c713e03788a2a2b9c6ed6a38b"
+    },
+    {
+      "path": "pkgdown/favicon/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738dfabcfe41d8f0386faf83bc21de1220e0cf06",
+      "size": 1018,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/738dfabcfe41d8f0386faf83bc21de1220e0cf06"
+    },
+    {
+      "path": "pkgdown/favicon/favicon-96x96.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e9d45878f316bcf7bd708fd3a581843a780a8e",
+      "size": 473,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/f7e9d45878f316bcf7bd708fd3a581843a780a8e"
+    },
+    {
+      "path": "pkgdown/favicon/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4245d50dea13523134c9f933664503e01b55cc0c",
+      "size": 15086,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/4245d50dea13523134c9f933664503e01b55cc0c"
+    },
+    {
+      "path": "pkgdown/favicon/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da4c5a3443ab2be4c54231b2227645f118df0079",
+      "size": 84591,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/da4c5a3443ab2be4c54231b2227645f118df0079"
+    },
+    {
+      "path": "pkgdown/favicon/site.webmanifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ebda26b536e83fc1e679a1194bccd61ec511c58",
+      "size": 421,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/4ebda26b536e83fc1e679a1194bccd61ec511c58"
+    },
+    {
+      "path": "pkgdown/favicon/web-app-manifest-192x192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c09d620011d3ee9ef0541a31d8fc715f99548236",
+      "size": 1185,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/c09d620011d3ee9ef0541a31d8fc715f99548236"
+    },
+    {
+      "path": "pkgdown/favicon/web-app-manifest-512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cad5dc4afa21cf9c0056146e17ccea3f68b2ceb",
+      "size": 6141,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/1cad5dc4afa21cf9c0056146e17ccea3f68b2ceb"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72e1a13e58e48f1c951dd50d2b67c9536dd3022f",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/72e1a13e58e48f1c951dd50d2b67c9536dd3022f"
+    },
+    {
+      "path": "tests/testthat.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2d8c596230ca69ff034b5b6c5cb4ab324ee174",
+      "size": 78,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/5f2d8c596230ca69ff034b5b6c5cb4ab324ee174"
+    },
+    {
+      "path": "tests/testthat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61692cb432efc4ca4fb921f28cf6e9050140f4eb",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/61692cb432efc4ca4fb921f28cf6e9050140f4eb"
+    },
+    {
+      "path": "tests/testthat/helper-conformal.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67ccf0d95df777c793e4fdffb5a6eb52c568348",
+      "size": 3848,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/b67ccf0d95df777c793e4fdffb5a6eb52c568348"
+    },
+    {
+      "path": "tests/testthat/test-acmcp.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "227fbe83a1957b614afbfd13eb322b819b8bb404",
+      "size": 1734,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/227fbe83a1957b614afbfd13eb322b819b8bb404"
+    },
+    {
+      "path": "tests/testthat/test-acp.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a5a2f87bf41632b39f2cfc40fc6d67eea988ef",
+      "size": 2331,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/24a5a2f87bf41632b39f2cfc40fc6d67eea988ef"
+    },
+    {
+      "path": "tests/testthat/test-conformal.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f683fec99cf2a5848c5de1604fea3fd54553af4",
+      "size": 4827,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/6f683fec99cf2a5848c5de1604fea3fd54553af4"
+    },
+    {
+      "path": "tests/testthat/test-coverage.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8573363bf73023f2a8ebe2bd5956a5377d7bda15",
+      "size": 2620,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/8573363bf73023f2a8ebe2bd5956a5377d7bda15"
+    },
+    {
+      "path": "tests/testthat/test-cvforecast.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "325cad6b2bbe3750df45473c64b9dfdf645f07d0",
+      "size": 7085,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/325cad6b2bbe3750df45473c64b9dfdf645f07d0"
+    },
+    {
+      "path": "tests/testthat/test-errors.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d9e88edaf1cd7ea4c71f1f7b1b86fda8c1e41c",
+      "size": 4195,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/92d9e88edaf1cd7ea4c71f1f7b1b86fda8c1e41c"
+    },
+    {
+      "path": "tests/testthat/test-lagmatrix.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba05b9959d19ff88967005de98b3a7d5ac054848",
+      "size": 1188,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/ba05b9959d19ff88967005de98b3a7d5ac054848"
+    },
+    {
+      "path": "tests/testthat/test-pid.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a15875a838609c8120ed9ccbdab17024119039fd",
+      "size": 2614,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/a15875a838609c8120ed9ccbdab17024119039fd"
+    },
+    {
+      "path": "tests/testthat/test-print.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3467930f49e33f379aec44c19ec5afcbfb8e28f",
+      "size": 2572,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/b3467930f49e33f379aec44c19ec5afcbfb8e28f"
+    },
+    {
+      "path": "tests/testthat/test-scp.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f2307ce27f1af8e9c1e5895cc2d172b612aa46",
+      "size": 2624,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/c8f2307ce27f1af8e9c1e5895cc2d172b612aa46"
+    },
+    {
+      "path": "tests/testthat/test-update.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a0a8574c7ba6000d45be5a0d22bb5aa04da2b61",
+      "size": 6951,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/4a0a8574c7ba6000d45be5a0d22bb5aa04da2b61"
+    },
+    {
+      "path": "tests/testthat/test-width.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8edafb9f2def019d71aae24ce2301efb83b81ff1",
+      "size": 1897,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/8edafb9f2def019d71aae24ce2301efb83b81ff1"
+    },
+    {
+      "path": "vignettes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "057f1e1eedaa16b805e5163d9a21d68372bd6e6c",
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/trees/057f1e1eedaa16b805e5163d9a21d68372bd6e6c"
+    },
+    {
+      "path": "vignettes/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba7abf328c08ce9ef4f87d6af5d72aaac709516d",
+      "size": 19,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/ba7abf328c08ce9ef4f87d6af5d72aaac709516d"
+    },
+    {
+      "path": "vignettes/conformalForecast.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c111d69ca467ed4944d2ad39b9d20e750a280160",
+      "size": 25450,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/c111d69ca467ed4944d2ad39b9d20e750a280160"
+    },
+    {
+      "path": "vignettes/update.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46389cbbb923b527271bc3bcaa9d3a1e9b560ad3",
+      "size": 10884,
+      "url": "https://api.github.com/repos/xqnwang/conformalForecast/git/blobs/46389cbbb923b527271bc3bcaa9d3a1e9b560ad3"
+    }
+  ],
+  "truncated": false
+}

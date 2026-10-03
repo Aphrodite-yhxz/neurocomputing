@@ -1,0 +1,8 @@
+*.py -text
+*.R -text
+docs/*PROTOCOL*.md -text
+docs/V8_MULTISTEP_PID_ADDENDUM.md -text
+docs/references/** -text
+*.npz binary
+*.png binary
+*.pdf binary

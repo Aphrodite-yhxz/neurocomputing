@@ -1,0 +1,210 @@
+{
+  "repo": "xqnwang/conformalForecast",
+  "commit": "0fe81e6ff9a80f8c4bb9632b32942d29f3a99127",
+  "files": [
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/.github/workflows/R-CMD-check.yaml",
+      "bytes": 1443,
+      "sha256": "60d8bcc656c75774c9e5750aaf261a11e893c66e86b874403eb5ac4ebadd8be8"
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/.github/workflows/pkgdown.yaml",
+      "bytes": 1303,
+      "sha256": "412b4a7d05ad6dde2ee23a9494350fdba7e65ec8b36e7605322b70594c369f93"
+    },
+    {
+      "path": "DESCRIPTION",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/DESCRIPTION",
+      "bytes": 1501,
+      "sha256": "ae4eb15483446c06241feee5c2f2fdcd8997e6ba27f182de8ff6b6b133b3dd5f"
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/LICENSE.md",
+      "bytes": 34904,
+      "sha256": "585e25ef8f5946a52bf2aed68d5becfc38be94a8663aa01c1b31d88aa57f1de3"
+    },
+    {
+      "path": "NAMESPACE",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/NAMESPACE",
+      "bytes": 1221,
+      "sha256": "362d8eeb8afa3dd316439853dc60ff9507c6bc09c26108c637510b5145fff33f"
+    },
+    {
+      "path": "R/acmcp.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/acmcp.R",
+      "bytes": 18345,
+      "sha256": "168346bc2c3ca00bbabdd3aff957f37a8c74f7382f28a38df3729f344f177115"
+    },
+    {
+      "path": "R/acp.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/acp.R",
+      "bytes": 12191,
+      "sha256": "68b88093f4517ea523d2aaff095d1a232961a4829ad0d6ec5db0ebfcedf22230"
+    },
+    {
+      "path": "R/conformal.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/conformal.R",
+      "bytes": 2039,
+      "sha256": "3819407ab118c402f6ef8c0fa1b66499454842419dcb619fa309355a123e9f82"
+    },
+    {
+      "path": "R/conformalForecast-package.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/conformalForecast-package.R",
+      "bytes": 196,
+      "sha256": "0227927b464b2ad69e754e39a8ba22a492b985de49d431060b48657077c18eb3"
+    },
+    {
+      "path": "R/coverage.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/coverage.R",
+      "bytes": 5207,
+      "sha256": "69dcf613bf72ace4de079e871b33e390ee1bfc08b78451b362e5af2834a91587"
+    },
+    {
+      "path": "R/cvforecast.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/cvforecast.R",
+      "bytes": 11828,
+      "sha256": "aafb5e778bdf2d5a82281636ef4e7d66eb92f24b5b471b91cd8cde6f8cf828f4"
+    },
+    {
+      "path": "R/errors.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/errors.R",
+      "bytes": 14525,
+      "sha256": "3aebc6d20861855f05260154d8a8a9a2f5a093b4bce216f3ce9d7928357e7944"
+    },
+    {
+      "path": "R/lagmatrix.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/lagmatrix.R",
+      "bytes": 1626,
+      "sha256": "c1e2bb0c944149284aaf9fed98d866ff3a6f5ee781d5f693fffcd629b86752c4"
+    },
+    {
+      "path": "R/pid.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/pid.R",
+      "bytes": 22353,
+      "sha256": "7c340c71759947aa4f1d5a8004fd5eaccac0f822d62e04f35e04d4c95f9283a5"
+    },
+    {
+      "path": "R/scp.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/scp.R",
+      "bytes": 13673,
+      "sha256": "724395b173bc21eea3bda21ef7986e2ec4bd580af783bbf15667e67b5a28f40c"
+    },
+    {
+      "path": "R/update.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/update.R",
+      "bytes": 7023,
+      "sha256": "9850356a2ea98b774eb05aa6b8321db028632c3f249277c5bed1652459b0edcf"
+    },
+    {
+      "path": "R/width.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/R/width.R",
+      "bytes": 5378,
+      "sha256": "323518c050d70dc77221fae5d41f18d9b41b14f285c50ad5d0f60081ea44bcee"
+    },
+    {
+      "path": "README.Rmd",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/README.Rmd",
+      "bytes": 3850,
+      "sha256": "9f13dd119a260f89741d5340f89f5da54b03ab810fd34d7351f3ac74bf77ab7e"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/README.md",
+      "bytes": 4014,
+      "sha256": "9a015aac568d9e6dbf5c89d9ee003cbac0d701bbfc68b5117aef639060e82bb5"
+    },
+    {
+      "path": "_pkgdown.yml",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/_pkgdown.yml",
+      "bytes": 909,
+      "sha256": "9e6be6d3fefacc09c0bef75db709e07c9156594ddc36110cec1611e40a9c4c31"
+    },
+    {
+      "path": "tests/testthat.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat.R",
+      "bytes": 78,
+      "sha256": "0eec6c4c71937da55079c805948c41dd2f41ff7a79d539c9a0cc8c99a36f9c44"
+    },
+    {
+      "path": "tests/testthat/helper-conformal.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/helper-conformal.R",
+      "bytes": 3848,
+      "sha256": "1254deaa5a0a3ac159b14bd7e88d32d9e8447ea16c861b84086ec0a06ea246fa"
+    },
+    {
+      "path": "tests/testthat/test-acmcp.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-acmcp.R",
+      "bytes": 1734,
+      "sha256": "b3215abedeb092526451b0227c269ac603cd91187bba8f46e6c18d127a9f76eb"
+    },
+    {
+      "path": "tests/testthat/test-acp.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-acp.R",
+      "bytes": 2331,
+      "sha256": "36f156e7977a3432795ff80f04d15fee9f1ed2ea7baf4583da79b14d410b27c5"
+    },
+    {
+      "path": "tests/testthat/test-conformal.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-conformal.R",
+      "bytes": 4827,
+      "sha256": "1d1e3f84be3c27fd6894e48a812628cfc4cc0c6c718482e5e968ed109c23b7f5"
+    },
+    {
+      "path": "tests/testthat/test-coverage.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-coverage.R",
+      "bytes": 2620,
+      "sha256": "87fabdcc1afc9ef0263d319a47fc68c7c4f03da085c26bba67040bd44036e912"
+    },
+    {
+      "path": "tests/testthat/test-cvforecast.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-cvforecast.R",
+      "bytes": 7085,
+      "sha256": "2b0439469d949cb072e9df5001ae2ad0dd7d74e07830840ce315cea58c2a0dc9"
+    },
+    {
+      "path": "tests/testthat/test-errors.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-errors.R",
+      "bytes": 4195,
+      "sha256": "c54d96f357bc73f1daf614439cbea2834326615270e2e42d9f5e2eb83eeac1c6"
+    },
+    {
+      "path": "tests/testthat/test-lagmatrix.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-lagmatrix.R",
+      "bytes": 1188,
+      "sha256": "ee1ca2386d255efcb18eec12b7941e0eecb98ae50fef2dfc8f752bd6853addb3"
+    },
+    {
+      "path": "tests/testthat/test-pid.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-pid.R",
+      "bytes": 2614,
+      "sha256": "86cd4b99dc47767104abf77ea814e4a997195559e1c17cd22f60291581c0a546"
+    },
+    {
+      "path": "tests/testthat/test-print.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-print.R",
+      "bytes": 2572,
+      "sha256": "6baecedcf6c54b4f53625da20fbc19064ed99f891eff8f0648d7162f54f3619e"
+    },
+    {
+      "path": "tests/testthat/test-scp.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-scp.R",
+      "bytes": 2624,
+      "sha256": "da5ebfe9f16962fdf7ef4d2f27f763c0f3cdc61ba8732ae552dca7b90867aebb"
+    },
+    {
+      "path": "tests/testthat/test-update.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-update.R",
+      "bytes": 6951,
+      "sha256": "24caad1192640efd5102facc1f890186114e18bad45fa55e18277fc1fef3e25a"
+    },
+    {
+      "path": "tests/testthat/test-width.R",
+      "url": "https://raw.githubusercontent.com/xqnwang/conformalForecast/0fe81e6ff9a80f8c4bb9632b32942d29f3a99127/tests/testthat/test-width.R",
+      "bytes": 1897,
+      "sha256": "f792b4ec9a7031cd2571ffee967ac390f98bbaebdb9435eb3614dc56b6cdd410"
+    }
+  ]
+}

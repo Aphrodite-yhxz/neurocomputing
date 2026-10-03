@@ -1,0 +1,5 @@
+Native quantiles retain score benefits under matched controller tuning.
+Smaller learning rates explain most of an apparent delayed-state advantage.
+Rolling CQR exposes the score and coverage tradeoffs of added adaptation.
+Exact clipping accounting separates projection and finite-time endpoint terms.
+Positive-output solar score gains coexist with deficient coverage.

@@ -1,0 +1,74 @@
+{
+  "all_checks_passed": true,
+  "reference_csv_count": 61,
+  "focused_comparisons": [
+    {
+      "path": "final_pair_choices.csv",
+      "rows": 8
+    },
+    {
+      "path": "history_grid.csv",
+      "rows": 1240
+    },
+    {
+      "path": "history_pairs.csv",
+      "rows": 180
+    },
+    {
+      "path": "history_selected.csv",
+      "rows": 180
+    },
+    {
+      "path": "history_summary.csv",
+      "rows": 45
+    },
+    {
+      "path": "positive_pairs.csv",
+      "rows": 240
+    },
+    {
+      "path": "positive_selected.csv",
+      "rows": 480
+    },
+    {
+      "path": "positive_summary.csv",
+      "rows": 60
+    },
+    {
+      "path": "temporal_pairs.csv",
+      "rows": 192
+    },
+    {
+      "path": "temporal_results.csv",
+      "rows": 288
+    },
+    {
+      "path": "temporal_summary.csv",
+      "rows": 48
+    }
+  ],
+  "elapsed_seconds": 77.30730209988542,
+  "abstract_values": {
+    "main_native_gain": 9.979980111694497,
+    "weather_positive_fixed_gain": 6.08005374330084,
+    "weather_positive_window_gain": 0.0524157457597151,
+    "weather_h1_score_gain": 0.35832807597001026,
+    "weather_h1_local_rolling": 3.1509936488424457,
+    "weather_h1_local_aci": 1.4255275558287175,
+    "pv_positive_gain": 9.556925767413098,
+    "pv_positive_coverage": 86.4529218445642,
+    "pv_forecast_high_gain": 9.256248035076483,
+    "pv_forecast_high_coverage": 87.0746283489671
+  },
+  "environment": {
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "numba": "0.62.1",
+      "matplotlib": "3.10.6"
+    }
+  },
+  "scope": "All mapped calibration and focused analyses on supplied forecasts; AcMCP R fits and refit witnesses are supplied inputs, with optional full R refitting commands."
+}

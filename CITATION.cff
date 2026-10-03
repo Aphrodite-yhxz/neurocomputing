@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, cite the accompanying manuscript; publication metadata are not yet available."
+type: software
+title: "Separating predictive information from delayed adaptation gains in time-series foundation models"
+authors:
+  - family-names: Yin
+    given-names: Haoxuanzi
+    affiliation: Zhejiang University
+    orcid: https://orcid.org/0009-0001-1166-2216
+  - family-names: Zhang
+    given-names: Fan
+    affiliation: Zhejiang University
+    orcid: https://orcid.org/0009-0004-3509-7495
+version: "focused-2026-10-03"
+abstract: "Calibration reproduction on fixed forecasts, separating native information, delayed update states, tuning and subgroup reliability."
+

@@ -1,0 +1,67 @@
+\subsection{Protocol-locked confirmation on two new sources}\label{sec:newdesign}
+After the preceding sensitivities, we fixed an additional protocol before numeric data
+acquisition or calibration inspection. It selects MPI-BGC Jena roof temperature and
+pressure for the first 3,600 hours of 2026, and PM2.5 at the Aotizhongxin and Dingling
+stations for the first 3,600 hours from 1 March 2013 in the UCI Beijing archive
+\citep{jena2026weather,chen2017air}. These are four series from two sources, evaluated
+with the same two cached Chronos checkpoints: eight dependent model--series pairs.
+Both models emit all 24 horizons at 2,976 consecutive origins. The main test segment
+has 1,776 origins before excluding missing targets. Context length, batch size, dtype,
+checkpoint-file hashes, timestamps and generation code are recorded for every archive.
+
+Missing input observations are forward filled causally; missing targets are excluded
+from score memory, controller increments and evaluation. Windows contain the latest
+$W$ observed, revealed scores. Issued-state phases continue without an increment when
+their outcome is missing. Local coverage uses 150 calendar-origin windows with their
+observed denominators. The weather forecast targets are complete; the one missing
+initial weather hour precedes all forecast contexts. The new-source protocol is locally
+timestamped and hashed, not externally preregistered. Public historical air-quality data
+may have been used in neural pretraining; new-to-calibration does not imply unseen-to-model.
+
+For both scores and states, nested grids comprise the original rates at $W=450$;
+the wide grid described below; and that grid augmented with zero
+and four smaller rates ($10^{-6}$, $5\times10^{-6}$, $10^{-5}$ and $5\times10^{-5}$).
+The final stage crosses these expanded rates with $W\in\{200,450,900\}$. Validation selects the minimum interval
+score, breaking ties toward smaller rate and then window. Zero-rate trajectories
+provide both fixed-window and selected-window rolling controls. Early and late
+validation intervals, $[600+h-1,900-h+1)$ and $[900,1200-h+1)$, probe selector
+stability without changing the primary full-validation selector or test segment.
+
+The wide grid combines rates 0.0001, 0.0002, 0.0005, 0.001, 0.002, 0.005,
+0.01, 0.02, 0.05 and 0.1 with the three original rates divided by $h$.
+
+The predefined complete-weather subset also receives full AcMCP scorecasting: the
+pinned author's MA$(h-1)$ plus cross-horizon regression implementation, at all horizons
+1--24, with its supported CSS fitting option. We identify it as AcMCP-CSS, not the
+default CSS-ML configuration. Rolling history is 600, $C_{\rm sat}=0.5$, and $K_I$
+uses only the first 600 revealed target-clock error rows. The rate grid is
+$\{0.001,0.005,0.01,0.05,0.1\}$ and these rates divided by $h$; the same validation
+block selects it. Fitted scorecasts are independent of this rate, so they are cached
+once per archive. A cached interval replay must agree with every original R trajectory
+at rate 0.01 before evaluating the other rates. A matched no-scorecast PID control
+uses the identical rate grid. Both are signed-error complete configurations; their
+comparison to native CQR does not isolate controller quality.
+
+\subsection{PV support and asymmetric-residual controls}\label{sec:pvcontrol}
+On all 32 original one-step PV pairs, we additionally compare the established
+signed-error construction
+$[m_t+Q_{a_t/2}(Y-m),m_t+Q_{1-a_t/2}(Y-m)]$ with symmetric residuals and CQR.
+It shares the total-miscoverage ACI state, timing and window. Each construction
+uses the original nine rate/window settings; fixed defaults and a separately selected
+zero-rate rolling control are retained. This is exploratory analysis of previously
+inspected data, distinct from the new-source confirmation.
+
+All three constructions are evaluated raw and after the same known-support projection
+$[L,U]\mapsto[\max(0,L),\max(0,U)]$. Projected and raw configurations are separately
+selected on validation score, while each candidate keeps its raw feedback trajectory:
+the projection isolates interval geometry and is not a new feedback algorithm.
+For a nonnegative target and finite ordered endpoints, projection cannot worsen
+interval score or lose a covered target. In particular, when $L<0\leq U$, score
+improvement is exactly $-L$, with unchanged coverage. When $U<0$, both endpoints
+become zero and previously uncovered zeros can become covered. We therefore report
+coverage changes as well as width and miss-distance penalties.
+
+In addition to actual zero/positive targets, an observable grouping compares each point
+forecast with the median of the first 600 point forecasts. This threshold is fixed
+before validation; the high-forecast group is known at issue time and is not selected
+using the future outcome. It is a diagnostic control, not a conditional-validity guarantee.
